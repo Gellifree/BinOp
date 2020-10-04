@@ -13,7 +13,7 @@ Bevezetés az informatikába tantárgy tanár feladatainak részleges elvégzés
 és egyben egyforma nehézségi szintnek megfelelő feladatsort időigényes összeállítani.
 
 ### Vágyálom rendszer leírása
-
+A 
 ### Követelménylista
 
 ### Fogalomszótár
