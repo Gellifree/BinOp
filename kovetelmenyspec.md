@@ -13,7 +13,12 @@ Bevezetés az informatikába tantárgy tanár feladatainak részleges elvégzés
 és egyben egyforma nehézségi szintnek megfelelő feladatsort időigényes összeállítani.
 
 ### Vágyálom rendszer leírása
-A 
+A projekt célja, egy olyan alkalmazás fejlesztése, aminek használata igen kézenfekvő, intuitív, és lehetőséget biztosít arra, hogy mindenféle nehézség
+nélkül gyakoroljunk különböző számrendszerekkel való számítást és munkát. A program, egy egyszerű, kis rendszerigényű terminálban futó alkalmazás, ami 
+képes feladatsorokat generálni a felhasználónak, és azokat kiértékelni, jelezve a feladatok lépésenkénti megoldását, ezenkívül egyéni átváltásokat is 
+képes elvégezni, bármilyen számrendszerből bármilyen számrendszerbe. Attól fügegtlenül, hogy terminálablakban elérhető az alkalmazás, színekkel, és egyszerű 
+módszerekkel tesszük látványossá a program megjelenését.
+
 ### Követelménylista
 
 ### Fogalomszótár
