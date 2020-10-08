@@ -21,4 +21,13 @@ módszerekkel tesszük látványossá a program megjelenését.
 
 ### Követelménylista
 
+| Modul | ID  | Név | Kifejtés |
+| ----- | --- | --- | -------- |
+| Funkció	| K1	| Átváltás 10-ből		| A felhasználó 10-es számrendszerből képes legyen tetszőleges számrendszerbe átváltani			|
+| Funkció	| K2	| Átváltás 10-be		| A felhasználó bármilyen alapú számrendszerből képes legyen 10-es számrendszerbe váltani		|
+| Funkció	| K3	| Feladat generálás		| A program tudjon generálni, változatos feladatsorokat, számrendszerek közötti műveletek gyakorlására	|
+| Funkció 	| K4	| Ellenőrzés			| Az elkészített eredmények elemzése, és az eredmények megjelenítése a felhasználó számára		|
+| Megjelenés	| K5	| Átlátható felület		| Vonzó kinézetű menürendszer, és logikus, könnyen olvasható megjelenítés				|
+| Megjelenés	| K6	| Dinamikus megjelenítés	| A program alkalmazkodjon a terminálablak méretéhez							|
+
 ### Fogalomszótár
