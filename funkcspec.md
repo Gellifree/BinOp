@@ -25,4 +25,37 @@ A cél, egy olyan szoftver elkészítése, ami ezeket a gyengepontokat megszünt
 
 ### "Képernyő" tervek
 
+Mivel egy terminálablakban futó alkalmazásról van szó, ezért a képernyőtervek, nem annyira beszédesek, azonban megpróbáljuk a lehető legjobban átadni a program funkcionalitását, és felépítését.
+
+Amikor elindítjuk a programot, a következő menü fogadna bennünket: 
+
+```
+2020                                Számrendszer átváltó és feladatgeneráló
+
+    [0] Átváltás tizes számrendszerből
+    [1] Átváltás tizes számrendszerbe
+    [2] Feladatsor generálása
+    [3] Tárolt feladatsorok megtekintése
+    [3] Segítség
+    [Q] Kilépés
+
+  >> _
+```
+Itt megadhatjuk a menüpontot reprezentáló számot, a '>>' jel után, ami enter leütésénél, kiválasztja az adott opciót. A program a 'Q' karakter leütésénél, megkérdezi, hogy biztosan ki szeretnénk-e lépni:
+
+```
+2020                                Számrendszer átváltó és feladatgeneráló
+
+    [0] Átváltás tizes számrendszerből
+    [1] Átváltás tizes számrendszerbe
+    [2] Feladatsor generálása
+    [3] Tárolt feladatsorok megtekintése
+    [3] Segítség
+    [Q] Kilépés
+
+  >> Q
+
+ Biztos vagy benne hogy kiszeretnél lépni? [I/n]
+ >> _
+```
 ### Funkció - követelmény megfeleltetés
