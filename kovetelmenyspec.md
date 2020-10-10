@@ -6,7 +6,7 @@ Számrendszerek közötti átváltások illetve azokkal való műveletek gyakorl
 ### Jelenlegi helyzet leírása
 A tanórák nélkülözhetetlen eleme a számrendszerek közötti átváltás és annak ellenőrzése.
 Számrendszerek közötti átváltások és azok ellenőrzésének egyszerűsítésének illetve meggyorsításának érdekében van szükség egy olyan alkalmazásra ami
-ezt gyorsan és pontosan elvégzi, papír felhasználása és az oktató terhelése nélkül. Bevezetés az informatikába tantárgy tanár feladatainak részleges elvégzését biztosító alkalmazás jelenleg még nincs. Külömböző csoportok számára változatos és egyben egyforma nehézségi szintnek megfelelő feladatsort időigényes összeállítani.
+ezt gyorsan és pontosan elvégzi, papír felhasználása és az oktató terhelése nélkül. *Bevezetés az informatikába* tantárgy oktatójának segítő alkalmazás jelenleg még nincs. Külömböző csoportok számára változatos és egyben egyforma nehézségi szintnek megfelelő feladatsort időigényes összeállítani.
 
 ### Vágyálom rendszer leírása
 Egy olyan alkalmazás, aminek használata igen kézenfekvő, intuitív, és lehetőséget biztosít arra, hogy mindenféle nehézség nélkül gyakoroljunk különböző számrendszerekkel való számítást és munkát. A program, egy egyszerű, kis rendszerigényű terminálban futó alkalmazás, ami képes feladatsorokat generálni a felhasználónak, és azokat kiértékelni, jelezve a feladatok lépésenkénti megoldását, ezenkívül egyéni átváltásokat is képes elvégezni, bármilyen számrendszerből bármilyen számrendszerbe. Attól függetlenül, hogy terminálablakban elérhető az alkalmazás, ideális volna, egy átlátható, könnyen olvasható, esetleg színekkel rendelkező megjelenés.
@@ -23,3 +23,4 @@ Egy olyan alkalmazás, aminek használata igen kézenfekvő, intuitív, és lehe
 | Megjelenés	| K6	| Dinamikus megjelenítés	| A program alkalmazkodjon a terminálablak méretéhez							|
 
 ### Fogalomszótár
+* Számrendszer: A számábrázolási rendszer röviden; számrendszer meghatározza, hogyan ábrázolható egy adott szám. A számjegy egy szimbólum (vagy azok csoportja), ami egy számot ír le. A számjegyek éppen úgy különböznek az általuk leírt számtól, mint egy szó attól a dologtól, amit valójában jelent.
