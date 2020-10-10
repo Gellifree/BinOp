@@ -5,5 +5,5 @@ Számrendszer átváltó, és feladatgeneráló alkalmazás az Alkalmazások fej
 A projekt tagjai: \
 *evilyear* \
 *l4kyxa* \
-*levente9609*
+*levente9609* \
 *gellifree*
