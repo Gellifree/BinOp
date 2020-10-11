@@ -42,6 +42,10 @@ A tizenhatos vagy más néven hexadecimális számrendszerbeli számok 0 és 15 
 Az egyes betűk a következő értékeket szimbolizálják:
 A=10, B=11, C=12, D=13, E=14, F=15
 
-...
 
+
+A parancssoros felhasználói felület (angolul: Command Line Interface, elterjedt rövidítése: CLI) a felhasználói felületek egyik változata.
+nnél a felhasználói felületnél a felhasználóval való kapcsolattartás parancsok segítségével történik. A felhasználó a billentyűzeten parancsokat gépel be, melyet a számítógép értelmez, végrehajt, és az eredményt (ha van) a képernyőn megjeleníti, esetleg hangjelzéssel jelzi a parancsvégrehajtás befejezését. A kimenet nem csak a monitor lehet, hanem tetszőleges fájl is.
+
+Parancssori felhasználói felülettel szinte mindegyik operációs rendszer rendelkezik, mert sok olyan feladat is megoldható vele, amelyekre a grafikus felhasználói felület nem ad lehetőséget.
 ### Használati esetek
