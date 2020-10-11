@@ -36,7 +36,7 @@ Amikor elindítjuk a programot, a következő menü fogadna bennünket:
     [1] Átváltás tizes számrendszerbe
     [2] Feladatsor generálása
     [3] Tárolt feladatsorok megtekintése
-    [3] Segítség
+    [4] Segítség
     [Q] Kilépés
 
   >> _
@@ -50,7 +50,7 @@ Itt megadhatjuk a menüpontot reprezentáló számot, a '>>' jel után, ami ente
     [1] Átváltás tizes számrendszerbe
     [2] Feladatsor generálása
     [3] Tárolt feladatsorok megtekintése
-    [3] Segítség
+    [4] Segítség
     [Q] Kilépés
 
   >> Q
@@ -59,3 +59,9 @@ Itt megadhatjuk a menüpontot reprezentáló számot, a '>>' jel után, ami ente
  >> _
 ```
 ### Funkció - követelmény megfeleltetés
+
+- A *K1*, és *K2* követelmény, az álltalánosan megfogalmazható átváltáshoz szükséges algoritmusoknak köszönhetően teljesíthető. A képernyőterven a menu nulladik [0], és első [1] pontja fogja lefedni ezeket a funkciókat.
+- A *K3* követelményért a képernyőképen a második [2] menüpont lesz felelős.
+- A *K4* követelményért a képernyőképen a harmadik [3] menüpont lesz a felelős.
+- A *K5* követelmény teljesítéséért a képernyőképen látható elrednezés, és a négyes [4] menüpont felelős.
+- A *K6* követelményt Az algoritmuson belül kell lekezelnünk, hogy a program lekérje a megfelelő adatokat, és annak megfelelően jelenítse meg a programot, ezt szemléltei a képernyőkép (Középre igazított programnév).
