@@ -28,16 +28,16 @@ Az adott számrendszerben szerepeltethető számjegyek: 0 és 1.
 
 Számrendszerek:
 
-*I. Kettes számrendszer:
+* I. Kettes számrendszer:
 A kettes vagy más néven bináris számrendszerbeli számok a 0 és az 1 számjegyekből állnak. A számjegyek helyiértékeit az alábbi táblázatban foglaltuk össze.
 
-*II. Tízes számrendszer:
+* II. Tízes számrendszer:
 A tízes számrendszer vagy decimális számrendszer a számok ábrázolásának legelterjedtebb módja. Helyiértékes számrendszer, számjegyei a 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, helyiértékei a tíz hatványai. A nem egész számok tizedestört formájában ábrázolhatóak benne.
 
-*III. Nyolcas számrendszer:
+* III. Nyolcas számrendszer:
  nyolcas számrendszer vagy oktális számrendszer a 8-as számon alapuló számrendszer. Nyolc számjegy: 0, 1, 2, 3, 4, 5, 6, 7 segítségével ábrázolja a számokat.
 
-*IV. Tizenhatos számrendszer:
+* IV. Tizenhatos számrendszer:
 A tizenhatos vagy más néven hexadecimális számrendszerbeli számok 0 és 15 közötti helyiértékeket tartalmazhatnak, melyek a következők: 0 1 2 3 4 5 6 7 8 9 A B C D E F
 Az egyes betűk a következő értékeket szimbolizálják:
 A=10, B=11, C=12, D=13, E=14, F=15
