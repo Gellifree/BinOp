@@ -24,28 +24,33 @@ Egy olyan alkalmazás, aminek használata igen kézenfekvő, intuitív, és lehe
 
 ### Fogalomszótár
 * Számrendszer: A számábrázolási rendszer röviden; számrendszer meghatározza, hogyan ábrázolható egy adott szám. A számjegy egy szimbólum (vagy azok csoportja), ami egy számot ír le. A számjegyek éppen úgy különböznek az általuk leírt számtól, mint egy szó attól a dologtól, amit valójában jelent.
-Az adott számrendszerben szerepeltethető számjegyek: 0 és 1.
+
+<!---  Az adott számrendszerben szerepeltethető számjegyek: 0 és 1. === Ez a kettes számrendszerre igaz, nem általánosan--->
 
 Számrendszerek:
 
 * I. Kettes számrendszer:
-A kettes vagy más néven bináris számrendszerbeli számok a 0 és az 1 számjegyekből állnak. A számjegyek helyiértékeit az alábbi táblázatban foglaltuk össze.
+A kettes vagy más néven *bináris* számrendszerbeli számok a 0 és az 1 számjegyekből állnak. A számjegyek helyiértékei minden esetben a számrendszer alapjának hatványai.
 
 * II. Tízes számrendszer:
-A tízes számrendszer vagy decimális számrendszer a számok ábrázolásának legelterjedtebb módja. Helyiértékes számrendszer, számjegyei a 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, helyiértékei a tíz hatványai. A nem egész számok tizedestört formájában ábrázolhatóak benne.
+A tízes számrendszer vagy *decimális* számrendszer a számok ábrázolásának legelterjedtebb módja. Helyiértékes számrendszer, számjegyei 0-9-ig, helyiértékei a tíz hatványai. A nem egész számok tizedestört formájában ábrázolhatóak benne.
 
 * III. Nyolcas számrendszer:
- nyolcas számrendszer vagy oktális számrendszer a 8-as számon alapuló számrendszer. Nyolc számjegy: 0, 1, 2, 3, 4, 5, 6, 7 segítségével ábrázolja a számokat.
+A nyolcas számrendszer vagy *oktális* számrendszer a 8-as számon alapuló számrendszer. Nyolc számjegy: 0-7-ig.
 
 * IV. Tizenhatos számrendszer:
-A tizenhatos vagy más néven hexadecimális számrendszerbeli számok 0 és 15 közötti helyiértékeket tartalmazhatnak, melyek a következők: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+A tizenhatos vagy más néven *hexadecimális* számrendszerbeli számok 0 és 15 közötti jelöléseket tartalmazhatnak, melyek a következők: 0 1 2 3 4 5 6 7 8 9 A B C D E F
 Az egyes betűk a következő értékeket szimbolizálják:
 A=10, B=11, C=12, D=13, E=14, F=15
+
+* V. Álltalános alap:
+Álltalánosan is megfogalmazhatjuk a számrendszerekre értelmezhető szabályainkat, így nem vagyunk korlátozva. Amennyiben bevezetünk egy jelölésrendszert, így olyan alapú számrendszerben dolgozhatunk, ahány jelölővel rendelkezünk. Többnyire az Angol ABC jelöléseit használjuk, megszokott sorrendben. Így beszélhetünk hármas, ötös, hetes, és harmincnégyes alapú számrendszerről is.
 
 
 
 A parancssoros felhasználói felület (angolul: Command Line Interface, elterjedt rövidítése: CLI) a felhasználói felületek egyik változata.
-nnél a felhasználói felületnél a felhasználóval való kapcsolattartás parancsok segítségével történik. A felhasználó a billentyűzeten parancsokat gépel be, melyet a számítógép értelmez, végrehajt, és az eredményt (ha van) a képernyőn megjeleníti, esetleg hangjelzéssel jelzi a parancsvégrehajtás befejezését. A kimenet nem csak a monitor lehet, hanem tetszőleges fájl is.
+Ennél a felhasználói felületnél a számítógéppel való kapcsolattartás parancsok segítségével történik. A felhasználó a billentyűzeten parancsokat gépel be, melyet a számítógép értelmez (amennyiben lehetséges), végrehajt, és az eredményt (ha van) a képernyőn megjeleníti, esetleg hangjelzéssel jelzi a parancsvégrehajtás befejezését. A kimenet nem feltétlenül a kijelző, az átirányítható fájlba is.
 
-Parancssori felhasználói felülettel szinte mindegyik operációs rendszer rendelkezik, mert sok olyan feladat is megoldható vele, amelyekre a grafikus felhasználói felület nem ad lehetőséget.
+Parancssori felhasználói felülettel mindegyik operációs rendszer rendelkezik, mert sok olyan feladat is megoldható vele, amelyekre a grafikus felhasználói felület nem ad olyan gyors lehetőséget.
+
 ### Használati esetek
