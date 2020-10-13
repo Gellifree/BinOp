@@ -10,9 +10,9 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 *Scrum master*: Kovács Norbert
 *Product owner*: Hives Ferenc
 *Dev csapat*:
-- Zsák József \
-- Hives Ferenc \
-- Nagy Levente \
+- Zsák József
+- Hives Ferenc
+- Nagy Levente
 - Kovács Norbert
 
 #### Ütemterv
