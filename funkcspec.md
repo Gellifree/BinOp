@@ -21,7 +21,11 @@ A cél, egy olyan szoftver elkészítése, ami ezeket a gyenge pontokat megszün
 
 ### Használati esetek
 
+A szoftvert bármely felhasználó tudja használni, egyenlő feltételek mellett. Az átváltásokat főleg inkább a tanulmányaikat végző diákok, míg a feladatgenerálást és az ellenőrzést az oktatók részesíthetik előnybe. 
+
 ### Használati esetek - követelmény megfeleltetés
+
+A használati esetek a letisztultságnak és az egyszerűségnek köszönhetően teljesen lefedik a követelménylista elemeit.
 
 ### "Képernyő" tervek
 
