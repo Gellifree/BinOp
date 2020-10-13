@@ -21,13 +21,13 @@ A cél, egy olyan szoftver elkészítése, ami ezeket a gyenge pontokat megszün
 
 ### Fogalomszótár
 
-*HARDVER (HARDWARE)
+-*HARDVER (HARDWARE)*
 A számítástechnikában hardvernek nevezzük magát a számítógépet és minden megfogható tartozékát, a számítógép alkatrészeit (melyekből összeszerelték a számítógépet). 
-*SZOFTVER (SOFTWARE)
+-*SZOFTVER (SOFTWARE)*
 Szoftvernek nevezzük a számítógépre írt programokat. A szoftvereket programozók készítik. Szellemi termékek, kézzel nem megfoghatóak A szoftver a számítógépen futó programok összefoglaló neve, valamint a hardver egységeket működtető-, és vezérlő programok összessége.
-*PROGRAM
+-*PROGRAM*
 A program olyan egyszerű utasítások, műveletek logikus sorozata, amelyekkel a számítógépet irányítjuk. A program az utasításokat is és az adatokat is kettes számrendszerben leírt számokkal ábrázolja. 
-*LINUX
+-*LINUX*
 A Linux egy operációs rendszer, a szabad szoftverek és a nyílt forráskódú programok egyik legismertebb példája.
 
 ### Használati esetek
