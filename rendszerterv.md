@@ -7,8 +7,11 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 ### Projektterv
 
 **Projekt szerepkörök**
+
 *Scrum master*: Kovács Norbert
+
 *Product owner*: Hives Ferenc
+
 *Dev csapat*:
 - Zsák József
 - Hives Ferenc
