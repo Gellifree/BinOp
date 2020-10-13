@@ -19,6 +19,17 @@ A cél, egy olyan szoftver elkészítése, ami ezeket a gyenge pontokat megszün
 | Megjelenés | K5 | Átlátható felület | A terminálablakban tisztán, és egyértelműen jelenleg meg a program, könnyedén navigálható menürendszerrel. Rendelkezzen egy segítő dokumentummal, ami leírja a program működését, és funkcióit, ez a dokumentum legyen elérhető a programon belülről, és a programnak paraméterként átadott *--help* jelzővel. |
 | Megjelenés | K6 | Dinamikus megjelenítés | Amennyiben Linux alapú rendszeren fut a program, így kifejezetten könnyedén kérhetjük le a terminálablak fizikai paramétereit, és változtathatunk a színeken. Ezzel készítsünk el, egy olyan megjelenítési formát, ami vonzó a felhasználónak, és igény esetén, a megjelenítés alkalmazkodik a terminál méretéhez. (A program nevét a terminál közepére igazítja stb) |
 
+### Fogalomszótár
+
+*HARDVER (HARDWARE)
+A számítástechnikában hardvernek nevezzük magát a számítógépet és minden megfogható tartozékát, a számítógép alkatrészeit (melyekből összeszerelték a számítógépet). 
+*SZOFTVER (SOFTWARE)
+Szoftvernek nevezzük a számítógépre írt programokat. A szoftvereket programozók készítik. Szellemi termékek, kézzel nem megfoghatóak A szoftver a számítógépen futó programok összefoglaló neve, valamint a hardver egységeket működtető-, és vezérlő programok összessége.
+*PROGRAM
+A program olyan egyszerű utasítások, műveletek logikus sorozata, amelyekkel a számítógépet irányítjuk. A program az utasításokat is és az adatokat is kettes számrendszerben leírt számokkal ábrázolja. 
+*LINUX
+A Linux egy operációs rendszer, a szabad szoftverek és a nyílt forráskódú programok egyik legismertebb példája.
+
 ### Használati esetek
 
 A szoftvert bármely felhasználó tudja használni, egyenlő feltételek mellett. Az átváltásokat főleg inkább a tanulmányaikat végző diákok, míg a feladatgenerálást és az ellenőrzést az oktatók részesíthetik előnybe. 
