@@ -32,7 +32,9 @@ A Linux egy operációs rendszer, a szabad szoftverek és a nyílt forráskódú
 
 ### Használati esetek
 
-A szoftvert bármely felhasználó tudja használni, egyenlő feltételek mellett. Az átváltásokat főleg inkább a tanulmányaikat végző diákok, míg a feladatgenerálást és az ellenőrzést az oktatók részesíthetik előnybe.
+A szoftvert bármely felhasználó tudja használni, egyenlő feltételek mellett. Az átváltások főleg inkább a tanulmányaikat végző diákokat, míg a feladatgenerálás és az eredményeket tartalmazó fájl, az oktatókat segítik. így *Átlagos felhasználóról* beszélhetünk.
+
+Az *Átlagos felhasználó* hozzáfér a program különböző funkcióihoz, és a mások által generált feladatsorokhoz, és eredményekhez is. Mivel nincs felhasználói azonosítás, ezért ezek a fájlok sem védettek. Bármilyen személy, aki hozzáfér az adott számítógéphez, és tudja hol kell keresnie a program által generált fájlokat, az hozzáférhet azok tartalmához, akár a program elindítása nélkül is. 
 
 ### Használati esetek - követelmény megfeleltetés
 
