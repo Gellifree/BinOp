@@ -34,11 +34,14 @@ A Linux egy operációs rendszer, a szabad szoftverek és a nyílt forráskódú
 
 A szoftvert bármely felhasználó tudja használni, egyenlő feltételek mellett. Az átváltások főleg inkább a tanulmányaikat végző diákokat, míg a feladatgenerálás és az eredményeket tartalmazó fájl, az oktatókat segítik. így *Átlagos felhasználóról* beszélhetünk.
 
-Az *Átlagos felhasználó* hozzáfér a program különböző funkcióihoz, és a mások által generált feladatsorokhoz, és eredményekhez is. Mivel nincs felhasználói azonosítás, ezért ezek a fájlok sem védettek. Bármilyen személy, aki hozzáfér az adott számítógéphez, és tudja hol kell keresnie a program által generált fájlokat, az hozzáférhet azok tartalmához, akár a program elindítása nélkül is. 
+Az *Átlagos felhasználó* hozzáfér a program különböző funkcióihoz, és a mások által generált feladatsorokhoz, és eredményekhez is. Mivel nincs felhasználói azonosítás, ezért ezek a fájlok sem védettek. Bármilyen személy, aki hozzáfér az adott számítógéphez, és tudja hol kell keresnie a program által generált fájlokat, az hozzáférhet azok tartalmához, akár a program elindítása nélkül is.
 
 ### Használati esetek - követelmény megfeleltetés
 
-A használati esetek a letisztultságnak és az egyszerűségnek köszönhetően teljesen lefedik a követelménylista elemeit.
+- A *K1*-es követelményt az első ábra szemlélteti.
+- A *K2*-es követelményt, a második ábra szemlélteti.
+- A *K3*-as követelményt, a negyedik ábra szemlélteti.
+- A *K5* és *K6*-os követelmény, a megjelenés Modul részei, így nem részei a használati eseteknek.
 
 ### "Képernyő" tervek
 
