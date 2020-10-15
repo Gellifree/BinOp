@@ -20,6 +20,14 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 
 #### Ütemterv
 
+| Funkció | Feladat | Prioritás | Becslés | Aktuális becslés | Eltelt idő | Hátralévő idő |
+| --- | --- | --- | --- | --- | --- | --- |
+| Követelmény specifikáció | ... | ... | ... | ... | ... | ... |
+| Funkcionális specifikáció | ... | ... | ... | ... | ... | ... |
+| Rendszerterv | ... | ... | ... | ... | ... | ... |
+| Felület | ... | ... | ... | ... | ... | ... |
+
+
 #### Mérföldkövek
 
 
