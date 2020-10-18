@@ -30,11 +30,11 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 |     | Feladat generálás | ... | ... | ... | ... | ... |
 |     | Ellenőrzés | ... | ... | ... | ... | ... |
 |     | Felület és Meghelenítés | ... | ... | ... | ... | ... |
-| Tatralék idő |  3  |  24  |  24  |  24  |  0  |  24  |
+| Tatralék idő |     |  3  |  24  |  24  |  0  |  24  |
 | Tesztelés | Hibák javítása | ... | ... | ... | ... | ... |
 |     | Felület Tesztelése | ... | ... | ... | ... | ... |
 |     | Végső teszt | ... | ... | ... | ... | ... |
-| Tatralék idő |  3  |  24  |  24  |  24  |  0  |  24  |
+| Tatralék idő |     |  3  |  24  |  24  |  0  |  24  |
 | Véglegesítés | Dokumentáció ellenőrzése | ... | ... | ... | ... | ... |
 |     | Dokumentáció összesítése | ... | ... | ... | ... | ... |
 |     |     |     |     |     |     |     |
