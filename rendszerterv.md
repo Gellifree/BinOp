@@ -25,20 +25,20 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 | Követelmény specifikáció |  Dokumentáció elkészítése |  0  |  72  |  72  |  72  |  0  |
 | Funkcionális specifikáció | Dokumentáció elkészítése |  0  |  72  |  72  |  72  |  0  |
 | Rendszerterv | Dokumentáció elkészítése |  1  |  168  |  168  |  68  |  100  |
-| Kódolás | Alapozás | ... | ... | ... | ... | ... |
-|     | Átváltás | ... | ... | ... | ... | ... |
-|     | Feladat generálás | ... | ... | ... | ... | ... |
-|     | Ellenőrzés | ... | ... | ... | ... | ... |
-|     | Felület és Meghelenítés | ... | ... | ... | ... | ... |
+| Kódolás | Alapok elkészítése | 1 | 60 | 60 | 0 | 60 |
+|     | Átváltás | 2 | 80 | 80 | 0 | 80 |
+|     | Feladat generálás | 2 | 80 | 80 | 0 | 80 |
+|     | Ellenőrzés | 1 | 80 | 80 | 0 | 80 |
+|     | Felület és Megjelenítés | 1 | 36 | 36 | 0 | 36 |
 | Tatralék idő |     |  3  |  24  |  24  |  0  |  24  |
-| Tesztelés | Hibák javítása | ... | ... | ... | ... | ... |
-|     | Felület Tesztelése | ... | ... | ... | ... | ... |
-|     | Végső teszt | ... | ... | ... | ... | ... |
+| Tesztelés | Hibák javítása | 2 | 48 | 48 | 0 | 48 |
+|     | Felület tesztelése | 1 | 48 | 48 | 0 | 48 |
+|     | Végső teszt | 2 | 24 | 24 | 0 | 24 |
 | Tatralék idő |     |  3  |  24  |  24  |  0  |  24  |
-| Véglegesítés | Dokumentáció ellenőrzése | ... | ... | ... | ... | ... |
-|     | Dokumentáció összesítése | ... | ... | ... | ... | ... |
+| Véglegesítés | Dokumentáció ellenőrzése | 2 | 48 | 48 | 0 | 48 |
+|     | Dokumentáció összesítése | 2 | 48 | 48 | 0 | 48 |
 |     |     |     |     |     |     |     |
-|     |     | Órák: |     |     |     |     |
+|     |     | Órák: |     |     |  222   |     |
 |     |     | Napok: |     |     |     |     |
 |     |     |     |     |     |     |     |
 | Napidíj: | 25 000 Ft. |     |     |     |     |     |
