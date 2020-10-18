@@ -22,23 +22,23 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 
 | Funkció | Feladat | Prioritás | Becslés | Aktuális becslés | Eltelt idő | Hátralévő idő |
 | --- | --- | --- | --- | --- | --- | --- |
-| Követelmény specifikáció |  Dokumentáció elkészítése |  0  |  72  |  72  |  72  |  0  |
-| Funkcionális specifikáció | Dokumentáció elkészítése |  0  |  72  |  72  |  72  |  0  |
-| Rendszerterv | Dokumentáció elkészítése |  1  |  168  |  168  |  68  |  100  |
-| Kódolás | Alapok elkészítése | 1 | 60 | 60 | 0 | 60 |
-|     | Átváltás | 2 | 80 | 80 | 0 | 80 |
-|     | Feladat generálás | 2 | 80 | 80 | 0 | 80 |
-|     | Ellenőrzés | 1 | 80 | 80 | 0 | 80 |
-|     | Felület és Megjelenítés | 1 | 36 | 36 | 0 | 36 |
-| Tatralék idő |     |  3  |  24  |  24  |  0  |  24  |
-| Tesztelés | Hibák javítása | 2 | 48 | 48 | 0 | 48 |
-|     | Felület tesztelése | 1 | 48 | 48 | 0 | 48 |
-|     | Végső teszt | 2 | 24 | 24 | 0 | 24 |
-| Tatralék idő |     |  3  |  24  |  24  |  0  |  24  |
-| Véglegesítés | Dokumentáció ellenőrzése | 2 | 48 | 48 | 0 | 48 |
-|     | Dokumentáció összesítése | 2 | 48 | 48 | 0 | 48 |
+| Követelmény specifikáció |  Dokumentáció elkészítése |  0  |  36  |  36  |  36  |  0  |
+| Funkcionális specifikáció | Dokumentáció elkészítése |  0  |  36  |  36  |  36  |  0  |
+| Rendszerterv | Dokumentáció elkészítése |  1  |  84  |  84  |  36  |  50  |
+| Kódolás | Alapok elkészítése | 1 | 30 | 30 | 0 | 30 |
+|     | Átváltás | 2 | 40 | 40 | 0 | 40 |
+|     | Feladat generálás | 2 | 40 | 40 | 0 | 40 |
+|     | Ellenőrzés | 1 | 40 | 40 | 0 | 40 |
+|     | Felület és Megjelenítés | 1 | 18 | 18 | 0 | 18 |
+| Tatralék idő |     |  3  |  12  |  15  |  0  |  12  |
+| Tesztelés | Hibák javítása | 2 | 24 | 24 | 24 | 24 |
+|     | Felület tesztelése | 1 | 24 | 24 | 0 | 24 |
+|     | Végső teszt | 2 | 12 | 12 | 0 | 12 |
+| Tatralék idő |     |  3  |  12  |  12  |  0  |  12  |
+| Véglegesítés | Dokumentáció ellenőrzése | 2 | 24 | 24 | 0 | 24 |
+|     | Dokumentáció összesítése | 2 | 24 | 24 | 0 | 24 |
 |     |     |     |     |     |     |     |
-|     |     | Órák: |     |     |  222   |     |
+|     |     | Órák: | 456  | 456 |  111   |  350  |
 |     |     | Napok: |     |     |     |     |
 |     |     |     |     |     |     |     |
 | Napidíj: | 25 000 Ft. |     |     |     |     |     |
