@@ -30,7 +30,7 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 |     | Feladat generálás | 2 | 40 | 40 | 0 | 40 |
 |     | Ellenőrzés | 1 | 40 | 40 | 0 | 40 |
 |     | Felület és Megjelenítés | 1 | 18 | 18 | 0 | 18 |
-| Tatralék idő |     |  3  |  12  |  15  |  0  |  12  |
+| Tatralék idő |     |  3  |  12  |  12  |  0  |  12  |
 | Tesztelés | Hibák javítása | 2 | 24 | 24 | 24 | 24 |
 |     | Felület tesztelése | 1 | 24 | 24 | 0 | 24 |
 |     | Végső teszt | 2 | 12 | 12 | 0 | 12 |
@@ -39,11 +39,11 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 |     | Dokumentáció összesítése | 2 | 24 | 24 | 0 | 24 |
 |     |     |     |     |     |     |     |
 |     |     | Órák: | 456  | 456 |  111   |  350  |
-|     |     | Napok: |     |     |     |     |
+|     |     | Napok: |  57  | 57  |  13.875   | 43.75  |
 |     |     |     |     |     |     |     |
 | Napidíj: | 25 000 Ft. |     |     |     |     |     |
 |     |     |     |     |     |     |     |
-| Árajánlat: |     |     |     |     |     |     |
+| Árajánlat: |  1 425 000 Ft  |     |     |     |     |     |
 
 
 #### Mérföldkövek
