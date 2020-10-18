@@ -22,10 +22,28 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 
 | Funkció | Feladat | Prioritás | Becslés | Aktuális becslés | Eltelt idő | Hátralévő idő |
 | --- | --- | --- | --- | --- | --- | --- |
-| Követelmény specifikáció | ... | ... | ... | ... | ... | ... |
-| Funkcionális specifikáció | ... | ... | ... | ... | ... | ... |
-| Rendszerterv | ... | ... | ... | ... | ... | ... |
-| Felület | ... | ... | ... | ... | ... | ... |
+| Követelmény specifikáció |  Dokumentáció elkészítése |  0  |  72  |  72  |  72  |  0  |
+| Funkcionális specifikáció | Dokumentáció elkészítése |  0  |  72  |  72  |  72  |  0  |
+| Rendszerterv | Dokumentáció elkészítése |  1  |  168  |  168  |  68  |  100  |
+| Kódolás | Alapozás | ... | ... | ... | ... | ... |
+|     | Átváltás | ... | ... | ... | ... | ... |
+|     | Feladat generálás | ... | ... | ... | ... | ... |
+|     | Ellenőrzés | ... | ... | ... | ... | ... |
+|     | Felület és Meghelenítés | ... | ... | ... | ... | ... |
+| Tatralék idő |  3  |  24  |  24  |  24  |  0  |  24  |
+| Tesztelés | Hibák javítása | ... | ... | ... | ... | ... |
+|     | Felület Tesztelése | ... | ... | ... | ... | ... |
+|     | Végső teszt | ... | ... | ... | ... | ... |
+| Tatralék idő |  3  |  24  |  24  |  24  |  0  |  24  |
+| Véglegesítés | Dokumentáció ellenőrzése | ... | ... | ... | ... | ... |
+|     | Dokumentáció összesítése | ... | ... | ... | ... | ... |
+|     |     |     |     |     |     |     |
+|     |     | Órák: |     |     |     |     |
+|     |     | Napok: |     |     |     |     |
+|     |     |     |     |     |     |     |
+| Napidíj: | 25 000 Ft. |     |     |     |     |     |
+|     |     |     |     |     |     |     |
+| Árajánlat: |     |     |     |     |     |     |
 
 
 #### Mérföldkövek
