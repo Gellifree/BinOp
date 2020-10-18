@@ -38,12 +38,12 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 | Véglegesítés | Dokumentáció ellenőrzése | 2 | 24 | 24 | 0 | 24 |
 |     | Dokumentáció összesítése | 2 | 24 | 24 | 0 | 24 |
 |     |     |     |     |     |     |     |
-|     |     | Órák: | 456  | 456 |  111   |  350  |
-|     |     | Napok: |  57  | 57  |  13.875   | 43.75  |
+| Órák:     |     |     | 456  | 456 |  111   |  350  |
+| Napok:    |     |     |  57  | 57  |  13.875   | 43.75  |
 |     |     |     |     |     |     |     |
-| Napidíj: | 25 000 Ft. |     |     |     |     |     |
+| Napidíj: |     |     |     |     |     |  25 000 Ft.    |
 |     |     |     |     |     |     |     |
-| Árajánlat: |  1 425 000 Ft  |     |     |     |     |     |
+| Árajánlat: |    |     |     |     |     |   1 425 000 Ft.  |
 
 
 #### Mérföldkövek
