@@ -48,8 +48,11 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 
 #### Mérföldkövek
 
+A bemutatás megtörtént
 
 ### Üzleti folyamatok modellje
+
+???
 
 ### Követelmények
 
@@ -57,9 +60,9 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 	
 	o Számítások elvégzése.
 	
-	o Feladat generálás.
+	o Feladatok generálás.
 	
-	o Ellenőrzés elvégzése.
+	o Ellenőrzések elvégzése.
 	
 	
 ●Nem funkcionális követelmények:
@@ -75,3 +78,55 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 
 
 ### Funkcionális terv
+
+●Szereplők:
+
+-Tanár
+-Diák
+
+●Rendszerhasználati esetek és lefutásaik:
+
+Tanár:
+-Átváltás tízes számrendszerből
+-Átváltás tízes számrendszerbe
+-Feladatsor generálása
+-Tárolt feladatsorok megtekintése
+-Segítség
+-Kilépés
+Diák:
+-Átváltás tízes számrendszerből
+-Átváltás tízes számrendszerbe
+-Segítség
+-Kilépés
+
+●Menü-hierarchiák:
+
+[0] Átváltás tízes számrendszerből
+[1] Átváltás tízes számrendszerbe
+[2] Feladatsor generálása
+[3] Tárolt feladatsorok megtekintése
+[4] Segítség
+[Q] Kilépés
+
+
+### Fizikai környezet
+
+●Az alkalmazás Linux platformra készül.
+
+●Nem rendelkezünk megvásárolt komponensel.
+
+●Fejlesztői eszközök:
+
+- Notepad++
+- Python
+- PyCharm 
+
+### Absztrakt domain modellje
+
+### Architekturális terv
+
+### Tesztterv
+
+### Telepítési terv
+
+### Karbantartási terv
