@@ -51,7 +51,10 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 A bemutatás megtörtént
 
 ### Üzleti folyamatok modellje
-####
+
+| Funkció | Feladat | Prioritás | Becslés | Aktuális becslés | Eltelt idő | Hátralévő idő |
+| --- | --- | --- | --- | --- | --- | --- |
+
 | ... | ... | ... |
 
 |  |  |  |
