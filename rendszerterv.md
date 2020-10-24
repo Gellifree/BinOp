@@ -53,6 +53,7 @@ A bemutatás megtörtént
 ### Üzleti folyamatok modellje
 
 | ... | ... | ... |
+|  |  |  |
 | Diák-> | Átváltás tízes számrendszerből | <-Tanár |
 | Diák-> | Átváltás tízes számrendszerbe | <-Tanár |
 | Diák-> | Feladatmegoldás | <-Tanár |
