@@ -52,21 +52,12 @@ A bemutatás megtörtént
 
 ### Üzleti folyamatok modellje
 
-| Funkció | Feladat | Prioritás | Becslés | Aktuális becslés | Eltelt idő | Hátralévő idő |
-| --- | --- | --- | --- | --- | --- | --- |
-
-| ... | ... | ... |
-
-|  |  |  |
-
+| Szereplő | Folyamat | Szereplő |
+| --- |  --- | --- |
 | Diák-> | Átváltás tízes számrendszerből | <-Tanár |
-
 | Diák-> | Átváltás tízes számrendszerbe | <-Tanár |
-
 | Diák-> | Feladatmegoldás | <-Tanár |
-
 |  | Feladatsor generálás | <-Tanár |
-
 |  | Tárolt feladatsorok megtekintése | <-Tanár |
 
 
