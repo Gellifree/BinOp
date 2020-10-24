@@ -56,66 +56,67 @@ A bemutatás megtörtént
 
 ### Követelmények
 
-● Funkcionális követelmények:
+ Funkcionális követelmények:
 	
-	o Számítások elvégzése.
+	 Számítások elvégzése.
 	
-	o Feladatok generálás.
+	 Feladatok generálás.
 	
-	o Ellenőrzések elvégzése.
+	 Ellenőrzések elvégzése.
 	
 	
-●Nem funkcionális követelmények:
+Nem funkcionális követelmények:
 
-	o Hibamentes működés.
+	 Hibamentes működés.
 	
-	o Felhasználóbarát környezet.
+	 Felhasználóbarát környezet.
 	
 	
-●Törvényi előírások, szabványok:
+Törvényi előírások, szabványok:
 
-	o -
+	 -
 
 
 ### Funkcionális terv
 
-●Szereplők:
+Szereplők:
 
--Tanár
--Diák
+-Tanár.
+-Diák.
 
-●Rendszerhasználati esetek és lefutásaik:
+Rendszerhasználati esetek és lefutásaik:
 
 Tanár:
--Átváltás tízes számrendszerből
--Átváltás tízes számrendszerbe
--Feladatsor generálása
--Tárolt feladatsorok megtekintése
--Segítség
--Kilépés
+-Átváltás tízes számrendszerből.
+-Átváltás tízes számrendszerbe.
+-Feladatsor generálása.
+-Tárolt feladatsorok megtekintése.
+-Segítség.
+-Kilépés.
 Diák:
--Átváltás tízes számrendszerből
--Átváltás tízes számrendszerbe
--Segítség
--Kilépés
 
-●Menü-hierarchiák:
+-Átváltás tízes számrendszerből.
+-Átváltás tízes számrendszerbe.
+-Segítség.
+-Kilépés.
 
-[0] Átváltás tízes számrendszerből
-[1] Átváltás tízes számrendszerbe
-[2] Feladatsor generálása
-[3] Tárolt feladatsorok megtekintése
-[4] Segítség
-[Q] Kilépés
+Menü-hierarchiák:
+
+[0] Átváltás tízes számrendszerből.
+[1] Átváltás tízes számrendszerbe.
+[2] Feladatsor generálása.
+[3] Tárolt feladatsorok megtekintése.
+[4] Segítség.
+[Q] Kilépés.
 
 
 ### Fizikai környezet
 
-●Az alkalmazás Linux platformra készül.
+Az alkalmazás Linux platformra készül.
 
-●Nem rendelkezünk megvásárolt komponensel.
+Nem rendelkezünk megvásárolt komponensel.
 
-●Fejlesztői eszközök:
+Fejlesztői eszközök:
 
 - Notepad++
 - Python
