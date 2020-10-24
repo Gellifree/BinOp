@@ -54,15 +54,23 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 ### Követelmények
 
 ● Funkcionális követelmények:
+	
 	o Számítások elvégzése.
+	
 	o Feladat generálás.
+	
 	o Ellenőrzés elvégzése.
 	
+	
 ●Nem funkcionális követelmények:
+
 	o Hibamentes működés.
+	
 	o Felhasználóbarát környezet.
 	
+	
 ●Törvényi előírások, szabványok:
+
 	o -
 
 
