@@ -48,7 +48,7 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 
 #### Mérföldkövek
 
-A bemutatás megtörtént
+A bemutatás megtörtént.
 
 ### Üzleti folyamatok modellje
 
@@ -149,7 +149,8 @@ Fejlesztői eszközök:
 
 ### Absztrakt domain modellje
 
-???
+Adatbevitel -> Opció kiválasztása -> Bevitt adat ellenőrzése -> Eredmény megjelenítése / Hibaüzenet.
+
 
 ### Architekturális terv
 
@@ -163,24 +164,24 @@ A tesztelések célja az alkalmazás és komponensei funkcionalitásának teljes
 
 Tesztelési eljárások:
 
-		1.,Unit teszt:
-		Már a fejlesztési idő alatt is folyamatosan tesztelés történik, hogy a
-		metódusok megfelelően működnek-e.
-		Ametódusok akkor mondhatók késznek, ha a tesztesetek hiba nélkül lefutnak.
+	1.,Unit teszt:
+	Már a fejlesztési idő alatt is folyamatosan tesztelés történik, hogy a
+	metódusok megfelelően működnek-e.
+	Ametódusok akkor mondhatók késznek, ha a tesztesetek hiba nélkül lefutnak.
 
-		2.,Alfa teszt:
-		A teszt elsődleges célja: a már meglévő funkciók különböző
-		adatbevitellel történő tesztelése. A tesztet a
-		fejlesztők végzik.
-		Az eljárás sikeres, ha különböző adatbevitel során a hibás adatokkal hibát hoz az alkalmazás a megfelelő adat bevitele után pedig a helyes értéket adja vissza. A teszt időtartama egy hét.
+	2.,Alfa teszt:
+	A teszt elsődleges célja: a már meglévő funkciók különböző
+	adatbevitellel történő tesztelése. A tesztet a
+	fejlesztők végzik.
+	Az eljárás sikeres, ha különböző adatbevitel során a hibás adatokkal hibát hoz az alkalmazás a megfelelő adat bevitele után pedig a helyes értéket adja vissza. A teszt időtartama egy hét.
 
 
-		3.,Beta teszt:
-		Ezt a tesztet nem a fejlesztők végzik, hanem meghatározott számú a fejlesztők által kiválasztott tesztelő. 
-		A teszt időtartama egy hét.
-		A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a
-		fejlesztőknek, probléma,hiba felmerülése vagy egyéb észrevétel esetén.
-		Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. A tesztelők észrevételeit, ha a fejlesztők érdemesnek találják, akkor integrálhatják azt, azokat. 
+	3.,Beta teszt:
+	Ezt a tesztet nem a fejlesztők végzik, hanem meghatározott számú a fejlesztők által kiválasztott tesztelő. 
+	A teszt időtartama egy hét.
+	A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a
+	fejlesztőknek, probléma,hiba felmerülése vagy egyéb észrevétel esetén.
+	Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. A tesztelők észrevételeit, ha a fejlesztők érdemesnek találják, akkor integrálhatják azt, azokat. 
 
 
 ### Telepítési terv
