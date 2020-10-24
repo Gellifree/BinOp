@@ -53,85 +53,92 @@ A bemutatás megtörtént
 ### Üzleti folyamatok modellje
 
 | ... | ... | ... |
+
 |  |  |  |
+
 | Diák-> | Átváltás tízes számrendszerből | <-Tanár |
+
 | Diák-> | Átváltás tízes számrendszerbe | <-Tanár |
+
 | Diák-> | Feladatmegoldás | <-Tanár |
+
 |  | Feladatsor generálás | <-Tanár |
+
 |  | Tárolt feladatsorok megtekintése | <-Tanár |
+
 
 
 ### Követelmények
 
  Funkcionális követelmények:
 	
-	 Számítások elvégzése.
+	Számítások elvégzése.
 	
-	 Feladatok generálás.
+	Feladatok generálás.
 	
-	 Ellenőrzések elvégzése.
+	Ellenőrzések elvégzése.
 	
 	
 Nem funkcionális követelmények:
 
-	 Hibamentes működés.
+	Hibamentes működés.
 	
-	 Felhasználóbarát környezet.
+	Felhasználóbarát környezet.
 	
 	
 Törvényi előírások, szabványok:
 
-	 -
+	-
 
 
 ### Funkcionális terv
 
 Szereplők:
 
-		-Tanár.
+	-Tanár.
 
-		-Diák.
+	-Diák.
 
 Rendszerhasználati esetek és lefutásaik:
 
 Tanár:
 
-		-Átváltás tízes számrendszerből.
+	-Átváltás tízes számrendszerből.
 
-		-Átváltás tízes számrendszerbe.
+	-Átváltás tízes számrendszerbe.
 
-		-Feladatsor generálása.
+	-Feladatsor generálása.
 
 -Tárolt feladatsorok megtekintése.
 
-		-Segítség.
+	-Segítség.
 
-		-Kilépés.
+	-Kilépés.
 
 Diák:
 
 
-		-Átváltás tízes számrendszerből.
+	-Átváltás tízes számrendszerből.
 
-		-Átváltás tízes számrendszerbe.
+	-Átváltás tízes számrendszerbe.
 
-		-Segítség.
+	-Segítség.
 
 -Kilépés.
 
 Menü-hierarchiák:
 
-		[0] Átváltás tízes számrendszerből.
+	[0] Átváltás tízes számrendszerből.
 
-		[1] Átváltás tízes számrendszerbe.
+	[1] Átváltás tízes számrendszerbe.
 
-		[2] Feladatsor generálása.
+	[2] Feladatsor generálása.
 
-		[3] Tárolt feladatsorok megtekintése.
+	[3] Tárolt feladatsorok megtekintése.
 
-		[4] Segítség.
+	[4] Segítség.
 
-		[Q] Kilépés.
+	[Q] Kilépés.
 
 
 ### Fizikai környezet
@@ -142,9 +149,9 @@ Nem rendelkezünk megvásárolt komponensel.
 
 Fejlesztői eszközök:
 
-		- Notepad++
-		- Python
-		- PyCharm 
+	- Notepad++
+	- Python
+	- PyCharm 
 
 ### Absztrakt domain modellje
 
