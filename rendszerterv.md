@@ -52,7 +52,12 @@ A bemutatás megtörtént
 
 ### Üzleti folyamatok modellje
 
-???
+| Diák-> | Átváltás tízes számrendszerből | <-Tanár |
+| Diák-> | Átváltás tízes számrendszerbe | <-Tanár |
+| Diák-> | Feladatmegoldás | <-Tanár |
+|  | Feladatsor generálás | <-Tanár |
+|  | Tárolt feladatsorok megtekintése | <-Tanár |
+
 
 ### Követelmények
 
@@ -141,10 +146,46 @@ Fejlesztői eszközök:
 
 ### Absztrakt domain modellje
 
+???
+
 ### Architekturális terv
+
+Backend:
+
+Az alkalmazás Python használatával készül. A felhasználó egy egyszerű és átlátható konzollal találkozik, ahol a menüpont kiválasztása után a kért művelet elvégzésre kerül. 
 
 ### Tesztterv
 
+A tesztelések célja az alkalmazás és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése.
+
+Tesztelési eljárások:
+
+1.,Unit teszt:
+Már a fejlesztési idő alatt is folyamatosan tesztelés történik, hogy a
+metódusok megfelelően működnek-e.
+Ametódusok akkor mondhatók késznek, ha a tesztesetek hiba nélkül lefutnak.
+
+2.,Alfa teszt:
+A teszt elsődleges célja: a már meglévő funkciók különböző
+adatbevitellel történő tesztelése. A tesztet a
+fejlesztők végzik.
+Az eljárás sikeres, ha különböző adatbevitel során a hibás adatokkal hibát hoz az alkalmazás a megfelelő adat bevitele után pedig a helyes értéket adja vissza. A teszt időtartama egy hét.
+
+
+3.,Beta teszt:
+Ezt a tesztet nem a fejlesztők végzik, hanem meghatározott számú a fejlesztők által kiválasztott tesztelő. 
+A teszt időtartama egy hét.
+A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a
+fejlesztőknek, probléma,hiba felmerülése vagy egyéb észrevétel esetén.
+Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. A tesztelők észrevételeit, ha a fejlesztők érdemesnek találják, akkor integrálhatják azt, azokat. 
+
+
 ### Telepítési terv
 
+Terminál "alkalmazás mappája" python "alkalmazás neve".py
+
 ### Karbantartási terv
+
+Az alkalmazás rendszeres üzemeltetése és karbantartása, mely
+magában foglalja a hibák elhárítását, a változó igények miatti
+módosításokat, valamint a felhasználók által jelentett hibák kijavítása.
