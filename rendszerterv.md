@@ -82,31 +82,48 @@ Törvényi előírások, szabványok:
 Szereplők:
 
 -Tanár.
+
 -Diák.
 
 Rendszerhasználati esetek és lefutásaik:
 
 Tanár:
--Átváltás tízes számrendszerből.
--Átváltás tízes számrendszerbe.
--Feladatsor generálása.
--Tárolt feladatsorok megtekintése.
--Segítség.
--Kilépés.
-Diák:
 
 -Átváltás tízes számrendszerből.
+
 -Átváltás tízes számrendszerbe.
+
+-Feladatsor generálása.
+
+-Tárolt feladatsorok megtekintése.
+
 -Segítség.
+
+-Kilépés.
+
+Diák:
+
+
+-Átváltás tízes számrendszerből.
+
+-Átváltás tízes számrendszerbe.
+
+-Segítség.
+
 -Kilépés.
 
 Menü-hierarchiák:
 
 [0] Átváltás tízes számrendszerből.
+
 [1] Átváltás tízes számrendszerbe.
+
 [2] Feladatsor generálása.
+
 [3] Tárolt feladatsorok megtekintése.
+
 [4] Segítség.
+
 [Q] Kilépés.
 
 
