@@ -51,7 +51,7 @@ A rendszer célja, hogy képes legyen műveletvégzésre, bármilyen számrendsz
 A bemutatás megtörtént
 
 ### Üzleti folyamatok modellje
-
+| | | |
 | Diák-> | Átváltás tízes számrendszerből | <-Tanár |
 | Diák-> | Átváltás tízes számrendszerbe | <-Tanár |
 | Diák-> | Feladatmegoldás | <-Tanár |
@@ -86,50 +86,50 @@ Törvényi előírások, szabványok:
 
 Szereplők:
 
--Tanár.
+		-Tanár.
 
--Diák.
+		-Diák.
 
 Rendszerhasználati esetek és lefutásaik:
 
 Tanár:
 
--Átváltás tízes számrendszerből.
+		-Átváltás tízes számrendszerből.
 
--Átváltás tízes számrendszerbe.
+		-Átváltás tízes számrendszerbe.
 
--Feladatsor generálása.
+		-Feladatsor generálása.
 
 -Tárolt feladatsorok megtekintése.
 
--Segítség.
+		-Segítség.
 
--Kilépés.
+		-Kilépés.
 
 Diák:
 
 
--Átváltás tízes számrendszerből.
+		-Átváltás tízes számrendszerből.
 
--Átváltás tízes számrendszerbe.
+		-Átváltás tízes számrendszerbe.
 
--Segítség.
+		-Segítség.
 
 -Kilépés.
 
 Menü-hierarchiák:
 
-[0] Átváltás tízes számrendszerből.
+		[0] Átváltás tízes számrendszerből.
 
-[1] Átváltás tízes számrendszerbe.
+		[1] Átváltás tízes számrendszerbe.
 
-[2] Feladatsor generálása.
+		[2] Feladatsor generálása.
 
-[3] Tárolt feladatsorok megtekintése.
+		[3] Tárolt feladatsorok megtekintése.
 
-[4] Segítség.
+		[4] Segítség.
 
-[Q] Kilépés.
+		[Q] Kilépés.
 
 
 ### Fizikai környezet
@@ -140,9 +140,9 @@ Nem rendelkezünk megvásárolt komponensel.
 
 Fejlesztői eszközök:
 
-- Notepad++
-- Python
-- PyCharm 
+		- Notepad++
+		- Python
+		- PyCharm 
 
 ### Absztrakt domain modellje
 
@@ -160,24 +160,24 @@ A tesztelések célja az alkalmazás és komponensei funkcionalitásának teljes
 
 Tesztelési eljárások:
 
-1.,Unit teszt:
-Már a fejlesztési idő alatt is folyamatosan tesztelés történik, hogy a
-metódusok megfelelően működnek-e.
-Ametódusok akkor mondhatók késznek, ha a tesztesetek hiba nélkül lefutnak.
+		1.,Unit teszt:
+		Már a fejlesztési idő alatt is folyamatosan tesztelés történik, hogy a
+		metódusok megfelelően működnek-e.
+		Ametódusok akkor mondhatók késznek, ha a tesztesetek hiba nélkül lefutnak.
 
-2.,Alfa teszt:
-A teszt elsődleges célja: a már meglévő funkciók különböző
-adatbevitellel történő tesztelése. A tesztet a
-fejlesztők végzik.
-Az eljárás sikeres, ha különböző adatbevitel során a hibás adatokkal hibát hoz az alkalmazás a megfelelő adat bevitele után pedig a helyes értéket adja vissza. A teszt időtartama egy hét.
+		2.,Alfa teszt:
+		A teszt elsődleges célja: a már meglévő funkciók különböző
+		adatbevitellel történő tesztelése. A tesztet a
+		fejlesztők végzik.
+		Az eljárás sikeres, ha különböző adatbevitel során a hibás adatokkal hibát hoz az alkalmazás a megfelelő adat bevitele után pedig a helyes értéket adja vissza. A teszt időtartama egy hét.
 
 
-3.,Beta teszt:
-Ezt a tesztet nem a fejlesztők végzik, hanem meghatározott számú a fejlesztők által kiválasztott tesztelő. 
-A teszt időtartama egy hét.
-A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a
-fejlesztőknek, probléma,hiba felmerülése vagy egyéb észrevétel esetén.
-Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. A tesztelők észrevételeit, ha a fejlesztők érdemesnek találják, akkor integrálhatják azt, azokat. 
+		3.,Beta teszt:
+		Ezt a tesztet nem a fejlesztők végzik, hanem meghatározott számú a fejlesztők által kiválasztott tesztelő. 
+		A teszt időtartama egy hét.
+		A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a
+		fejlesztőknek, probléma,hiba felmerülése vagy egyéb észrevétel esetén.
+		Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. A tesztelők észrevételeit, ha a fejlesztők érdemesnek találják, akkor integrálhatják azt, azokat. 
 
 
 ### Telepítési terv
