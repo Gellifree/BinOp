@@ -65,21 +65,21 @@ A bemutatás megtörtént.
 ### Követelmények
 
  Funkcionális követelmények:
-	
+
 	Számítások elvégzése.
-	
+
 	Feladatok generálás.
-	
+
 	Ellenőrzések elvégzése.
-	
-	
+
+
 Nem funkcionális követelmények:
 
 	Hibamentes működés.
-	
+
 	Felhasználóbarát környezet.
-	
-	
+
+
 Törvényi előírások, szabványok:
 
 	-
@@ -145,7 +145,8 @@ Fejlesztői eszközök:
 
 	- Notepad++
 	- Python
-	- PyCharm 
+	- PyCharm
+  - Atom
 
 ### Absztrakt domain modellje
 
@@ -156,7 +157,7 @@ Adatbevitel -> Opció kiválasztása -> Bevitt adat ellenőrzése -> Eredmény m
 
 Backend:
 
-Az alkalmazás Python használatával készül. A felhasználó egy egyszerű és átlátható konzollal találkozik, ahol a menüpont kiválasztása után a kért művelet elvégzésre kerül. 
+Az alkalmazás Python használatával készül. A felhasználó egy egyszerű és átlátható konzollal találkozik, ahol a menüpont kiválasztása után a kért művelet elvégzésre kerül.
 
 ### Tesztterv
 
@@ -177,11 +178,11 @@ Tesztelési eljárások:
 
 
 	3.,Beta teszt:
-	Ezt a tesztet nem a fejlesztők végzik, hanem meghatározott számú a fejlesztők által kiválasztott tesztelő. 
+	Ezt a tesztet nem a fejlesztők végzik, hanem meghatározott számú a fejlesztők által kiválasztott tesztelő.
 	A teszt időtartama egy hét.
 	A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a
 	fejlesztőknek, probléma,hiba felmerülése vagy egyéb észrevétel esetén.
-	Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. A tesztelők észrevételeit, ha a fejlesztők érdemesnek találják, akkor integrálhatják azt, azokat. 
+	Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb. A tesztelők észrevételeit, ha a fejlesztők érdemesnek találják, akkor integrálhatják azt, azokat.
 
 
 ### Telepítési terv
