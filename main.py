@@ -20,6 +20,12 @@ def drawMenu(elements):
         print("  >> Nem adhatsz meg ilyen opciót! <<")
         return "error"
 
+def first():
+    pass
+
+def second():
+    pass
+
 def main():
     mainMenu = ["Első menüpont", "Második menüpont", "Kilépés"]
     executableMenu = ["first()", "second()"]
