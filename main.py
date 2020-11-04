@@ -52,6 +52,7 @@ def main():
                 answer = "q"
                 os.system("clear")
                 
+# data separate:             
 def separate(data):
     if(type(data) == str):
         result = []
@@ -68,7 +69,7 @@ def separate(data):
         result.append(partOne)
         result.append(partTwo)
         return result
-    elif(type(data) = float):
+    elif(type(data) == float):
         result = []
         partOne = 0
         partTwo = 0
