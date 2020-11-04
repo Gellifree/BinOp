@@ -58,7 +58,10 @@ def separate(data):
         partOne = ""
         partTwo = ""
         i = 0
-               
+    while(data[i] != "."):
+        partOne += data[i]
+        i += 1
+        i += 1   
 
 
 if(__name__ == "__main__"):
