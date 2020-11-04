@@ -58,10 +58,26 @@ def separate(data):
         partOne = ""
         partTwo = ""
         i = 0
-    while(data[i] != "."):
-        partOne += data[i]
+        while(data[i] != "."):
+            partOne += data[i]
+            i += 1
         i += 1
-        i += 1   
+        while(i < len(data)):
+            partTwo += data[i]
+            i += 1
+        result.append(partOne)
+        result.append(partTwo)
+        return result
+    elif(type(data) = float):
+        result = []
+        partOne = 0
+        partTwo = 0
+        partOne = int(data)
+        partTwo = data - partOne
+        result.append(partOne)
+        result.append(partTwo)
+        return result
+ 
 
 
 if(__name__ == "__main__"):
