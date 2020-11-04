@@ -20,6 +20,16 @@ def drawMenu(elements):
         print("  >> Nem adhatsz meg ilyen opciót! <<")
         return "error"
 
+#Funkcions for helping calculations
+def readBackwards():
+    result = ""
+    i = len(data)-1
+    while(i >= 0):
+        result += data[i]
+        i -= 1
+    return result
+
+
 def first():
     pass
 
