@@ -51,6 +51,14 @@ def main():
             elif(quit == "" or quit == "Y" or quit == "y"):
                 answer = "q"
                 os.system("clear")
+                
+def separate(data):
+    if(type(data) == str):
+        result = []
+        partOne = ""
+        partTwo = ""
+        i = 0
+               
 
 
 if(__name__ == "__main__"):
