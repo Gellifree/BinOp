@@ -61,8 +61,8 @@ def main():
             elif(quit == "" or quit == "Y" or quit == "y"):
                 answer = "q"
                 os.system("clear")
-                
-# data separate:             
+
+# data separate:
 def separate(data):
     if(type(data) == str):
         result = []
@@ -88,20 +88,10 @@ def separate(data):
         result.append(partOne)
         result.append(partTwo)
         return result
- 
-def convertFromTen(number, target, precision, drawed):
-    if(checkIfFractionExist(number) == True):
-        result = ""
-        result += integerCalculation(separate(number)[0], target, drawed)
-        result += "."
-        result += fractionCalculation(separate(number)[1], target, precision, drawed)
-        return result
-            else:
-        result = ""
-        result += integerCalculation(number, target, drawed)
-        return result
 
 
+#A checkIfFractionExist függvényre van szükségünk, a convertFromTen előrehaladás az első hét sprintjéhez
+#Főleg, hogy az ehhez szükséges három függvény még nem létezik.
 
 if(__name__ == "__main__"):
     main()
