@@ -91,6 +91,8 @@ def separate(data):
  
 def convertFromTen(number, target, precision, drawed):
     if(checkIfFractionExist(number) == True):
+        result = ""
+        result += integerCalculation(separate(number)[0], target, drawed)
         result += "."
         result += fractionCalculation(separate(number)[1], target, precision, drawed)
         return result
