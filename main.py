@@ -89,6 +89,12 @@ def separate(data):
         result.append(partTwo)
         return result
  
+def convertFromTen(number, target, precision, drawed):
+    if(checkIfFractionExist(number) == True):
+        result += "."
+        result += fractionCalculation(separate(number)[1], target, precision, drawed)
+        return result
+
 
 
 if(__name__ == "__main__"):
