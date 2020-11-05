@@ -20,15 +20,6 @@ def drawMenu(elements):
         print("  >> Nem adhatsz meg ilyen opciót! <<")
         return "error"
 
-#Funkcions for helping calculations
-def readBackwards():
-    result = ""
-    i = len(data)-1
-    while(i >= 0):
-        result += data[i]
-        i -= 1
-    return result
-
 
 def first():
     pass
@@ -61,47 +52,6 @@ def main():
             elif(quit == "" or quit == "Y" or quit == "y"):
                 answer = "q"
                 os.system("clear")
-                
-# data separate:             
-def separate(data):
-    if(type(data) == str):
-        result = []
-        partOne = ""
-        partTwo = ""
-        i = 0
-        while(data[i] != "."):
-            partOne += data[i]
-            i += 1
-        i += 1
-        while(i < len(data)):
-            partTwo += data[i]
-            i += 1
-        result.append(partOne)
-        result.append(partTwo)
-        return result
-    elif(type(data) == float):
-        result = []
-        partOne = 0
-        partTwo = 0
-        partOne = int(data)
-        partTwo = data - partOne
-        result.append(partOne)
-        result.append(partTwo)
-        return result
- 
-def convertFromTen(number, target, precision, drawed):
-    if(checkIfFractionExist(number) == True):
-        result = ""
-        result += integerCalculation(separate(number)[0], target, drawed)
-        result += "."
-        result += fractionCalculation(separate(number)[1], target, precision, drawed)
-        return result
-            else:
-        result = ""
-        result += integerCalculation(number, target, drawed)
-        return result
-
-
 
 if(__name__ == "__main__"):
     main()
