@@ -96,6 +96,10 @@ def convertFromTen(number, target, precision, drawed):
         result += "."
         result += fractionCalculation(separate(number)[1], target, precision, drawed)
         return result
+            else:
+        result = ""
+        result += integerCalculation(number, target, drawed)
+        return result
 
 
 
