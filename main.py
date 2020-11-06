@@ -21,7 +21,7 @@ def drawMenu(elements):
         return "error"
 
 #Funkcions for helping calculations
-def readBackwards():
+def readBackwards(data):
     result = ""
     i = len(data)-1
     while(i >= 0):
