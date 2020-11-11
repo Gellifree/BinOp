@@ -58,7 +58,7 @@ def fractionCalculation(number, target, precision, drawed):
     if(drawed == False):
         i = 0
         while(i < precision):
-
+result += safetyConvert(separate())
         return result
 
 
