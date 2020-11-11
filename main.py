@@ -53,6 +53,35 @@ def main():
                 answer = "q"
                 os.system("clear")
 
+
+# data separate:             
+def separate(data):
+    if(type(data) == str):
+        result = []
+        partOne = ""
+        partTwo = ""
+        i = 0
+        while(data[i] != "."):
+            partOne += data[i]
+            i += 1
+        i += 1
+        while(i < len(data)):
+            partTwo += data[i]
+            i += 1
+        result.append(partOne)
+        result.append(partTwo)
+        return result
+    elif(type(data) == float):
+        result = []
+        partOne = 0
+        partTwo = 0
+        partOne = int(data)
+        partTwo = data - partOne
+        result.append(partOne)
+        result.append(partTwo)
+        return result
+
+
 def fractionCalculation(number, target, precision, drawed):
     result = ""
     if(drawed == False):
