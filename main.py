@@ -58,10 +58,12 @@ def fractionCalculation(number, target, precision, drawed):
     if(drawed == False):
         i = 0
         while(i < precision):
-result += safetyConvert(separate())
-  number = separate()
+            result += safetyConvert(separate(number*target)[0])
+            number = separate(number * target)[1]
             i += 1
         return result
+     else:
+      return result
 
 
 
