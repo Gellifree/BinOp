@@ -54,6 +54,14 @@ def main():
                 os.system("clear")
 
 def fractionCalculation(number, target, precision, drawed):
+    result = ""
+    if(drawed == False):
+        i = 0
+        while(i < precision):
+
+        return result
+
+
 
 if(__name__ == "__main__"):
     main()
