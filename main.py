@@ -68,7 +68,8 @@ def fractionCalculation(number, target, precision, drawed):
         print("  {0} * {1}".format(number, target))
         print("  =======")
             while(i):
-            
+            result += safetyConvert(separate(number*target)[0])
+            number = separate(number * target)[1]
             i += 1
         print("  Törtrész: ", result,"\n")
       return result
