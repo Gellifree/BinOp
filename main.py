@@ -104,7 +104,7 @@ def fractionCalculation(number, target, precision, drawed):
         print("  Törtrész: ", result,"\n")
       return result
 
-
+def fractionCalculation(number, base, drawed):
 
 if(__name__ == "__main__"):
     main()
