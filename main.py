@@ -53,5 +53,7 @@ def main():
                 answer = "q"
                 os.system("clear")
 
+def fractionCalculation(number, target, precision, drawed):
+
 if(__name__ == "__main__"):
     main()
