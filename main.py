@@ -185,6 +185,24 @@ def integerCalculation_N(number, base, drawed):
         return result
 
 
+def fractionCalculation_N(number, base, drawed):
+    result = 0
+    print("  Törtrész számítása\n")
+    if(drawed == False):
+        i = 0
+        while (i < len(number)):
+            result += (base**(-(i+1))) * safetyConvert(number[i])
+            i += 1
+        return result
+    else:
+        i = 0
+        while (i < len(number)):
+            print("  ({0}^({1})) * {2} = {3}".format(base, -(i+1), safetyConvert(number[i]), (base**(-(i+1)))*safetyConvert(number[i])))
+            result += (base**(-(i+1)))*safetyConvert(number[i])
+            i += 1
+        print("  A törtrész: ", result,"\n")
+        return result
+
 #Use these to check if the functions works
 def first():
     print("  Add meg a számot, amit át szeretnél váltani!")
@@ -210,6 +228,7 @@ def first():
 
 def second():
     integerCalculation_N("1F",16,True)
+    fractionCalculation_N("01",2,True)
     pass
 
 def main():
