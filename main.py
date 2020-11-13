@@ -141,7 +141,7 @@ def fractionCalculation(number, target, precision, drawed):
         return result
     else:
         i = 0
-        print("\n  Törtrész kiszámolása")
+        print("\n  Törtrész kiszámolása\n")
         print("  {} * {}".format(number, target))
         print("  =======")
         while(i < precision):
@@ -152,11 +152,23 @@ def fractionCalculation(number, target, precision, drawed):
         print("  Törtrész: ", result,"\n")
         return result
 
+# precision is default argument
+def convertFromTen(number, target, drawed, precision = 5):
+    if(checkIfFractionExist(number) == True):
+        result = ""
+        result += integerCalculation(separate(number)[0], target, drawed)
+        result += "."
+        result += fractionCalculation(separate(number)[1], target, precision, drawed)
+        return result
+    else:
+        result = ""
+        result += integerCalculation(number, target, drawed)
+        return result
 
 
 #Use these to check if the functions works
 def first():
-    fractionCalculation(0.75,2,5,True)
+    convertFromTen(7,2,True)
     pass
 
 def second():
