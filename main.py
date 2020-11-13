@@ -111,6 +111,31 @@ def safetyConvert(data):
         }
         return result.get(data, "rorrE")
 
+def fractionCalculation(number, target, precision, drawed):
+    result = ""
+    if(drawed == False):
+        i = 0
+        while(i < precision):
+            result += safetyConvert(separate(number*target)[0])
+            number = separate(number * target)[1]
+            i += 1
+        return result
+     else:
+        i = 0
+        print("\n  Törtrész kiszámolása")
+        print("  {0} * {1}".format(number, target))
+        print("  =======")
+            while(i < precision):
+            print("  {0} * {1} =>".format(number * target, target))
+            result += safetyConvert(separate(number*target)[0])
+            number = separate(number * target)[1]
+            i += 1
+        print("  Törtrész: ", result,"\n")
+      return result
+
+def integerCalculation(number, base, drawed):
+    pass
+
 
 def first():
     pass
