@@ -164,6 +164,26 @@ def convertFromTen(number, target, precision, drawed):
         result += integerCalculation(number, target, drawed)
         return result
 
+def integerCalculation_N(number, base, drawed):
+    result = 0
+    if(drawed == False):
+        numberBack = readBackwards(number)
+        i = 0
+        while(i < len(numberBack)):
+            result += (base**i) * safetyConvert(numberBack[i])
+            i += 1
+        return result
+    else:
+        numberBack = readBackwards(number)
+        i = 0
+        print("\n  Számítások elvégzése\n")
+        while(i < len(numberBack)):
+            print("  ({0}^{1}) * {2} = {3}".format(base,i,safetyConvert(numberBack[i]), (base**i)*safetyConvert(numberBack[i])))
+            result += (base**i) * safetyConvert(numberBack[i])
+            i += 1
+        print("  Az egészrész: ", result,"\n")
+        return result
+
 
 #Use these to check if the functions works
 def first():
@@ -189,7 +209,7 @@ def first():
     print("\n  Az átváltás eredménye: ", convertFromTen(number, target, precision, drawed))
 
 def second():
-    integerCalculation(8,2,True)
+    integerCalculation_N("1F",16,True)
     pass
 
 def main():
