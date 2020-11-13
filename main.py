@@ -120,7 +120,7 @@ def fractionCalculation(number, target, precision, drawed):
             number = separate(number * target)[1]
             i += 1
         return result
-     else:
+    else:
         i = 0
         print("\n  Törtrész kiszámolása")
         print("  {0} * {1}".format(number, target))
@@ -131,7 +131,7 @@ def fractionCalculation(number, target, precision, drawed):
             number = separate(number * target)[1]
             i += 1
         print("  Törtrész: ", result,"\n")
-      return result
+        return result
 
 def integerCalculation(number, base, drawed):
     pass
