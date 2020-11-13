@@ -121,11 +121,11 @@ def integerCalculation(number, target, drawed):
         return readBackwards(result)
     else:
         print("\n  Egészrész kiszámolása\n")
-        print("  {0} % {1}".format(number, target))
+        print("  {} % {}".format(number, target))
         print("  =====")
         while(number >= 1):
             result += safetyConvert(int(number % target))
-            print("  {0} | {1}".format(int(number/target), int(number % target)))
+            print("  {} | {}".format(int(number/target), int(number % target)))
             number /= target
         print("  Egészrész: ", readBackwards(result),"\n")
         return readBackwards(result)
@@ -142,10 +142,10 @@ def fractionCalculation(number, target, precision, drawed):
     else:
         i = 0
         print("\n  Törtrész kiszámolása")
-        print("  {0} * {1}".format(number, target))
+        print("  {} * {}".format(number, target))
         print("  =======")
         while(i < precision):
-            print("  {0} * {1} =>".format(number * target, target))
+            print("  {} * {} =>".format(number * target, target))
             result += safetyConvert(separate(number*target)[0])
             number = separate(number * target)[1]
             i += 1
