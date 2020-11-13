@@ -203,6 +203,20 @@ def fractionCalculation_N(number, base, drawed):
         print("  A törtrész: ", result,"\n")
         return result
 
+def convertToTen(number, base, drawed):
+    result = 0
+    if(checkIfFractionExist(number) == True):
+        partOne = separate(number)[0]
+        partTwo = separate(number)[1]
+
+        result = integerCalculation_N(partOne, base, drawed)
+        result += fractionCalculation_N(partTwo, base, drawed)
+        return result
+    else:
+        result = integerCalculation_N(number, base, drawed)
+        return result
+
+
 #Use these to check if the functions works
 def first():
     print("  Add meg a számot, amit át szeretnél váltani!")
@@ -225,6 +239,7 @@ def first():
         number = int(number)
 
     print("\n  Az átváltás eredménye: ", convertFromTen(number, target, precision, drawed))
+
 
 def second():
     integerCalculation_N("1F",16,True)
