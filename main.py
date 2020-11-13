@@ -152,8 +152,7 @@ def fractionCalculation(number, target, precision, drawed):
         print("  Törtrész: ", result,"\n")
         return result
 
-# precision is default argument
-def convertFromTen(number, target, drawed, precision = 5):
+def convertFromTen(number, target, precision, drawed):
     if(checkIfFractionExist(number) == True):
         result = ""
         result += integerCalculation(separate(number)[0], target, drawed)
@@ -168,8 +167,26 @@ def convertFromTen(number, target, drawed, precision = 5):
 
 #Use these to check if the functions works
 def first():
-    convertFromTen(7,2,True)
-    pass
+    print("  Add meg a számot, amit át szeretnél váltani!")
+    number = input("  >> ")
+    print("  Add meg a célszámrendszer alapját, amibe átszeretnéd váltani! [2-16]")
+    #We could give the user a menu maybe
+    target = int(input("  >> "))
+    print("  Látni akarod a számítás részleteit? [Y/n]")
+    drawed = input("  >> ")
+    if(drawed == "y" or drawed == "" or drawed == "Y"):
+        drawed = True
+    else:
+        drawed = False
+    precision = 0
+    if(checkIfFractionExist(number) == True):
+        print("  Add meg a tizedes érték kiszámításának pontosságát!")
+        precision = int(input("  >> "))
+        number = float(number)
+    else:
+        number = int(number)
+
+    print("\n  Az átváltás eredménye: ", convertFromTen(number, target, precision, drawed))
 
 def second():
     integerCalculation(8,2,True)
