@@ -242,12 +242,15 @@ def first():
 
 
 def second():
-    integerCalculation_N("1F",16,True)
-    fractionCalculation_N("01",2,True)
-    pass
+    print("  Add meg a számot, amit átszeretnél váltani tízes alapúvá!")
+    number = input("  >> ")
+    print("  Add meg hogy ez a szám milyen számrendszerben értelmezett! [2-16]")
+    #We could give the user a menu maybe?
+    target = int(input("  >> "))
+    print(" Az átváltás eredénye: ", convertToTen(number, target, True))
 
 def main():
-    mainMenu = ["Első menüpont", "Második menüpont", "Kilépés"]
+    mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Kilépés"]
     executableMenu = ["first()", "second()"]
 
     menuState = 0
