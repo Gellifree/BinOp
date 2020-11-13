@@ -257,7 +257,7 @@ def main():
     answer = 0
     while(answer != "q" and answer != "Q"):
         os.system("clear")
-        print("Számrendszer átváltó és feladatgeneráló")
+        print("Számrendszer átváltó és feladatgeneráló\n")
 
         answer = drawMenu(mainMenu)
         if(answer == "error"):
