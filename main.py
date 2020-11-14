@@ -1,5 +1,5 @@
 #importing needed resources
-import os
+import os, settings
 
 # Functions for drawing the menues:
 def drawMenu(elements):
@@ -249,9 +249,12 @@ def second():
     target = int(input("  >> "))
     print(" Az átváltás eredénye: ", convertToTen(number, target, True))
 
+def third():
+    print(" Későbbi beállítások menüje.")
+
 def main():
-    mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Kilépés"]
-    executableMenu = ["first()", "second()"]
+    mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Beállítások", "Kilépés"]
+    executableMenu = ["first()", "second()", "third()"]
 
     menuState = 0
     answer = 0
