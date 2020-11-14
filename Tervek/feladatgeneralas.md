@@ -33,11 +33,11 @@ Két véletlenszerűen generált számot kettes számrendszerben kell kivonni. A
 Két kettes számrendszerben kapott számot kell összeszorozni.
 
 
-## számgenerálás megtervezése
+## Számgenerálás megtervezése
 
 A feladatok legenerálásának fő váza, a különböző számokat tartalmazó feladatsorok. A feladatok ugyan azok, azonban az azokban lévő értékek mind más és mások, így kialakul a feladat megoldásához szükséges lépések logikai felépítése a tanulóban, azonban nem megjegyezhetőek a részeredmények.
 
-A menüben biztosítani akarunk különböző opciókat, az első ilyen opció a számgenerálás módja lesz.
+A beállítások menüben biztosítani akarunk különböző opciókat, az első ilyen opció a számgenerálás módja lesz.
 
 ### Egyszerűbb számgenerálás
 
