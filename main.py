@@ -267,7 +267,7 @@ def main():
             middleText = "Számrendszer átváltó"
             os.system("setterm -foreground blue")
             print("Hármas csapat", end="")
-            print("Számrendszer átváltó\n".center(width-len(middleText)))
+            print(middleText.center(width-len(middleText)))
             os.system("setterm -foreground white")
         elif(platform == "win32"):
             print("Számrendszer átváltó és feladatgeneráló\n")
