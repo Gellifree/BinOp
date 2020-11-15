@@ -36,8 +36,13 @@ Két kettes számrendszerben kapott számot kell összeszorozni.
 
 A konkrét megoldáshoz, meg kell tervezni a szükséges adatszerkezeteket.
 
- - Legyen egy lista, ami tartalmazza a kérdéseket szöveg formában. ''' questions ''' néven.
- - Legyen egy lista, ami listákat tartalmaz, amiben a feladathoz rendelt számok sorozata lesz. ''' numbers ''' néven.
+ - Legyen egy lista, ami tartalmazza a kérdéseket szöveg formában. ``questions`` néven.
+ - Legyen egy lista, ami listákat tartalmaz, amiben a feladathoz rendelt számok sorozata lesz. ``numbers`` néven.
+ - Legyen egy feladatszámláló lista, ``exerciseCount`` néven, hogy számon tartsuk, egy fealdathoz, hány generált szám szükséges.
+ - Legyen egy nehézséget tároló lista, ``exerciseHardness`` néven, hogy betudjuk állítani bizonyos részfeladatok nehézségét.
+ - Legyen egy lista ``isRegularNumber`` néven, hogy számon tartsuk, mikor kell tízes alapon generálni számot, és mikor N alapon.
+ - Legyen egy ``exerciseBase`` nevű lista, hogy számon tartsuk, hogy ha N alapú szám generálása a feladat, azoknak milyen alapúnak kell lenniük.
+ - Legyen egy ``exerciseHelper`` nevű lista, ami a kiíratásban segít, jelölni a bizonyos számok alapját.
  - A megfelelő indexelés segítségével, így eltároltuk a feladatokhoz szükséges számsorozatokat, amik véletlenszerűen generálhatók.
 
 Ezek megléte után, meg kell formázni a kiíratást, hogy az olvasható, és egyértelmű legyen.
@@ -84,7 +89,7 @@ Egy egyszerű szöveges fájlban tároljuk a feladatokat. Egy feladathoz egy, va
  - A ``b`` a bináris, azaz kettes számrendszert jelöli
  - A ``o`` az oktális, azaz nyolcas számrendszert jelöli
  - Az ``x`` a Hexadecimális, azaz 1tizenhatos számrendszert jelöli
- 
+
 Konvertálás esetén, így nézne ki néhány feladat:
  - 100010.11011-cbd; Ez azt jelenti, hogy a **100010.11011** számot, konvertáljuk át kettes alapról, tízes alapra.
  - 337.67-cod; Ez azt jelenti, hogy a **337.67** számot, konvertáljuk át nyolcas alapról tízes alapra.
