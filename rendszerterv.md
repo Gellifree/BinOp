@@ -107,13 +107,13 @@ Diák:
 Menü-hierarchiák:
 
 ```
-	[0] Átváltás tízes számrendszerből.
-	[1] Átváltás tízes számrendszerbe.
-	[2] Feladatsor generálása.
-	[3] Tárolt feladatsorok megtekintése.
+  [0] Átváltás tízes számrendszerből.
+  [1] Átváltás tízes számrendszerbe.
+  [2] Feladatsor generálása.
+  [3] Tárolt feladatsorok megtekintése.
   [4] Beállítások
   [5] Segítség.
-	[Q] Kilépés.
+  [Q] Kilépés.
 ```
 
 ### Fizikai környezet
