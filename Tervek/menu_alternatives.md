@@ -7,3 +7,15 @@ A beállítások menüben lehetne opció hogy másfajta menürendszert használj
  - Alternatív, másfajta elrendezés, vagy kirajzolása a menüpontoknak
  - Néhány parancs elkészítése, gyors funkciók elérése érdekében (jelenleg a 'q' a kilépés parancsa a menüben)
  - Színes megjelenítés, ki-be kapcsolható
+
+## Elképzelés egy lehetséges beállítások menüre:
+
+```
+Beállítások
+  >> Rész számítások megjelenítése <<
+    [egyszerű]  bonyolult
+  >> Számgenerálás módja <<
+    mutat   [rejtett]
+
+  >> _
+```
