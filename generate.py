@@ -63,11 +63,11 @@ def draw():
         print(questions[i])
         for j in range(len(numbers[i])):
             if(i == 0):
-                print("   "+str(j+1)+",", numbers[i][j], "= \t?(" + str(exerciseHelper[j]) + ")")
+                print("   "+str(j+1)+",", numbers[i][j], "= \t? (" + str(exerciseHelper[j]) + ")")
             elif(i == 1):
                 print("  "+str(j+1)+",", numbers[i][j],  "(" + str(exerciseHelper[j]) + ")" + "\t= ? (10)")
             elif(i == 2):
-                print("   ", numbers[i][j], "(?) -> (?)")
+                print("   ", numbers[i][j], "(2) -> ? (" + str(exerciseHelper[random.randint(1,2)]) + ")")
             elif(i == 3):
                 if(j == 1):
                     print("  + " + str(numbers[i][j]))
