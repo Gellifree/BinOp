@@ -166,7 +166,8 @@ Tesztelési eljárások:
 
 Amennyiben az alkalmazást, és az ahoz szükséges fájlokat a felhasználó bemásolja olyan helyre, ami szerepel a $PATH változóban, úgy azt majd globálisan is elérheti, és futtathatja.
 
-Más esetben, a Terminál megnyitása után, betallózva az  "alkalmazás mappáját", indítható a program kiadva a következő parancsot: `` Python3 main.py ``
+Más esetben, a Terminál megnyitása után, betallózva az  "alkalmazás mappáját", indítható a program kiadva a következő parancsot: \
+`` Python3 main.py ``
 
 ### Karbantartási terv
 
