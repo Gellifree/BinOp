@@ -3,12 +3,12 @@ from main import convertToTen, convertFromTen
 
 #Questions for the generated test
 questions = [
-    "Végezd el a következő átváltásokat tízes számrendszerből: ",
-    "Végezd el a következő átváltásokat tízes számrendszerbe: ",
-    "Végezd el az átváltást: ", # Bármilyen alapból bármilyen alapba - random kéne generálni ezt is
-    "Végezd el az összeadást kettes számrendszerben: ",
-    "Végezd el a kivonást kettes számrendszerben: ",
-    "Végezd el a szorzást: "
+    "Végezd el a következő átváltásokat tízes számrendszerből: \n",
+    "Végezd el a következő átváltásokat tízes számrendszerbe: \n",
+    "Végezd el az átváltást: \n", # Bármilyen alapból bármilyen alapba - random kéne generálni ezt is
+    "Végezd el az összeadást kettes számrendszerben: \n",
+    "Végezd el a kivonást kettes számrendszerben:  \n",
+    "Végezd el a szorzást: \n"
 ]
 
 numbers = []
@@ -16,6 +16,8 @@ exerciseCount = [3,3,1,2,2,2] # Hány számot kell generálni egy adott feladath
 exerciseHardness = [1,1,2,0,0,0] # Az adott feladatok "nehézségét" állítja be, hogy ne két hatalmas számot kelljen összeszorozni, de átváltani ne 20 alattit
 isRegularNumber = [1,0,0,1,1,0] # Azt állítja be, hogy tízes alapon, vagy N alapon kell-e generálni. Az 1, a tízes alapot jelöli
 exerciseBase = [2,8,16,2,2,2] # Azt állítja be amennyiben nem tízes az alap, akkor mennyi
+exerciseHelper = [2,8,16]
+
 
 def generateNumbers():
     baseCounter = 0
@@ -55,8 +57,40 @@ def randomValue(hardness):
 def generateValue(target, hardness):
     return convertFromTen(randomValue(hardness), target, 5, False)
 
-#testing randomnumber generator
-def testGen():
-    generateNumbers()
+def draw():
+    for i in range(len(questions)):
+        print(str(i+1) + ") ", end="")
+        print(questions[i])
+        for j in range(len(numbers[i])):
+            if(i == 0):
+                print("   "+str(j+1)+",", numbers[i][j], "= \t?(" + str(exerciseHelper[j]) + ")")
+            elif(i == 1):
+                print("  "+str(j+1)+",", numbers[i][j],  "(" + str(exerciseHelper[j]) + ")" + "\t= ? (10)")
+            elif(i == 2):
+                print("   ", numbers[i][j], "(?) -> (?)")
+            elif(i == 3):
+                if(j == 1):
+                    print("  + " + str(numbers[i][j]))
+                else:
+                    print("   ",numbers[i][j])
+            elif(i == 4):
+                if(j == 1):
+                    print("  - " + str(numbers[i][j]))
+                else:
+                    print("   ",numbers[i][j])
+            elif(i == 5):
+                if(j == 1):
+                    print("  * " + str(numbers[i][j]))
+                else:
+                    print("   ",numbers[i][j])
+            else:
+                print("   "+str(j+1)+",", numbers[i][j])
+        print()
 
-testGen()
+
+#testing
+def test():
+    generateNumbers()
+    draw()
+
+test()
