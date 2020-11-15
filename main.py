@@ -1,5 +1,6 @@
 #importing needed resources
 import os, settings
+from sys import platform
 
 # Functions for drawing the menues:
 def drawMenu(elements):
@@ -260,7 +261,16 @@ def main():
     answer = 0
     while(answer != "q" and answer != "Q"):
         os.system("clear")
-        print("Számrendszer átváltó és feladatgeneráló\n")
+
+        if(platform == "linux" or platform == "linux2"):
+            width = os.get_terminal_size().columns
+            middleText = "Számrendszer átváltó"
+            os.system("setterm -foreground blue")
+            print("Hármas csapat", end="")
+            print("Számrendszer átváltó\n".center(width-len(middleText)))
+            os.system("setterm -foreground white")
+        elif(platform == "win32"):
+            print("Számrendszer átváltó és feladatgeneráló\n")
 
         answer = drawMenu(mainMenu)
         if(answer == "error"):
