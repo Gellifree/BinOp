@@ -32,6 +32,16 @@ Két véletlenszerűen generált számot kettes számrendszerben kell kivonni. A
 
 Két kettes számrendszerben kapott számot kell összeszorozni.
 
+## Feladatgenerálás adatszerkezetei
+
+A konkrét megoldáshoz, meg kell tervezni a szükséges adatszerkezeteket.
+
+ - Legyen egy lista, ami tartalmazza a kérdéseket szöveg formában. ''' questions ''' néven.
+ - Legyen egy lista, ami listákat tartalmaz, amiben a feladathoz rendelt számok sorozata lesz. ''' numbers ''' néven.
+ - A megfelelő indexelés segítségével, így eltároltuk a feladatokhoz szükséges számsorozatokat, amik véletlenszerűen generálhatók.
+
+Ezek megléte után, meg kell formázni a kiíratást, hogy az olvasható, és egyértelmű legyen.
+
 
 ## Számgenerálás megtervezése
 
