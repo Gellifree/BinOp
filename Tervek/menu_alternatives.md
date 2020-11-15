@@ -13,9 +13,9 @@ A beállítások menüben lehetne opció hogy másfajta menürendszert használj
 ```
 Beállítások
   >> Rész számítások megjelenítése <<
-    [egyszerű]  bonyolult
+    [mutat]  rejtett
   >> Számgenerálás módja <<
-    mutat   [rejtett]
+     egyszerű   [bonyolult]
 
   >> _
 ```
