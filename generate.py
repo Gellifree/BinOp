@@ -5,7 +5,7 @@ from main import convertToTen, convertFromTen
 questions = [
     "Végezd el a következő átváltásokat tízes számrendszerből: \n",
     "Végezd el a következő átváltásokat tízes számrendszerbe: \n",
-    "Végezd el az átváltást: \n", # Bármilyen alapból bármilyen alapba - random kéne generálni ezt is
+    "Végezd el az átváltást: \n",
     "Végezd el az összeadást kettes számrendszerben: \n",
     "Végezd el a kivonást kettes számrendszerben:  \n",
     "Végezd el a szorzást: \n"
