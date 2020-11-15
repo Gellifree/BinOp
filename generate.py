@@ -30,8 +30,13 @@ def generateNumbers():
             elif(isRegularNumber[i] == 0):
                 numbers[i].append(generateValue(exerciseBase[baseCounter], exerciseHardness[i]))
                 baseCounter += 1
+    if(numbers[4][0] < numbers[4][1]): # Amennyiben a kivonás első eleme kisebb, csere
+        save = numbers[4][0]
+        numbers[4][0] = numbers[4][1]
+        numbers[4][1] = save
     print(numbers)
     # Észrevétel potenciális hibára: Néha az egészrész üres, és a tizedespont az első karakter.
+
 
 
 def generateCheck():
