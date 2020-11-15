@@ -219,7 +219,7 @@ def convertToTen(number, base, drawed):
 
 
 #Use these to check if the functions works
-def first():
+def fromTen():
     print("  Add meg a számot, amit át szeretnél váltani!")
     number = input("  >> ")
     print("  Add meg a célszámrendszer alapját, amibe átszeretnéd váltani! [2-16]")
@@ -242,7 +242,7 @@ def first():
     print("\n  Az átváltás eredménye: ", convertFromTen(number, target, precision, drawed))
 
 
-def second():
+def toTen():
     print("  Add meg a számot, amit átszeretnél váltani tízes alapúvá!")
     number = input("  >> ")
     print("  Add meg hogy ez a szám milyen számrendszerben értelmezett! [2-16]")
@@ -250,12 +250,21 @@ def second():
     target = int(input("  >> "))
     print(" Az átváltás eredénye: ", convertToTen(number, target, True))
 
-def third():
-    print(" Későbbi beállítások menüje.")
+def genExcercise():
+    print(" Későbbi feladatgenerálási menüpont.")
+
+def lookExcercise():
+    print(" Későbbi feladat megtekintő menüpont.")
+
+def settings():
+    print(" Későbbi beállítások menüpont")
+
+def help():
+    print(" Későbbi segítségeket, és információkat tartalmazó menüpont")
 
 def main():
-    mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Beállítások", "Kilépés"]
-    executableMenu = ["first()", "second()", "third()"]
+    mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Feladatsor generálása","Feladatsorok megtekintése","Beállítások","Segítség", "Kilépés"]
+    executableMenu = ["fromTen()", "toTen", "genExcercise()","lookExcercise()","settings()", "help()"]
 
     menuState = 0
     answer = 0
@@ -264,7 +273,7 @@ def main():
 
         if(platform == "linux" or platform == "linux2"):
             width = os.get_terminal_size().columns
-            middleText = "Számrendszer átváltó"
+            middleText = "Számrendszer átváltó\n"
             os.system("setterm -foreground blue")
             print("Hármas csapat", end="")
             print(middleText.center(width-len(middleText)))
