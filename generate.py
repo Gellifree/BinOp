@@ -45,9 +45,9 @@ def randomValue(hardness):
         if(hardness == 0):
             return float(str(random.randint(0,20)) + "." + str(random.randint(0,100)))
         elif(hardness == 1):
-            return float(str(random.randint(0,100)) + "." + str(random.randint(0,1000)))
+            return float(str(random.randint(20,100)) + "." + str(random.randint(100,1000)))
         elif(hardness == 2):
-            return float(str(random.randint(0,300)) + "." + str(random.randint(0,2000)))
+            return float(str(random.randint(100,300)) + "." + str(random.randint(500,2000)))
 
     elif(settings.GENERATE_MODE == "complicated"):
         return "Beállítás még nem definiált"
