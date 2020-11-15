@@ -67,6 +67,28 @@ Azonban, szeretnék nagyobb kontrollt kapni a számok generálásánál. Ezért 
 
 Könnyedén paraméterezhető számgenerálásunkra építve, és a konvertáló függvény segítségével, megvan az eszközünk, hogy bármilyen számrendszerben generáljunk véletlenszerű értékeket.
 
-
-
 ### Komplikáltabb számgenerálás
+
+A komplikáltabb számgenerálás egyenlőre nem élvez prioritást.
+
+## Feladatsor lementésének első tervezni
+
+Olyan formában akarjuk lementeni a feladatsorokat, hogy azok a lehető legkisebb méretben, a lehető legtöbb információt tárolják, és algoritmikusan feldolgozhatóak legyenek. Így egy legenerált feladatsorra bármikor lekérhetjük a megoldást, anélkül, hogy azt le kellene mentenünk.
+
+Egy egyszerű szöveges fájlban tároljuk a feladatokat. Egy feladathoz egy, vagy több szám tartozik, ahogyan egy részfeladat is állhat egy, vagy több generált számból. Hogy ezek a generált számok milyen alapon vannak, és mit kell tenni velük a következőképpen tároljuk:
+ - A ``c`` karakter, a konvertálást jelöli
+ - A ``s`` karakter a kivonást jelöli
+ - A ``a`` karakter az összeadást jelöli
+ - A ``t`` karakter a szorzást jelöli
+ - A ``d`` a decimális számrendszert jelöli
+ - A ``b`` a bináris, azaz kettes számrendszert jelöli
+ - A ``o`` az oktális, azaz nyolcas számrendszert jelöli
+ - Az ``x`` a Hexadecimális, azaz 1tizenhatos számrendszert jelöli
+Konvertálás esetén, így nézne ki néhány feladat:
+ - 100010.11011-cbd; Ez azt jelenti, hogy a **100010.11011** számot, konvertáljuk át kettes alapról, tízes alapra.
+ - 337.67-cod; Ez azt jelenti, hogy a **337.67** számot, konvertáljuk át nyolcas alapról tízes alapra.
+ - 12.71-cdb; Ez azt jelenti, hogy a 12.71-et váltsuk át kettes számrendszerbe.
+ - 4.24|3.1-adb; Ez azt jelenti, hogy a 4.24-et, és a 3.1-et, ami tízes számrendszerben értelmezett (**d**), adjuk össze (*a*) kettes számrendszerben (*b*).
+ - 10011.01|110-tbb; Ez azt jelenti, hogy szorozzuk össze (**t**), a két bináris számrendszerben lévő számot. (Az első b, azt jelenti hogy a számok kettes számrendszerben vannak, a második pedig hogy az eredményt is kettes számrendszerben kérjük.)
+
+ A feladatok elválasztására, használhatnánk a ``&`` jelet. Ennek a tárolási módszernek a kivitelézését megpróbálom megtervezni, és javítom a dokumentumot, amint valami változna, a tervezés közben.
