@@ -19,3 +19,13 @@ Beállítások
 
   >> _
 ```
+
+```
+Beállítások
+  >> Rész számítások megjelenítése <<
+    [X] (M)utat    [-] (R)ejtett
+  >> Számgenerálás módja <<
+    [-] (E)gyszerű [X] (B)onyolult
+
+  >> _
+```
