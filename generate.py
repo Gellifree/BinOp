@@ -93,9 +93,157 @@ def draw():
         print()
 
 
+def generateFile():
+    testFile = ""
+    for i in range(len(numbers)):
+        for j in range(len(numbers[i])):
+            if(i == 0):
+                testFile += str(numbers[i][j])+ "-cd"
+                if(j == 0):
+                    testFile += "b"
+                elif(j == 1):
+                    testFile += "o"
+                else:
+                    testFile += "x"
+                testFile += ";"
+            elif(i == 1):
+                testFile += str(numbers[i][j])+ "-c"
+                if(j == 0):
+                    testFile += "b"
+                elif(j == 1):
+                    testFile += "o"
+                else:
+                    testFile += "x"
+                testFile += "d;"
+            elif(i == 2):
+                testFile += str(numbers[i][j])+ "-cb"
+                #random target
+                decision = random.randint(0,1)
+                if(decision == 0):
+                    testFile += "o"
+                else:
+                    testFile += "x"
+                testFile += ";"
+            elif(i == 3):
+                testFile += str(numbers[i][j])+ "|"
+                if(j == 1):
+                    testFile += "-adb;"
+            elif(i == 4):
+                testFile += str(numbers[i][j])+ "|"
+                if(j == 1):
+                    testFile += "-sdb;"
+            elif(i == 5):
+                testFile += str(numbers[i][j])+ "|"
+                if(j == 1):
+                    testFile += "-tbb;"
+            else:
+                testFile += str(numbers[i][j])
+        testFile += "#"
+    return testFile
+
+
+def drawFromFile(file):
+    Excercises = []
+    subExcercises = []
+    part = ""
+    for i in range(len(file)):
+        if(file[i] == "#"):
+            Excercises.append(part)
+            part = ""
+        else:
+            part += file[i]
+    part = ""
+    for i in range(len(Excercises)):
+        subExcercises.append([])
+        for j in range(len(Excercises[i])):
+            if(Excercises[i][j] == ";"):
+                subExcercises[i].append(part)
+                part = ""
+            else:
+                part += Excercises[i][j]
+
+    part = ""
+    number = ""
+    found = False
+    counter = 0
+    for i in range(len(subExcercises)):
+        print("{}) Feladat.".format(i+1))
+        for j in range(len(subExcercises[i])):
+            for k in range(len(subExcercises[i][j])):
+                if(subExcercises[i][j][k] == "-"):
+                    number = part
+                    part = ""
+                    found = True
+                elif(found == False):
+                    part += subExcercises[i][j][k]
+                if(found == True):
+                    if(i < 3):
+                        counter += 1
+                        if(counter == 2):
+                            print("  " + str(j+1) + ")",convertToText(subExcercises[i][j][k]), end="")
+                        elif(counter == 3):
+                            print(convertToText(subExcercises[i][j][k])+ " alapon lévő számot, ", end="")
+                        elif(counter == 4):
+                            print(convertToText(subExcercises[i][j][k])+" alapra:", end="\n")
+                    else:
+                        counter += 1
+                        if(counter == 2):
+                            print("  " + str(j+1) + ")",convertToText(subExcercises[i][j][k]), end="")
+                        elif(counter == 3):
+                            print(convertToText(subExcercises[i][j][k])+ " alapon lévő számokat, ", end="")
+                        elif(counter == 4):
+                            print(convertToText(subExcercises[i][j][k])+" alapon:", end="\n")
+            counter = 0
+            if(isMultippleNumber(number) == False):
+                print("     ",number, " = ?\n")
+            else:
+                print("     ",separateMultippleNumber(number)[0], "\n     ", separateMultippleNumber(number)[1], "\n")
+            found = False
+
+def separateMultippleNumber(number):
+    result = []
+    part = ""
+    for i in range(len(number)):
+        if(number[i] == "|"):
+            result.append(part)
+            part = ""
+        else:
+            part += number[i]
+    return result
+
+
+def isMultippleNumber(number):
+    for i in range(len(number)):
+        if(number[i] == "|"):
+            return True
+    return False
+
+def convertToText(char):
+    if(char == "c"):
+        return " Konvertáld át a "
+    elif(char == "a"):
+        return " Add össze "
+    elif(char == "s"):
+        return " Vond ki "
+    elif(char == "t"):
+        return " Szorozd össze "
+    elif(char == "d"):
+        return "tízes"
+    elif(char == "b"):
+        return "kettes"
+    elif(char == "o"):
+        return "nyolcas"
+    elif(char == "x"):
+        return "tizenhatos"
+
+
 #testing
 def test():
+    print("\nBelső feladatgenerálás\n")
     generateNumbers()
     draw()
+    print("Teszt feladatsor generálása kész.")
+    print("Generált teszt feladatsor visszaolvasása: \n")
+    drawFromFile(generateFile())
 
 test()
