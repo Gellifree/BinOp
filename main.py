@@ -157,12 +157,16 @@ def convertFromTen(number, target, precision, drawed):
     if(checkIfFractionExist(number) == True):
         result = ""
         result += integerCalculation(separate(number)[0], target, drawed)
+        if(result == ""):
+            result = "0"
         result += "."
         result += fractionCalculation(separate(number)[1], target, precision, drawed)
         return result
     else:
         result = ""
         result += integerCalculation(number, target, drawed)
+        if(result == ""):
+            result = "0"
         return result
 
 def integerCalculation_N(number, base, drawed):
