@@ -15,40 +15,62 @@ def maxLenSearch(list):
             result = list[i]
     return result
 
-#Csak egész számokra
+def numberSum(list):
+    sum = 0
+    for item in list:
+        sum += item
+    return sum
+
 def binaryAdd(numberList):
+    binaryAddResult = ""
+    #Kell az eredmény hosszúsága, hogy ne legyen indexelési gond, és nullákkal ki tudjuk tölteni
+    #Ahelyett hogy a leghoszabb számot néznénk, ami hibát okozna számos esetben
+    #Kiszámoljuk előre az eredmény hosszát, így nem futunk később hibába
+
+    #Konvertáljuk át Tíz-be
+    numbersInTen = []
+    for i in range(len(numberList)):
+        numbersInTen.append(main.convertToTen(numberList[i], 2, False))
+    #Vegyük az összeget
+    sum = numberSum(numbersInTen)
+    #Konvertáljuk át az összeget, majd vegyük a hosszát
+    resultLen = len(main.convertFromTen(sum, 2, 0, False))
+    #Megvan mekkora lesz az eredmény, mennyi nullával kell pótolni
+
+    #Megfordítjuk a számokat, mivel "hátulról" kell számolnunk
     for i in range(len(numberList)):
         numberList[i] = main.readBackwards(numberList[i])
-    maxLen = len(maxLenSearch(numberList)) + 1 #Csak addig működik az összeadás, amíg az összegek nem lépik át két bitnyivel a leghoszabb számot!
+    #Pótoljuk ki a számokat a megfelelő hosszig nullákkal
     for i in range(len(numberList)):
-        for zero in range(0, maxLen - len(numberList[i])):
+        for zero in range(resultLen - len(numberList[i])):
             numberList[i] += "0"
-    print(numberList)
-    carry = []
-    for i in range(maxLen + 1):
-        carry.append("0")
-    print("carry:",carry)
 
-    result = ""
-    for i in range(maxLen):
+    #Hozzuk létre a carry-ért felelős listát, és töltsük fel végig nullákkal
+    carry = []
+    for i in range(resultLen):
+        carry.append("0")
+
+    #Képezzük az egymás "alatt" lévő bitek listáját
+    for i in range(resultLen):
         bitList = []
         for j in range(len(numberList)):
             bitList.append(numberList[j][i])
+            #Fűzzük hozzá a megfelelő helyen lévő carry "bit"-et is.
         bitList.append(carry[i])
-        print(bitList)
-        bitresult = bitAdd(bitList)
-        print(bitresult,"\n")
-        result += bitresult[0]
-        if(len(bitresult) > 1):
-            for b in range(len(bitresult)):
-                carry[i + b] = bitresult[b]
-    return main.readBackwards(result)
-
+        #Végezzük el a bitek összeadását
+        bitResult = bitAdd(bitList)
+        print("Aktuális bitek:",bitList)
+        print("Bitek eredménye:",bitResult)
+        binaryAddResult += bitResult[0]
+        #Ha van maradék, akkor adjuk hozzá a carry megfelelő pozíciójára (4 esetén pl eggyel arébb csúszik a szokásosnál)
+        if(len(bitResult) > 1):
+            for b in range(len(bitResult)):
+                carry[i + b] = str(int(carry[i + b]) + int(bitResult[b]))
+    binaryAddResult = main.readBackwards(binaryAddResult)
+    print("Az összeadás eredménye:", binaryAddResult, "azaz", main.convertToTen(binaryAddResult, 2, False))
 
 bits = ["1","1","1","1","1","1"]
 print(bitAdd(bits))
 
-numbers = ["111100", "0", "0","1"]
-result = binaryAdd(numbers)
-print(result)
-print("Visszaváltva: ", main.convertToTen(result, 2, False))
+numbers = ["111", "111", "111"]
+binaryAdd(numbers)
