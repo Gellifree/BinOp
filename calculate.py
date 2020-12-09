@@ -59,18 +59,17 @@ def binaryAdd(numberList):
         bitList.append(carry[i])
         #Végezzük el a bitek összeadását
         bitResult = bitAdd(bitList)
-        print("Aktuális bitek:",bitList)
-        print("Bitek eredménye:",bitResult)
+        #print("Aktuális bitek:",bitList)
+        #print("Bitek eredménye:",bitResult)
         binaryAddResult += bitResult[0]
         #Ha van maradék, akkor adjuk hozzá a carry megfelelő pozíciójára (4 esetén pl eggyel arébb csúszik a szokásosnál)
         if(len(bitResult) > 1):
             for b in range(len(bitResult)):
                 carry[i + b] = str(int(carry[i + b]) + int(bitResult[b]))
+    #A carry-ben tízes számrendszerben tároljuk az eredményt, hogy ne kelljen több "mélységben" tárolni a maradékot
+    print("A végső carry:", carry)
     binaryAddResult = main.readBackwards(binaryAddResult)
     print("Az összeadás eredménye:", binaryAddResult, "azaz", main.convertToTen(binaryAddResult, 2, False))
 
-bits = ["1","1","1","1","1","1"]
-print(bitAdd(bits))
-
-numbers = ["111", "111", "111"]
+numbers = ["111", "111", "111","111","111","111","1"]
 binaryAdd(numbers)
