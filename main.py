@@ -229,12 +229,6 @@ def fromTen():
     print("  Add meg a célszámrendszer alapját, amibe átszeretnéd váltani! [2-16]")
     #We could give the user a menu maybe
     target = int(input("  >> "))
-    print("  Látni akarod a számítás részleteit? [Y/n]")
-    drawed = input("  >> ")
-    if(drawed == "y" or drawed == "" or drawed == "Y"):
-        drawed = True
-    else:
-        drawed = False
     precision = 0
     if(checkIfFractionExist(number) == True):
         print("  Add meg a tizedes érték kiszámításának pontosságát!")
@@ -242,6 +236,13 @@ def fromTen():
         number = float(number)
     else:
         number = int(number)
+    print("  Látni akarod a számítás részleteit? [Y/n]")
+    drawed = input("  >> ")
+    if(drawed == "y" or drawed == "" or drawed == "Y"):
+        drawed = True
+    else:
+        drawed = False
+
 
     print("\n  Az átváltás eredménye: ", convertFromTen(number, target, precision, drawed))
 
@@ -252,7 +253,13 @@ def toTen():
     print("  Add meg hogy ez a szám milyen számrendszerben értelmezett! [2-16]")
     #We could give the user a menu maybe?
     target = int(input("  >> "))
-    print(" Az átváltás eredénye: ", convertToTen(number, target, True))
+    print("  Látni akarod a számítás részleteit? [Y/n]")
+    drawed = input("  >> ")
+    if(drawed == "y" or drawed == "" or drawed == "Y"):
+        drawed = True
+    else:
+        drawed = False
+    print(" Az átváltás eredénye: ", convertToTen(number, target, drawed))
 
 def genExcercise():
     print(" Későbbi feladatgenerálási menüpont.")
@@ -268,7 +275,7 @@ def help():
 
 def main():
     mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Feladatsor generálása","Feladatsorok megtekintése","Beállítások","Segítség", "Kilépés"]
-    executableMenu = ["fromTen()", "toTen", "genExcercise()","lookExcercise()","settings()", "help()"]
+    executableMenu = ["fromTen()", "toTen()", "genExcercise()","lookExcercise()","settings()", "help()"]
 
     menuState = 0
     answer = 0
