@@ -14,7 +14,7 @@ def numberSum(list):
     return sum
 
 #Még mindig csak egész rész-re!
-def binaryAdd(numberList):
+def binaryAdd(numberList, drawed):
     #Másolat képzése, hogy ne bántsuk a kapott listát
     copyNumberList = []
     for number in numberList:
@@ -71,10 +71,24 @@ def binaryAdd(numberList):
     print("A végső carry:", carry)
     binaryAddResult = main.readBackwards(binaryAddResult)
 
+    if(drawed == True):
+        print(" Az összeadás eredménye: \n")
+        print(" ", main.readBackwards(carry))
+        for i in range(len(copyNumberList)):
+            if(i == len(copyNumberList) -1):
+                print("+", main.readBackwards(copyNumberList[i]))
+            else:
+                print(" ",main.readBackwards(copyNumberList[i]))
+        for length in range(resultLen + 2):
+            print("-", end="")
+        print()
+        print(" ", binaryAddResult, "\n")
     return binaryAddResult
 
-numbers = ["111", "101", "111","1110","0111","0","0"]
-print(numbers)
-test = binaryAdd(numbers)
-print(numbers)
+
+
+numbers = ["111", "111","111"]
+
+test = binaryAdd(numbers, True)
+
 print("Az összeadás eredménye:", test, "azaz", main.convertToTen(test, 2, False))
