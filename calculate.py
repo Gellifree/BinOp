@@ -68,7 +68,7 @@ def binaryAdd(numberList, drawed):
             for b in range(len(bitResult)):
                 carry[i + b] = str(int(carry[i + b]) + int(bitResult[b]))
     #A carry-ben tízes számrendszerben tároljuk az eredményt, hogy ne kelljen több "mélységben" tárolni a maradékot
-    print("A végső carry:", carry)
+    #print("A végső carry:", carry)
     binaryAddResult = main.readBackwards(binaryAddResult)
 
     if(drawed == True):
@@ -85,10 +85,94 @@ def binaryAdd(numberList, drawed):
         print(" ", binaryAddResult, "\n")
     return binaryAddResult
 
+# Megszámoljuk a kettespont utánni méreteket, nem feltétlenül a törtrész ugyan, ha megvan fordítva a szám!
+def countFraction(number):
+    index = 0
+    counter = 0
 
+    #Egyáltalán van-e benne törtrész
+    if(main.checkIfFractionExist(number) == True):
+        #Elmegyünk a kettedesig
+        while(number[index] != "."):
+            index += 1
+        index += 1
+        #Megszámoljuk mekkora a "maradék", ami ez esetben minden ami a törtrész
+        while(index < len(number)):
+            counter += 1
+            index += 1
+    return counter
 
-numbers = ["111", "111","111"]
+#Az összeadadnó számokból, nézzük meg hogy mekkora a leghoszabb törtrész
+def longestFraction(numberList):
+    max = 0
+    for number in numberList:
+        index = 0
+        counter = 0
+        counter = countFraction(number)
+        #Keresünk egy maximumot
+        if(counter > max):
+            max = counter
+    return max
 
-test = binaryAdd(numbers, True)
+def fillWithZeroes(number, size):
+    if(main.checkIfFractionExist(number) == False):
+        number += "."
+    for i in range(size - countFraction(number)):
+        number += "0"
+    return number
 
-print("Az összeadás eredménye:", test, "azaz", main.convertToTen(test, 2, False))
+def searchPoint(number):
+    number = main.readBackwards(number)
+    result = 0
+    if(main.checkIfFractionExist(number) == True):
+        for point in range(len(number)):
+            if(number[point] == "."):
+                result = point
+    return result
+
+def binaryAddWithFraction(numberList):
+    #Másolat képzése, hogy ne bántsuk a kapott listát
+    copyNumberList = []
+    for number in numberList:
+        copyNumberList.append(number)
+    #Megnézzük mekkora a legnagyobb törtrész, és kipótoljuk a többit
+    size = longestFraction(copyNumberList)
+    for i in range(len(copyNumberList)):
+        copyNumberList[i] = fillWithZeroes(copyNumberList[i], size)
+    print(copyNumberList)
+    #Megkeressük hol van a kettedespontunk
+    dotPlace = searchPoint(copyNumberList[0])
+    print("kettedespont helye:", dotPlace)
+
+    #Készítünk egy újabb másolatot, amiben nincs benne a kettedespont
+    dotCopy = []
+    for i in range(len(copyNumberList)):
+        dotCopy.append("")
+
+    for i in range(len(copyNumberList)):
+        for j in range(len(copyNumberList[i])):
+            if(copyNumberList[i][j] != "."):
+                dotCopy[i] += copyNumberList[i][j]
+    print(dotCopy)
+    #Végezzük el az összeadást mint ha ezek rendes 'egész' számok lennének
+    addition = binaryAdd(dotCopy, True)
+    print(addition)
+    result = ""
+    for i in range(len(addition)):
+        if(i != len(addition) - dotPlace):
+            result += addition[i]
+        else:
+            result += "." + addition[i]
+    print(result)
+    return result
+
+fractionTest = ["111.1", "11.1"]
+print("A legnagyobb fraction:",longestFraction(fractionTest))
+print("\n")
+binaryAddWithFraction(fractionTest)
+
+#numbers = ["11111111", "11111111","11111111"]
+
+#test = binaryAdd(numbers, True)
+
+#print("Az összeadás eredménye:", test, "azaz", main.convertToTen(test, 2, False))
