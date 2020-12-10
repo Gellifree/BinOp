@@ -192,7 +192,6 @@ def integerCalculation_N(number, base, drawed):
 
 def fractionCalculation_N(number, base, drawed):
     result = 0
-    print("  Törtrész számítása\n")
     if(drawed == False):
         i = 0
         while (i < len(number)):
@@ -200,6 +199,7 @@ def fractionCalculation_N(number, base, drawed):
             i += 1
         return result
     else:
+        print("  Törtrész számítása\n")
         i = 0
         while (i < len(number)):
             print("  ({0}^({1})) * {2} = {3}".format(base, -(i+1), safetyConvert(number[i]), (base**(-(i+1)))*safetyConvert(number[i])))
