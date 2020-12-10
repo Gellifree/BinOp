@@ -65,7 +65,7 @@ def binaryAdd(numberList, drawed):
         binaryAddResult += bitResult[0]
         #Ha van maradék, akkor adjuk hozzá a carry megfelelő pozíciójára (4 esetén pl eggyel arébb csúszik a szokásosnál)
         if(len(bitResult) > 1):
-            for b in range(len(bitResult)):
+            for b in range(1,len(bitResult)):
                 carry[i + b] = str(int(carry[i + b]) + int(bitResult[b]))
     #A carry-ben tízes számrendszerben tároljuk az eredményt, hogy ne kelljen több "mélységben" tárolni a maradékot
     #print("A végső carry:", carry)
@@ -155,6 +155,9 @@ def binaryAddWithFraction(numberList):
                 dotCopy[i] += copyNumberList[i][j]
     print(dotCopy)
     #Végezzük el az összeadást mint ha ezek rendes 'egész' számok lennének
+    #Itt lesz valami gubanc, hiszen az összeadás módszere miatt, sokkal "nagyobb" számokat néz,
+    #és lehet ebből adódik egy feleslegesen nagy kipótlás nullákkal.
+    #Mivel módosítani kell pár dolgon, ezért inkább legyen egy pici redundancia, amit esetleg később feloldunk
     addition = binaryAdd(dotCopy, True)
     print(addition)
     result = ""
@@ -166,13 +169,13 @@ def binaryAddWithFraction(numberList):
     print(result)
     return result
 
-fractionTest = ["111.1", "11.1"]
-print("A legnagyobb fraction:",longestFraction(fractionTest))
-print("\n")
-binaryAddWithFraction(fractionTest)
+#fractionTest = ["111.1", "11.1"]
+#print("A legnagyobb fraction:",longestFraction(fractionTest))
+#print("\n")
+#binaryAddWithFraction(fractionTest)
 
-#numbers = ["11111111", "11111111","11111111"]
+numbers = ["111", "11"]
 
-#test = binaryAdd(numbers, True)
+test = binaryAdd(numbers, True)
 
-#print("Az összeadás eredménye:", test, "azaz", main.convertToTen(test, 2, False))
+print("Az összeadás eredménye:", test, "azaz", main.convertToTen(test, 2, False))
