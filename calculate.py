@@ -139,10 +139,10 @@ def binaryAddWithFraction(numberList):
     size = longestFraction(copyNumberList)
     for i in range(len(copyNumberList)):
         copyNumberList[i] = fillWithZeroes(copyNumberList[i], size)
-    print(copyNumberList)
+    #print(copyNumberList)
     #Megkeressük hol van a kettedespontunk
     dotPlace = searchPoint(copyNumberList[0])
-    print("kettedespont helye:", dotPlace)
+    #print("kettedespont helye:", dotPlace)
 
     #Készítünk egy újabb másolatot, amiben nincs benne a kettedespont
     dotCopy = []
@@ -153,29 +153,31 @@ def binaryAddWithFraction(numberList):
         for j in range(len(copyNumberList[i])):
             if(copyNumberList[i][j] != "."):
                 dotCopy[i] += copyNumberList[i][j]
-    print(dotCopy)
+    #print(dotCopy)
     #Végezzük el az összeadást mint ha ezek rendes 'egész' számok lennének
     #Itt lesz valami gubanc, hiszen az összeadás módszere miatt, sokkal "nagyobb" számokat néz,
     #és lehet ebből adódik egy feleslegesen nagy kipótlás nullákkal.
     #Mivel módosítani kell pár dolgon, ezért inkább legyen egy pici redundancia, amit esetleg később feloldunk
     addition = binaryAdd(dotCopy, True)
-    print(addition)
+    #print(addition)
     result = ""
     for i in range(len(addition)):
         if(i != len(addition) - dotPlace):
             result += addition[i]
         else:
             result += "." + addition[i]
-    print(result)
+    print("Ketttedesponttal:",result)
     return result
 
-#fractionTest = ["111.1", "11.1"]
-#print("A legnagyobb fraction:",longestFraction(fractionTest))
-#print("\n")
-#binaryAddWithFraction(fractionTest)
+fractionTest = ["111.01", "111111.1000001"]
+print("A lista első eleme: ",main.convertToTen(fractionTest[0],2, False))
+print("A lista második eleme: ",main.convertToTen(fractionTest[1],2, False))
+print("\n")
+result = binaryAddWithFraction(fractionTest)
+print("Az eredmény: ",main.convertToTen(result,2, False))
 
-numbers = ["111", "11"]
+#numbers = ["111", "11"]
 
-test = binaryAdd(numbers, True)
+#test = binaryAdd(numbers, True)
 
-print("Az összeadás eredménye:", test, "azaz", main.convertToTen(test, 2, False))
+#print("Az összeadás eredménye:", test, "azaz", main.convertToTen(test, 2, False))
