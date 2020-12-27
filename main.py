@@ -1,5 +1,5 @@
 #importing needed resources
-import os, settings
+import os, settings, generate
 from sys import platform
 
 # Functions for drawing the menues:
@@ -262,10 +262,29 @@ def toTen():
     print(" Az átváltás eredénye: ", convertToTen(number, target, drawed))
 
 def genExcercise():
-    print(" Későbbi feladatgenerálási menüpont.")
+    fileName = input("   >> Milyen néven kívánja elmenteni a feladatsort?: ")
+    generate.save(fileName)
+    print("   >> Fájl elmentve! <<")
 
 def lookExcercise():
-    print(" Későbbi feladat megtekintő menüpont.")
+    paths = []
+    fileNames = []
+    with os.scandir("exercises") as it:
+        for entry in it:
+            if entry.name.endswith(".team3") and entry.is_file():
+                paths.append(entry.path)
+                fileNames.append(entry.name)
+    #print(paths)
+    #print(fileNames)
+    print("   >> Melyik lementett feladatsort szeretné megtekinteni?\n")
+    answer = drawMenu(fileNames)
+
+    f = open(paths[int(answer)], "r")
+    data = f.read()
+    f.close()
+    generate.drawFromFile(data)
+
+
 
 def settings():
     print(" Későbbi beállítások menüpont")
