@@ -94,6 +94,7 @@ def drawFromFile(file):
                 helper += exercise[i]
         index += 1
     drawFromArray(fileNumbers)
+    return fileNumbers
 
 def testSave(array):
     file = ""

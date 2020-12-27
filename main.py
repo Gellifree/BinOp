@@ -1,5 +1,5 @@
 #importing needed resources
-import os, settings, generate
+import os, settings, generate, solver
 from sys import platform
 
 # Functions for drawing the menues:
@@ -269,6 +269,9 @@ def genExcercise():
 def lookExcercise():
     paths = []
     fileNames = []
+
+    result = []
+
     with os.scandir("exercises") as it:
         for entry in it:
             if entry.name.endswith(".team3") and entry.is_file():
@@ -286,7 +289,13 @@ def lookExcercise():
         data = f.read()
         f.close()
         print("   >> A kiválasztott feladatsor <<\n")
-        generate.drawFromFile(data)
+        result = generate.drawFromFile(data)
+    print("  Látni akarod a feladatsor megoldását? [Y/n]")
+    solution = input("  >> ")
+    if(solution == "y" or solution == "" or solution == "Y"):
+        #print(result)
+        solver.solveExercises(result)
+        pass
 
 
 

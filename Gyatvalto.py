@@ -39,7 +39,9 @@ def gen_00(binary_string,X):
     else:
         print("")
     print(eredmeny)
+    return eredmeny
 
-gen_00 ("01001,01",8)
-gen_00 ("01001",8)
-gen_00 ("0,01",8)
+if(__name__ == "__main__"):
+    gen_00 ("01001,01",16)
+    gen_00 ("01001",8)
+    gen_00 ("0,01",8)
