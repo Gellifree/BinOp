@@ -1,4 +1,4 @@
-import random, settings, time
+import random, settings, time, os
 from main import convertToTen, convertFromTen
 
 #Questions for the generated test
@@ -18,17 +18,18 @@ exerciseHelper = [2,8,16]
 
 
 def generateNumbers():
+    numbers_ = []
     baseCounter = 0
     for i in questions:
-        numbers.append([])
-    for i in range(len(numbers)):
+        numbers_.append([])
+    for i in range(len(numbers_)):
         for j in range(exerciseCount[i]):
             if(isRegularNumber[i] == 1):
-                numbers[i].append(randomValue(1)) #Átváltásnál a nehézséget 1-re állítjuk fixen, később esetleg módosítható
+                numbers_[i].append(randomValue(1)) #Átváltásnál a nehézséget 1-re állítjuk fixen, később esetleg módosítható
             elif(isRegularNumber[i] == 0):
-                numbers[i].append(generateValue(exerciseBase[baseCounter], 1))
+                numbers_[i].append(generateValue(exerciseBase[baseCounter], 1))
                 baseCounter += 1
-    print(numbers)
+    return numbers_
 
 
 
@@ -61,21 +62,13 @@ def drawFromArray(array):
         print(questions[i])
         for j in range(len(array[i])):
             if(i < 3):
-                print("   "+str(j+1)+",", array[i][j], "= \t? (10)")
+                print("   "+chr(97 + j)+",", array[i][j], "= \t? (10)")
             elif(i == 4):
-                print("   "+str(j+1)+",", array[i][j], "= \t? (8,16)")
+                print("   "+chr(97 + j)+",", array[i][j], "= \t? (8,16)")
             else:
-                print("   "+str(j+1)+",", array[i][j], "= \t? (" + str(exerciseHelper[j]) + ")")
+                print("   "+chr(97 + j)+",", array[i][j], "= \t? (" + str(exerciseHelper[j]) + ")")
         print()
 
-
-def testSave():
-    file = ""
-    for exercise in numbers:
-        for number in exercise:
-            file += str(number) + ";"
-        file += "&"
-    drawFromFile(file)
 
 def drawFromFile(file):
     exercises = []
@@ -100,17 +93,35 @@ def drawFromFile(file):
             else:
                 helper += exercise[i]
         index += 1
-    print(fileNumbers)
     drawFromArray(fileNumbers)
+
+def testSave(array):
+    file = ""
+    for exercise in array:
+        for number in exercise:
+            file += str(number) + ";"
+        file += "&"
+    return file
+
+def save(fileName):
+    f = open("exercises/" + fileName + ".team3", "w")
+    data = test()
+    f.write(data + "\n")
+    f.close()
+
+    #fileDir = os.path.dirname(os.path.realpath('__file__'))
+    #print(fileDir)
+    #filename = os.path.join(fileDir, 'exercises/same.txt')
+    #readFile(filename)
 
 
 #testing
 def test():
-    print("\nBelső feladatgenerálás\n")
-    generateNumbers()
-    drawFromArray(numbers)
-    print("\n")
+    numbers = generateNumbers()
+    file = testSave(numbers)
+    return file
+    #drawFromFile(file)
 
-    testSave()
 
-test()
+if(__name__ == "__main__"):
+    test()
