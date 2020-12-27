@@ -57,11 +57,20 @@ A komplikáltabb számgenerálás egyenlőre nem élvez prioritást.
 Ahol *p(n)* egy szám, n pedig a számrendszer alapja.
 
  - 1 Feladat (0/2 pont) \
-a) *p(2)* -> ?(10) \
-b) *p(2)* -> ?(10)
+a) *p(2)* -> *?(10)* \
+b) *p(2)* -> *?(10)*
  - 2 Feladat (0/2 pont) \
-a) *p(8)* -> ?(10) \
-b) *p(8)* -> ?(10)
+a) *p(8)* -> *?(10)* \
+b) *p(8)* -> *?(10)*
+ - 3 Feladat (0/2 pont) \
+a) *p(16)* -> *?(10)* \
+b) *p(16)* -> *?(10)*
+ - 4 Feladat (0/3 pont) \
+a) *p(10)* -> *?(2)* \
+b) *p(10)* -> *?(8)* \
+c) *p(10)* -> *?(16)*
+ - 5 Feladat (0/1 pont) \
+ a) *p(2)* -> *?(8) & ?(16)*
 
 
 ## Feladatsor lementésének első tervei, elképzelései
