@@ -13,6 +13,7 @@ def drawMenu(elements):
         index += 1
     print()
     answer = input(" >> ")
+    os.system("clear")
     if(answer == "Q" or answer == "q"):
         return answer
     elif(int(answer) < len(elements)):
@@ -323,6 +324,8 @@ def main():
             os.system("setterm -foreground white")
         elif(platform == "win32"):
             print("Számrendszer átváltó és feladatgeneráló\n")
+
+
 
         answer = drawMenu(mainMenu)
         if(answer == "error"):

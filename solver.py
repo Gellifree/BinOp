@@ -1,22 +1,25 @@
-import main, Gyatvalto
+import main, fastConvert, os
 
 
 numberBases = [2,2,8,8,16,16,2,8,16,8,16]
 def solveExercises(exercises):
     baseIndex = 0
+    os.system("clear")
     for exercise in exercises:
         for number in exercise:
-            print("  Átváltandó szám:", number)
+            print("  Átváltandó szám:", number, "\n")
             if(baseIndex < 6):
-                main.convertToTen(number,numberBases[baseIndex],True)
+                print("   Az eredmény:",main.convertToTen(number,numberBases[baseIndex],True))
                 input("  >> Üss entert a következő feladat megjelenítéséhez. <<")
+                os.system("clear")
                 baseIndex += 1
             elif(baseIndex == 9):
-                print("  Nyolcasban:")
-                print("   " + Gyatvalto.gen_00(number, 8))
-                print("  Tizenhatba:")
-                print(Gyatvalto.gen_00(number, 16))
+                print("  Nyolcasban:", end="")
+                print("   " + fastConvert.convert(number,8))
+                print("  Tizenhatban:", end="")
+                print("   " + fastConvert.convert(number, 16))
             else:
-                main.convertFromTen(float(number), numberBases[baseIndex], 5, True)
+                print("   Az eredmény:",main.convertFromTen(float(number), numberBases[baseIndex], 5, True))
                 input("  >> Üss entert a következő feladat megjelenítéséhez. <<")
+                os.system("clear")
                 baseIndex += 1
