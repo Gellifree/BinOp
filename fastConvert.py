@@ -59,10 +59,28 @@ def convert(number, target):
             part += fraction[i]
             counter += 1
         result += main.safetyConvert(main.convertToTen(part, 2, False))
+    else:
+        integer = main.readBackwards(number)
 
+        if(len(integer) % size != 0):
+            numberOfZeroes = size - (len(integer) % size)
+            for zero in range(numberOfZeroes):
+                integer += "0"
+        integer = main.readBackwards(integer)
+        counter = 0
+        part = ""
+        result = ""
+        for i in range(len(integer)):
+            if(counter == size):
+                result += main.safetyConvert(main.convertToTen(part, 2, False))
+                part = ""
+                counter = 0
+            part += integer[i]
+            counter += 1
+        result += main.safetyConvert(main.convertToTen(part, 2, False))
     #print(result)
     return result
 
 
 if(__name__ == "__main__"):
-    convert("1100001.00111", 16)
+    convert("11111001", 16)
