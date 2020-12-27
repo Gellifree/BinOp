@@ -276,13 +276,17 @@ def lookExcercise():
                 fileNames.append(entry.name)
     #print(paths)
     #print(fileNames)
-    print("   >> Melyik lementett feladatsort szeretné megtekinteni?\n")
-    answer = drawMenu(fileNames)
+    if(len(paths) == 0):
+        print("    >> Nincsenek lementett feladatsorok! Kérem generáljon feladatsorokat! <<")
+    else:
+        print("   >> Melyik lementett feladatsort szeretné megtekinteni?\n")
+        answer = drawMenu(fileNames)
 
-    f = open(paths[int(answer)], "r")
-    data = f.read()
-    f.close()
-    generate.drawFromFile(data)
+        f = open(paths[int(answer)], "r")
+        data = f.read()
+        f.close()
+        print("   >> A kiválasztott feladatsor <<\n")
+        generate.drawFromFile(data)
 
 
 
