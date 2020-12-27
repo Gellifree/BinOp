@@ -55,25 +55,62 @@ def randomValue(hardness):
 def generateValue(target, hardness):
     return convertFromTen(randomValue(hardness), target, 5, False)
 
-def draw():
+def drawFromArray(array):
     for i in range(len(questions)):
         print(str(i+1) + ") ", end="")
         print(questions[i])
-        for j in range(len(numbers[i])):
+        for j in range(len(array[i])):
             if(i < 3):
-                print("   "+str(j+1)+",", numbers[i][j], "= \t? (10)")
+                print("   "+str(j+1)+",", array[i][j], "= \t? (10)")
             elif(i == 4):
-                print("   "+str(j+1)+",", numbers[i][j], "= \t? (8,16)")
+                print("   "+str(j+1)+",", array[i][j], "= \t? (8,16)")
             else:
-                print("   "+str(j+1)+",", numbers[i][j], "= \t? (" + str(exerciseHelper[j]) + ")")
+                print("   "+str(j+1)+",", array[i][j], "= \t? (" + str(exerciseHelper[j]) + ")")
         print()
 
+
+def testSave():
+    file = ""
+    for exercise in numbers:
+        for number in exercise:
+            file += str(number) + ";"
+        file += "&"
+    drawFromFile(file)
+
+def drawFromFile(file):
+    exercises = []
+    helper = ""
+    for i in range(len(file)):
+        if(file[i] == "&"):
+            exercises.append(helper)
+            helper = ""
+        else:
+            helper += file[i]
+    fileNumbers = []
+    for i in range(len(exercises)):
+        fileNumbers.append([])
+
+    index = 0
+    for exercise in exercises:
+        helper = ""
+        for i in range(len(exercise)):
+            if(exercise[i] == ";"):
+                fileNumbers[index].append(helper)
+                helper = ""
+            else:
+                helper += exercise[i]
+        index += 1
+    print(fileNumbers)
+    drawFromArray(fileNumbers)
 
 
 #testing
 def test():
     print("\nBelső feladatgenerálás\n")
     generateNumbers()
-    draw()
+    drawFromArray(numbers)
+    print("\n")
+
+    testSave()
 
 test()
