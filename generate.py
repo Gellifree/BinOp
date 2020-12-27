@@ -1,5 +1,4 @@
-import random, settings, time, os
-from main import convertToTen, convertFromTen
+import random, settings, time, os, main
 
 #Questions for the generated test
 questions = [
@@ -54,7 +53,7 @@ def randomValue(hardness):
         return "Beállítás még nem definiált"
 
 def generateValue(target, hardness):
-    return convertFromTen(randomValue(hardness), target, 5, False)
+    return main.convertFromTen(randomValue(hardness), target, 5, False)
 
 def drawFromArray(array):
     for i in range(len(questions)):
@@ -109,11 +108,6 @@ def save(fileName):
     data = test()
     f.write(data + "\n")
     f.close()
-
-    #fileDir = os.path.dirname(os.path.realpath('__file__'))
-    #print(fileDir)
-    #filename = os.path.join(fileDir, 'exercises/same.txt')
-    #readFile(filename)
 
 
 #testing
