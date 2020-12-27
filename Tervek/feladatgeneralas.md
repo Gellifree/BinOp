@@ -56,11 +56,11 @@ A komplikáltabb számgenerálás egyenlőre nem élvez prioritást.
 
 Ahol *p(n)* egy szám, n pedig a számrendszer alapja.
 
- - 1 Feladat (0/2 pont)
-a) *p(2)* -> ?(10)
+ - 1 Feladat (0/2 pont) \
+a) *p(2)* -> ?(10) \
 b) *p(2)* -> ?(10)
- - 2 Feladat (0/2 pont)
-a) *p(8)* -> ?(10)
+ - 2 Feladat (0/2 pont) \
+a) *p(8)* -> ?(10) \
 b) *p(8)* -> ?(10)
 
 
