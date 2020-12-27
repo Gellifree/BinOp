@@ -3,19 +3,17 @@ from main import convertToTen, convertFromTen
 
 #Questions for the generated test
 questions = [
-    "Végezd el a következő átváltásokat tízes számrendszerből: \n",
-    "Végezd el a következő átváltásokat tízes számrendszerbe: \n",
-    "Végezd el az átváltást: \n",
-    "Végezd el az összeadást kettes számrendszerben: \n",
-    "Végezd el a kivonást kettes számrendszerben:  \n",
-    "Végezd el a szorzást: \n"
+    "Feladat (2)->(10)\n",
+    "Feladat (8)->(10)\n",
+    "Feladat (16)->(10)\n",
+    "Feladat (10)->(n)\n",
+    "Feladat (2)->(8,16)\n",
 ]
 
 numbers = []
-exerciseCount = [3,3,1,2,2,2] # Hány számot kell generálni egy adott feladathoz
-exerciseHardness = [1,1,2,0,0,0] # Az adott feladatok "nehézségét" állítja be, hogy ne két hatalmas számot kelljen összeszorozni, de átváltani ne 20 alattit
-isRegularNumber = [1,0,0,1,1,0] # Azt állítja be, hogy tízes alapon, vagy N alapon kell-e generálni. Az 1, a tízes alapot jelöli
-exerciseBase = [2,8,16,2,2,2] # Azt állítja be amennyiben nem tízes az alap, akkor mennyi
+exerciseCount = [2,2,2,3,1] # Hány számot kell generálni egy adott feladathoz
+isRegularNumber = [0,0,0,1,0] # Azt állítja be, hogy tízes alapon, vagy N alapon kell-e generálni. Az 1, a tízes alapot jelöli
+exerciseBase = [2,2,8,8,16,16,2] # Azt állítja be amennyiben nem tízes az alap, akkor mennyi
 exerciseHelper = [2,8,16]
 
 
@@ -26,16 +24,11 @@ def generateNumbers():
     for i in range(len(numbers)):
         for j in range(exerciseCount[i]):
             if(isRegularNumber[i] == 1):
-                numbers[i].append(randomValue(exerciseHardness[i]))
+                numbers[i].append(randomValue(1)) #Átváltásnál a nehézséget 1-re állítjuk fixen, később esetleg módosítható
             elif(isRegularNumber[i] == 0):
-                numbers[i].append(generateValue(exerciseBase[baseCounter], exerciseHardness[i]))
+                numbers[i].append(generateValue(exerciseBase[baseCounter], 1))
                 baseCounter += 1
-    if(numbers[4][0] < numbers[4][1]): # Amennyiben a kivonás első eleme kisebb, csere
-        save = numbers[4][0]
-        numbers[4][0] = numbers[4][1]
-        numbers[4][1] = save
     print(numbers)
-    # Észrevétel potenciális hibára: Néha az egészrész üres, és a tizedespont az első karakter.
 
 
 
@@ -67,34 +60,19 @@ def draw():
         print(str(i+1) + ") ", end="")
         print(questions[i])
         for j in range(len(numbers[i])):
-            if(i == 0):
-                print("   "+str(j+1)+",", numbers[i][j], "= \t? (" + str(exerciseHelper[j]) + ")")
-            elif(i == 1):
-                print("  "+str(j+1)+",", numbers[i][j],  "(" + str(exerciseHelper[j]) + ")" + "\t= ? (10)")
-            elif(i == 2):
-                print("   ", numbers[i][j], "(2) -> ? (" + str(exerciseHelper[random.randint(1,2)]) + ")")
-            elif(i == 3):
-                if(j == 1):
-                    print("  + " + str(numbers[i][j]))
-                else:
-                    print("   ",numbers[i][j])
+            if(i < 3):
+                print("   "+str(j+1)+",", numbers[i][j], "= \t? (10)")
             elif(i == 4):
-                if(j == 1):
-                    print("  - " + str(numbers[i][j]))
-                else:
-                    print("   ",numbers[i][j])
-            elif(i == 5):
-                if(j == 1):
-                    print("  * " + str(numbers[i][j]))
-                else:
-                    print("   ",numbers[i][j])
+                print("   "+str(j+1)+",", numbers[i][j], "= \t? (8,16)")
             else:
-                print("   "+str(j+1)+",", numbers[i][j])
+                print("   "+str(j+1)+",", numbers[i][j], "= \t? (" + str(exerciseHelper[j]) + ")")
         print()
+
 
 
 #testing
 def test():
+    print("\nBelső feladatgenerálás\n")
     generateNumbers()
     draw()
 
