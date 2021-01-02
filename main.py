@@ -1,5 +1,6 @@
 #importing needed resources
-import os
+import os, settings, generate, solver
+from sys import platform
 
 # Functions for drawing the menues:
 def drawMenu(elements):
@@ -12,6 +13,7 @@ def drawMenu(elements):
         index += 1
     print()
     answer = input(" >> ")
+    os.system("clear")
     if(answer == "Q" or answer == "q"):
         return answer
     elif(int(answer) < len(elements)):
@@ -156,12 +158,16 @@ def convertFromTen(number, target, precision, drawed):
     if(checkIfFractionExist(number) == True):
         result = ""
         result += integerCalculation(separate(number)[0], target, drawed)
+        if(result == ""):
+            result = "0"
         result += "."
         result += fractionCalculation(separate(number)[1], target, precision, drawed)
         return result
     else:
         result = ""
         result += integerCalculation(number, target, drawed)
+        if(result == ""):
+            result = "0"
         return result
 
 def integerCalculation_N(number, base, drawed):
@@ -187,7 +193,6 @@ def integerCalculation_N(number, base, drawed):
 
 def fractionCalculation_N(number, base, drawed):
     result = 0
-    print("  Törtrész számítása\n")
     if(drawed == False):
         i = 0
         while (i < len(number)):
@@ -195,6 +200,7 @@ def fractionCalculation_N(number, base, drawed):
             i += 1
         return result
     else:
+        print("  Törtrész számítása\n")
         i = 0
         while (i < len(number)):
             print("  ({0}^({1})) * {2} = {3}".format(base, -(i+1), safetyConvert(number[i]), (base**(-(i+1)))*safetyConvert(number[i])))
@@ -218,18 +224,12 @@ def convertToTen(number, base, drawed):
 
 
 #Use these to check if the functions works
-def first():
+def fromTen():
     print("  Add meg a számot, amit át szeretnél váltani!")
     number = input("  >> ")
     print("  Add meg a célszámrendszer alapját, amibe átszeretnéd váltani! [2-16]")
     #We could give the user a menu maybe
     target = int(input("  >> "))
-    print("  Látni akarod a számítás részleteit? [Y/n]")
-    drawed = input("  >> ")
-    if(drawed == "y" or drawed == "" or drawed == "Y"):
-        drawed = True
-    else:
-        drawed = False
     precision = 0
     if(checkIfFractionExist(number) == True):
         print("  Add meg a tizedes érték kiszámításának pontosságát!")
@@ -237,27 +237,95 @@ def first():
         number = float(number)
     else:
         number = int(number)
+    print("  Látni akarod a számítás részleteit? [Y/n]")
+    drawed = input("  >> ")
+    if(drawed == "y" or drawed == "" or drawed == "Y"):
+        drawed = True
+    else:
+        drawed = False
+
 
     print("\n  Az átváltás eredménye: ", convertFromTen(number, target, precision, drawed))
 
 
-def second():
+def toTen():
     print("  Add meg a számot, amit átszeretnél váltani tízes alapúvá!")
     number = input("  >> ")
     print("  Add meg hogy ez a szám milyen számrendszerben értelmezett! [2-16]")
     #We could give the user a menu maybe?
     target = int(input("  >> "))
-    print(" Az átváltás eredénye: ", convertToTen(number, target, True))
+    print("  Látni akarod a számítás részleteit? [Y/n]")
+    drawed = input("  >> ")
+    if(drawed == "y" or drawed == "" or drawed == "Y"):
+        drawed = True
+    else:
+        drawed = False
+    print(" Az átváltás eredénye: ", convertToTen(number, target, drawed))
+
+def genExcercise():
+    fileName = input("   >> Milyen néven kívánja elmenteni a feladatsort?: ")
+    generate.save(fileName)
+    print("   >> Fájl elmentve! <<")
+
+def lookExcercise():
+    paths = []
+    fileNames = []
+
+    result = []
+
+    with os.scandir("exercises") as it:
+        for entry in it:
+            if entry.name.endswith(".team3") and entry.is_file():
+                paths.append(entry.path)
+                fileNames.append(entry.name)
+    #print(paths)
+    #print(fileNames)
+    if(len(paths) == 0):
+        print("    >> Nincsenek lementett feladatsorok! Kérem generáljon feladatsorokat! <<")
+    else:
+        print("   >> Melyik lementett feladatsort szeretné megtekinteni?\n")
+        answer = drawMenu(fileNames)
+
+        f = open(paths[int(answer)], "r")
+        data = f.read()
+        f.close()
+        print("   >> A kiválasztott feladatsor <<\n")
+        result = generate.drawFromFile(data)
+    print("  Látni akarod a feladatsor megoldását? [Y/n]")
+    solution = input("  >> ")
+    if(solution == "y" or solution == "" or solution == "Y"):
+        #print(result)
+        solver.solveExercises(result)
+        pass
+
+
+
+def settings():
+    print(" Későbbi beállítások menüpont")
+
+def help():
+    print(" Későbbi segítségeket, és információkat tartalmazó menüpont")
 
 def main():
-    mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Kilépés"]
-    executableMenu = ["first()", "second()"]
+    mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Feladatsor generálása","Feladatsorok megtekintése","Beállítások","Segítség", "Kilépés"]
+    executableMenu = ["fromTen()", "toTen()", "genExcercise()","lookExcercise()","settings()", "help()"]
 
     menuState = 0
     answer = 0
     while(answer != "q" and answer != "Q"):
         os.system("clear")
-        print("Számrendszer átváltó és feladatgeneráló\n")
+
+        if(platform == "linux" or platform == "linux2"):
+            width = os.get_terminal_size().columns
+            middleText = "Számrendszer átváltó\n"
+            os.system("setterm -foreground blue")
+            print("Hármas csapat", end="")
+            print(middleText.center(width-len(middleText)))
+            os.system("setterm -foreground white")
+        elif(platform == "win32"):
+            print("Számrendszer átváltó és feladatgeneráló\n")
+
+
 
         answer = drawMenu(mainMenu)
         if(answer == "error"):

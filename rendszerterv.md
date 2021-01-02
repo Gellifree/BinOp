@@ -64,94 +64,72 @@ A bemutatás megtörtént.
 
 ### Követelmények
 
- Funkcionális követelmények:
+Funkcionális követelmények:
 
-	Számítások elvégzése.
-
-	Feladatok generálás.
-
-	Ellenőrzések elvégzése.
-
+ - Számítások elvégzése.
+ - Feladatok generálás.
+ - Ellenőrzések elvégzése.
 
 Nem funkcionális követelmények:
 
-	Hibamentes működés.
-
-	Felhasználóbarát környezet.
-
+ - Hibamentes működés.
+ - Felhasználóbarát környezet.
 
 Törvényi előírások, szabványok:
-
-	-
-
+ -
 
 ### Funkcionális terv
 
 Szereplők:
 
-	-Tanár.
-
-	-Diák.
+ - Tanár.
+ - Diák.
 
 Rendszerhasználati esetek és lefutásaik:
 
 Tanár:
 
-	-Átváltás tízes számrendszerből.
-
-	-Átváltás tízes számrendszerbe.
-
-	-Feladatsor generálása.
-
--Tárolt feladatsorok megtekintése.
-
-	-Segítség.
-
-	-Kilépés.
+ - Átváltás tízes számrendszerből.
+ - Átváltás tízes számrendszerbe.
+ - Feladatsor generálása.
+ - Beállítások
+ - Tárolt feladatsorok megtekintése.
+ - Segítség.
+ - Kilépés.
 
 Diák:
 
-
-	-Átváltás tízes számrendszerből.
-
-	-Átváltás tízes számrendszerbe.
-
-	-Segítség.
-
--Kilépés.
+ - Átváltás tízes számrendszerből.
+ - Átváltás tízes számrendszerbe.
+ - Segítség.
+ - Kilépés.
 
 Menü-hierarchiák:
 
-	[0] Átváltás tízes számrendszerből.
-
-	[1] Átváltás tízes számrendszerbe.
-
-	[2] Feladatsor generálása.
-
-	[3] Tárolt feladatsorok megtekintése.
-
-	[4] Segítség.
-
-	[Q] Kilépés.
-
+```
+  [0] Átváltás tízes számrendszerből.
+  [1] Átváltás tízes számrendszerbe.
+  [2] Feladatsor generálása.
+  [3] Tárolt feladatsorok megtekintése.
+  [4] Beállítások
+  [5] Segítség.
+  [Q] Kilépés.
+```
 
 ### Fizikai környezet
 
-Az alkalmazás Linux platformra készül.
-
-Nem rendelkezünk megvásárolt komponensel.
+Az alkalmazás elsősorban Linux platformra készül, azonban Windows operációs rendszeren is fut majd. Nem rendelkezünk megvásárolt komponenssel.
 
 Fejlesztői eszközök:
 
-	- Notepad++
-	- Python
-	- PyCharm
-  - Atom
+ - Notepad++
+ - Python
+ - PyCharm
+ - Atom
 
 ### Absztrakt domain modellje
 
 Adatbevitel -> Opció kiválasztása -> Bevitt adat ellenőrzése -> Eredmény megjelenítése / Hibaüzenet.
-
 
 ### Architekturális terv
 
@@ -165,19 +143,18 @@ A tesztelések célja az alkalmazás és komponensei funkcionalitásának teljes
 
 Tesztelési eljárások:
 
-	1.,Unit teszt:
+- 1.,Unit teszt:
 	Már a fejlesztési idő alatt is folyamatosan tesztelés történik, hogy a
 	metódusok megfelelően működnek-e.
-	Ametódusok akkor mondhatók késznek, ha a tesztesetek hiba nélkül lefutnak.
+	A metódusok akkor mondhatók késznek, ha a tesztesetek hiba nélkül lefutnak.
 
-	2.,Alfa teszt:
+- 2.,Alfa teszt:
 	A teszt elsődleges célja: a már meglévő funkciók különböző
 	adatbevitellel történő tesztelése. A tesztet a
 	fejlesztők végzik.
 	Az eljárás sikeres, ha különböző adatbevitel során a hibás adatokkal hibát hoz az alkalmazás a megfelelő adat bevitele után pedig a helyes értéket adja vissza. A teszt időtartama egy hét.
 
-
-	3.,Beta teszt:
+- 3.,Béta teszt:
 	Ezt a tesztet nem a fejlesztők végzik, hanem meghatározott számú a fejlesztők által kiválasztott tesztelő.
 	A teszt időtartama egy hét.
 	A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a
@@ -187,7 +164,10 @@ Tesztelési eljárások:
 
 ### Telepítési terv
 
-Terminál "alkalmazás mappája" python "alkalmazás neve".py
+Amennyiben az alkalmazást, és az ahoz szükséges fájlokat a felhasználó bemásolja olyan helyre, ami szerepel a $PATH változóban, úgy azt majd globálisan is elérheti, és futtathatja.
+
+Más esetben, a Terminál megnyitása után, betallózva az  "alkalmazás mappáját", indítható a program kiadva a következő parancsot: \
+`` Python3 main.py ``
 
 ### Karbantartási terv
 
