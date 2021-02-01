@@ -1,11 +1,9 @@
-# Number Converter
+# BinOp - Binary Operations
 
-Számrendszer átváltó, és feladatgeneráló alkalmazás az AFP, és RFT tárgyhoz.
+Bináris operációkat végző alkalmazás, az RFT-AFP tárgyra beadott feladat továbbfejlesztése.
 
-A projektet Python nyelven fejlesztjük, egyszerű konzolos alkalmazásként.
 
-A projekt tagjai:
+Köszönet a projekt fejlesztéséért:
 
 - *evilyear*
 - *l4kyxa*
-- *gellifree*
