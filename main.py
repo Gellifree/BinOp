@@ -308,7 +308,8 @@ def help():
 
 def main():
     mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Feladatsor generálása","Feladatsorok megtekintése","Beállítások","Segítség", "Kilépés"]
-    executableMenu = ["fromTen()", "toTen()", "genExcercise()","lookExcercise()","settings()", "help()"]
+    #executableMenu = ["fromTen()", "toTen()", "genExcercise()","lookExcercise()","settings()", "help()"]
+    executableMenu = [fromTen, toTen, genExcercise, lookExcercise, settings, help]
 
     menuState = 0
     answer = 0
@@ -319,7 +320,7 @@ def main():
             width = os.get_terminal_size().columns
             middleText = "Számrendszer átváltó\n"
             os.system("setterm -foreground blue")
-            print("Hármas csapat", end="")
+            print("Python 3.6.9", end="")
             print(middleText.center(width-len(middleText)))
             os.system("setterm -foreground white")
         elif(platform == "win32"):
@@ -333,7 +334,8 @@ def main():
         elif(answer != "Q" and answer != "q"):
             menuState = int(answer)
             print(" >> " + mainMenu[menuState] + " <<\n")
-            exec(executableMenu[menuState])
+            #exec(executableMenu[menuState])
+            executableMenu[menuState]()
             input(" >> Kész <<")
         else:
             quit = input("  >> Biztos vagy benne, hogy ki szeretnél lépni? [Y/n]: ")
