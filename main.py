@@ -1,6 +1,7 @@
 #importing needed resources
-import os, settings, generate, solver
+import os, generate, solver
 from sys import platform
+import settings as st
 
 # Functions for drawing the menues:
 def drawMenu(elements):
@@ -13,7 +14,8 @@ def drawMenu(elements):
         index += 1
     print()
     answer = input(" >> ")
-    os.system("clear")
+    if(st.CLEAR_MODE == "always"):
+        os.system("clear")
     if(answer == "Q" or answer == "q"):
         return answer
     elif(int(answer) < len(elements)):
@@ -223,7 +225,16 @@ def convertToTen(number, base, drawed):
         return result
 
 
-#Use these to check if the functions works
+
+def convertingNumbers():
+    miniMenu = ["Átváltás tízes számrendszerből","Átváltás tízes számrendszerbe"]
+    miniexec = [fromTen, toTen]
+    answer = drawMenu(miniMenu)
+    #os.system("clear")
+    print(" >>", miniMenu[int(answer)], "<< ")
+    miniexec[int(answer)]()
+
+
 def fromTen():
     print("  Add meg a számot, amit át szeretnél váltani!")
     number = input("  >> ")
@@ -262,6 +273,14 @@ def toTen():
         drawed = False
     print(" Az átváltás eredénye: ", convertToTen(number, target, drawed))
 
+def exercises():
+    miniMenu = ["Feladatsor generálása", "Feladatsorok megtekintése"]
+    miniexec = [genExcercise, lookExcercise]
+    answer = drawMenu(miniMenu)
+    print(" >>",miniMenu[int(answer)], "<<")
+    miniexec[int(answer)]()
+
+
 def genExcercise():
     fileName = input("   >> Milyen néven kívánja elmenteni a feladatsort?: ")
     generate.save(fileName)
@@ -299,17 +318,32 @@ def lookExcercise():
         pass
 
 
+def complementer():
+    print(" Komplementerképzésért felelős menüpont")
+
+def binaryOperations():
+    print(" Bináris operációkért felelős menüpont")
+
 
 def settings():
-    print(" Későbbi beállítások menüpont")
+    #print(" Képernyő tisztítás módja:", st.CLEAR_MODE)
+
+    print("  Beállítások\n")
+    print(" >> Képernyő tisztítás módja <<")
+    print("    [X] (N)ecessery\t[-] (A)lways")
+
+    print()
+
+    print(" >> Rész számítások megjelenítése <<")
+    print("    [X] A(s)k\t\t[-] A(l)ways\t[-] N(e)ver")
 
 def help():
     print(" Későbbi segítségeket, és információkat tartalmazó menüpont")
 
 def main():
-    mainMenu = ["Átváltás tízes számrendszerből", "Átváltás tízes számrendszerbe", "Feladatsor generálása","Feladatsorok megtekintése","Beállítások","Segítség", "Kilépés"]
+    mainMenu = ["Átváltás", "Feladatsorok","Komplementerképzés","Bináris műveletek","Beállítások","Segítség", "Kilépés"]
     #executableMenu = ["fromTen()", "toTen()", "genExcercise()","lookExcercise()","settings()", "help()"]
-    executableMenu = [fromTen, toTen, genExcercise, lookExcercise, settings, help]
+    executableMenu = [convertingNumbers, exercises, complementer, binaryOperations, settings, help]
 
     menuState = 0
     answer = 0
