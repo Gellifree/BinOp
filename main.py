@@ -325,6 +325,9 @@ def binaryOperations():
     print(" Bináris operációkért felelős menüpont")
 
 
+def huffman():
+    print(" Huffman kódolási eljárás későbbi menüpontja")
+
 def settings():
     #print(" Képernyő tisztítás módja:", st.CLEAR_MODE)
 
@@ -341,9 +344,9 @@ def help():
     print(" Későbbi segítségeket, és információkat tartalmazó menüpont")
 
 def main():
-    mainMenu = ["Átváltás", "Feladatsorok","Komplementerképzés","Bináris műveletek","Beállítások","Segítség", "Kilépés"]
+    mainMenu = ["Átváltás", "Feladatsorok", "Komplementerképzés", "Bináris műveletek","Huffman" ,"Beállítások", "Segítség", "Kilépés"]
     #executableMenu = ["fromTen()", "toTen()", "genExcercise()","lookExcercise()","settings()", "help()"]
-    executableMenu = [convertingNumbers, exercises, complementer, binaryOperations, settings, help]
+    executableMenu = [convertingNumbers, exercises, complementer, binaryOperations, huffman, settings, help]
 
     menuState = 0
     answer = 0
@@ -352,13 +355,13 @@ def main():
 
         if(platform == "linux" or platform == "linux2"):
             width = os.get_terminal_size().columns
-            middleText = "Számrendszer átváltó\n"
+            middleText = "BinOp\n"
             os.system("setterm -foreground blue")
             print("Python 3.6.9", end="")
             print(middleText.center(width-len(middleText)))
             os.system("setterm -foreground white")
         elif(platform == "win32"):
-            print("Számrendszer átváltó és feladatgeneráló\n")
+            print("BinOp - Bináris Operációk\n")
 
 
 
