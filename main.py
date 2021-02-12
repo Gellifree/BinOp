@@ -1,3 +1,5 @@
+#!/usr/bin/python3.8
+
 #importing needed resources
 import os, generate, solver
 from sys import platform
@@ -319,10 +321,28 @@ def lookExcercise():
 
 
 def complementer():
+
     print(" Komplementerképzésért felelős menüpont")
 
+
+def binaryAnd():
+    print("  Bináris ÉS műveletért felelős menüpont")
+    pass
+
+def binaryOr():
+    print("  Bináris VAGY műveletért felelős menüpont")
+    pass
+
+def ipCheck():
+    print("  Két IP cím ellenőrzése")
+    pass
+
 def binaryOperations():
-    print(" Bináris operációkért felelős menüpont")
+    binaryMenu = ["Bináris ÉS", "Bináris VAGY", "IP ellenőrzés"]
+    functionMenu = [binaryAnd, binaryOr, ipCheck]
+
+    answer = drawMenu(binaryMenu)
+    functionMenu[int(answer)]()
 
 
 def huffman():
