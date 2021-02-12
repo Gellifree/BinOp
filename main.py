@@ -1,30 +1,11 @@
 #!/usr/bin/python3.8
 
 #importing needed resources
-import os, generate, solver
+import os, generate, solver, menu
 from sys import platform
 import settings as st
 
-# Functions for drawing the menues:
-def drawMenu(elements):
-    index = 0
-    for element in elements:
-        if(element == "Kilépés"):
-            print("     [Q] {}".format(element))
-        else:
-            print("     [{}] {}".format(index, element))
-        index += 1
-    print()
-    answer = input(" >> ")
-    if(st.CLEAR_MODE == "always"):
-        os.system("clear")
-    if(answer == "Q" or answer == "q"):
-        return answer
-    elif(int(answer) < len(elements)):
-        return answer
-    else:
-        print("  >> Nem adhatsz meg ilyen opciót! <<")
-        return "error"
+md = menu.MenuDrawer()
 
 #Funkcions for helping calculations
 def readBackwards(data):
@@ -194,7 +175,6 @@ def integerCalculation_N(number, base, drawed):
         print("  Az egészrész: ", result,"\n")
         return result
 
-
 def fractionCalculation_N(number, base, drawed):
     result = 0
     if(drawed == False):
@@ -227,15 +207,12 @@ def convertToTen(number, base, drawed):
         return result
 
 
-
 def convertingNumbers():
     miniMenu = ["Átváltás tízes számrendszerből","Átváltás tízes számrendszerbe"]
     miniexec = [fromTen, toTen]
-    answer = drawMenu(miniMenu)
-    #os.system("clear")
+    answer = md.draw(miniMenu)
     print(" >>", miniMenu[int(answer)], "<< ")
-    miniexec[int(answer)]()
-
+    miniexec[answer]()
 
 def fromTen():
     print("  Add meg a számot, amit át szeretnél váltani!")
@@ -260,7 +237,6 @@ def fromTen():
 
     print("\n  Az átváltás eredménye: ", convertFromTen(number, target, precision, drawed))
 
-
 def toTen():
     print("  Add meg a számot, amit átszeretnél váltani tízes alapúvá!")
     number = input("  >> ")
@@ -278,10 +254,10 @@ def toTen():
 def exercises():
     miniMenu = ["Feladatsor generálása", "Feladatsorok megtekintése"]
     miniexec = [genExcercise, lookExcercise]
-    answer = drawMenu(miniMenu)
-    print(" >>",miniMenu[int(answer)], "<<")
-    miniexec[int(answer)]()
 
+    answer = md.draw(miniMenu)
+    print(" >>",miniMenu[answer], "<<")
+    miniexec[answer]()
 
 def genExcercise():
     fileName = input("   >> Milyen néven kívánja elmenteni a feladatsort?: ")
@@ -299,15 +275,13 @@ def lookExcercise():
             if entry.name.endswith(".team3") and entry.is_file():
                 paths.append(entry.path)
                 fileNames.append(entry.name)
-    #print(paths)
-    #print(fileNames)
     if(len(paths) == 0):
         print("    >> Nincsenek lementett feladatsorok! Kérem generáljon feladatsorokat! <<")
     else:
         print("   >> Melyik lementett feladatsort szeretné megtekinteni?\n")
-        answer = drawMenu(fileNames)
+        answer = md.draw(fileNames)
 
-        f = open(paths[int(answer)], "r")
+        f = open(paths[answer], "r")
         data = f.read()
         f.close()
         print("   >> A kiválasztott feladatsor <<\n")
@@ -315,27 +289,21 @@ def lookExcercise():
     print("  Látni akarod a feladatsor megoldását? [Y/n]")
     solution = input("  >> ")
     if(solution == "y" or solution == "" or solution == "Y"):
-        #print(result)
         solver.solveExercises(result)
-        pass
 
 
 def complementer():
-
     print(" Komplementerképzésért felelős menüpont")
 
 
 def binaryAnd():
     print("  Bináris ÉS műveletért felelős menüpont")
-    pass
 
 def binaryOr():
     print("  Bináris VAGY műveletért felelős menüpont")
-    pass
 
 def ipCheck():
     print("  Két IP cím ellenőrzése")
-    pass
 
 def binaryOperations():
     binaryMenu = ["Bináris ÉS", "Bináris VAGY", "IP ellenőrzés"]
@@ -349,8 +317,6 @@ def huffman():
     print(" Huffman kódolási eljárás későbbi menüpontja")
 
 def settings():
-    #print(" Képernyő tisztítás módja:", st.CLEAR_MODE)
-
     print("  Beállítások\n")
     print(" >> Képernyő tisztítás módja <<")
     print("    [X] (N)ecessery\t[-] (A)lways")
@@ -365,12 +331,10 @@ def help():
 
 def main():
     mainMenu = ["Átváltás", "Feladatsorok", "Komplementerképzés", "Bináris műveletek","Huffman" ,"Beállítások", "Segítség", "Kilépés"]
-    #executableMenu = ["fromTen()", "toTen()", "genExcercise()","lookExcercise()","settings()", "help()"]
-    executableMenu = [convertingNumbers, exercises, complementer, binaryOperations, huffman, settings, help]
+    functionMenu = [convertingNumbers, exercises, complementer, binaryOperations, huffman, settings, help]
 
-    menuState = 0
     answer = 0
-    while(answer != "q" and answer != "Q"):
+    while(answer != -1):
         os.system("clear")
 
         if(platform == "linux" or platform == "linux2"):
@@ -383,24 +347,17 @@ def main():
         elif(platform == "win32"):
             print("BinOp - Bináris Operációk\n")
 
+        answer = md.draw(mainMenu)
 
-
-        answer = drawMenu(mainMenu)
-        if(answer == "error"):
-            input("  >> Kész <<")
-        elif(answer != "Q" and answer != "q"):
-            menuState = int(answer)
-            print(" >> " + mainMenu[menuState] + " <<\n")
-            #exec(executableMenu[menuState])
-            executableMenu[menuState]()
+        if(answer == -2 or answer == -3):
+            input("  >> Nyomj entert a visszatéréshez! <<")
+        elif(answer != -1):
+            print(" >>" + mainMenu[answer] + " <<\n")
+            functionMenu[answer]()
             input(" >> Kész <<")
         else:
-            quit = input("  >> Biztos vagy benne, hogy ki szeretnél lépni? [Y/n]: ")
-            if(quit == "N" or quit == "n"):
-                answer = 0
-            elif(quit == "" or quit == "Y" or quit == "y"):
-                answer = "q"
-                os.system("clear")
+            input(" >> A program most kilép <<")
+            os.system("clear")
 
 if(__name__ == "__main__"):
     main()
