@@ -1,4 +1,6 @@
-import random, settings, time, os, main
+import random, settings, time, os
+
+cnt = converter.Converter()
 
 #Questions for the generated test
 questions = [
@@ -53,7 +55,7 @@ def randomValue(hardness):
         return "Beállítás még nem definiált"
 
 def generateValue(target, hardness):
-    return main.convertFromTen(randomValue(hardness), target, 5, False)
+    return cnt.convertFromTen(randomValue(hardness), target, 5, False)
 
 def drawFromArray(array):
     for i in range(len(questions)):

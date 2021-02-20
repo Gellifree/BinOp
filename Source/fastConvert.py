@@ -1,10 +1,12 @@
-import main
+import converter
+
+cnt = converter.Converter()
 
 def convert(number, target):
     result = ""
     fractioned = False
 
-    if(main.checkIfFractionExist(number) == True):
+    if(cnt.checkIfFractionExist(number) == True):
         fractioned = True
 
     size = 0
@@ -15,18 +17,18 @@ def convert(number, target):
 
     if(fractioned):
         #Szeparáljuk el az egészrészt a törtrésztől
-        integer = main.separate(number)[0]
-        fraction = main.separate(number)[1]
+        integer = cnt.separate(number)[0]
+        fraction = cnt.separate(number)[1]
 
         #Mivel a végére kell beszúrni a nullákat, fordítsuk meg
-        integer = main.readBackwards(integer)
+        integer = cnt.readBackwards(integer)
 
         #Amennyiben nem osztható hárommal-néggyel, pótolnunk kell:
         if(len(integer) % size != 0):
             numberOfZeroes = size - (len(integer) % size) #Ennyi nulla hiányzik hogy osztható legyen
             for zero in range(numberOfZeroes):
                 integer += "0"
-        integer = main.readBackwards(integer) #Fűzzük hozzá a nullákat, majd fordítsuk vissza
+        integer = cnt.readBackwards(integer) #Fűzzük hozzá a nullákat, majd fordítsuk vissza
 
 
         #Ugyan ez a tört részre, kivéve hogy itt, nem szabad megfordítani
@@ -41,43 +43,43 @@ def convert(number, target):
         result = ""
         for i in range(len(integer)):
             if(counter == size):
-                result += main.safetyConvert(main.convertToTen(part, 2, False))
+                result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
                 #A safetyconvert segítségével, a 16-os átváltásnál biztosítjuk a hibamentes működést
                 part = ""
                 counter = 0
             part += integer[i]
             counter += 1
-        result += main.safetyConvert(main.convertToTen(part, 2, False)) + "."
+        result += cnt.safetyConvert(cnt.convertToTen(part, 2, False)) + "."
         part = ""
         counter = 0
 
         for i in range(len(fraction)):
             if(counter == size):
-                result += main.safetyConvert(main.convertToTen(part, 2, False))
+                result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
                 part = ""
                 counter = 0
             part += fraction[i]
             counter += 1
-        result += main.safetyConvert(main.convertToTen(part, 2, False))
+        result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
     else:
-        integer = main.readBackwards(number)
+        integer = cnt.readBackwards(number)
 
         if(len(integer) % size != 0):
             numberOfZeroes = size - (len(integer) % size)
             for zero in range(numberOfZeroes):
                 integer += "0"
-        integer = main.readBackwards(integer)
+        integer = cnt.readBackwards(integer)
         counter = 0
         part = ""
         result = ""
         for i in range(len(integer)):
             if(counter == size):
-                result += main.safetyConvert(main.convertToTen(part, 2, False))
+                result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
                 part = ""
                 counter = 0
             part += integer[i]
             counter += 1
-        result += main.safetyConvert(main.convertToTen(part, 2, False))
+        result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
     #print(result)
     return result
 
