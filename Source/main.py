@@ -2,13 +2,15 @@
 
 #importing needed resources
 import os, generate, solver, menu, converter
-import normalizer
+import normalizer, operations, errorhandler
 from sys import platform
 import settings as st
 
 md = menu.MenuDrawer()
 cnt = converter.Converter()
 nm = normalizer.Normalizer()
+op = operations.Operator()
+err = errorhandler.ErrorHandler()
 
 
 
@@ -98,16 +100,25 @@ def lookExcercise():
 
 
 def complementer():
-    testList = ["1100", "11", "101110"]
-    result = nm.listNormalizer(testList)
-    print(result)
-    result = nm.normalizeSingle("11", 6)
-    print(result)
     print(" Komplementerképzésért felelős menüpont")
 
 
 def binaryAnd():
     print("  Bináris ÉS műveletért felelős menüpont")
+
+    print("  Kérem adja meg az első számot: ")
+    number1 = input("  >> ")
+    if(err.isItBinary(number1) == -1):
+        print("  >> A bináris És műveletnek, csak bináris értékre van értelme! <<")
+        #Később ciklusba szervezni
+        return
+    print("  Kérem adja meg a második számot: ")
+    number2 = input("  >> ")
+    if(err.isItBinary(number2) == -1):
+        print("  >> A bináris És műveletnek, csak bináris értékre van értelme! <<")
+        return
+    result = op.binaryAnd(number1, number2)
+    print("\n  >> A logikai És eredménye: ", result)
 
 def binaryOr():
     print("  Bináris VAGY műveletért felelős menüpont")
@@ -119,7 +130,7 @@ def binaryOperations():
     binaryMenu = ["Bináris ÉS", "Bináris VAGY", "IP ellenőrzés"]
     functionMenu = [binaryAnd, binaryOr, ipCheck]
 
-    answer = drawMenu(binaryMenu)
+    answer = md.draw(binaryMenu)
     functionMenu[int(answer)]()
 
 

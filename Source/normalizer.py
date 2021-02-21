@@ -3,7 +3,7 @@ import converter
 cnt = converter.Converter()
 
 class Normalizer():
-    def normalizeSingle(self, string, size):
+    def singleNormalizer(self, string, size):
         result = ""
         zeroes = ""
         for i in range(size - len(string)):
@@ -16,5 +16,5 @@ class Normalizer():
         result = []
         maxSize = len(max(list, key = len))
         for item in list:
-            result.append(self.normalizeSingle(item, maxSize))
+            result.append(self.singleNormalizer(item, maxSize))
         return result
