@@ -6,7 +6,7 @@ class ErrorHandler():
         else:
             return 0
 
-    def isItNumber(seld, number):
+    def isItNumber(self, number):
         for num in number:
             if(num != "0" and num != "1" and num != "2" and num != "3" and num != "4" and num != "5" and num != "6" and num != "7" and num != "8" and num != "9"):
                 return -1
