@@ -124,13 +124,31 @@ def binaryOr():
     print("  Bináris VAGY műveletért felelős menüpont")
 
 def ipCheck():
-    print("  Két IP cím ellenőrzése")
-    print("\n  >> Add meg az IP címet: ")
+    print("  Két IP cím ellenőrzése:")
+    print("\n  >> Add meg az Alhálózati maszkot: ")
+    mask = input("  >> ")
+    if(err.isItValidIP(mask) < 0):
+        print("  >> A megadott alhálózati maszk helytelen! <<")
+        return
+    print("\n  >> Add meg az feladó IP címét: ")
     ip1 = input("  >> ")
     if(err.isItValidIP(ip1) < 0):
-        print("  >> A megadott Ip nem helyes! <<")
-    else:
-        print("  >> A megadott IP: ", ip1)
+        print("  >> A megadott Ip helytelen! <<")
+        return
+    print("\n  >> Add meg a címzett IP címét: ")
+    ip2 = input("  >> ")
+    if(err.isItValidIP(ip2) < 0):
+        print("  >> A megadott Ip helytelen! <<")
+        return
+
+    print("  A két IP cím hálózata: \n")
+
+    print("  >> Feladó:", op.ipNetwork(mask, ip1))
+
+    print("\n  >> Címzett:", op.ipNetwork(mask, ip2))
+    if(op.ipNetwork(mask, ip1) == op.ipNetwork(mask, ip2)):
+        print("  >>> A hálózat megeggyezik <<<")
+
 
 def binaryOperations():
     binaryMenu = ["Bináris ÉS", "Bináris VAGY", "IP ellenőrzés"]
