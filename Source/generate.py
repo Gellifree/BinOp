@@ -1,4 +1,4 @@
-import random, settings, time, os
+import random, settings, time, os, converter
 
 cnt = converter.Converter()
 

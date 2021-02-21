@@ -2,11 +2,13 @@
 
 #importing needed resources
 import os, generate, solver, menu, converter
+import normalizer
 from sys import platform
 import settings as st
 
 md = menu.MenuDrawer()
 cnt = converter.Converter()
+nm = normalizer.Normalizer()
 
 
 
@@ -96,6 +98,11 @@ def lookExcercise():
 
 
 def complementer():
+    testList = ["1100", "11", "101110"]
+    result = nm.listNormalizer(testList)
+    print(result)
+    result = nm.normalizeSingle("11", 6)
+    print(result)
     print(" Komplementerképzésért felelős menüpont")
 
 
