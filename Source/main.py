@@ -125,6 +125,12 @@ def binaryOr():
 
 def ipCheck():
     print("  Két IP cím ellenőrzése")
+    print("\n  >> Add meg az IP címet: ")
+    ip1 = input("  >> ")
+    if(err.isItValidIP(ip1) < 0):
+        print("  >> A megadott Ip nem helyes! <<")
+    else:
+        print("  >> A megadott IP: ", ip1)
 
 def binaryOperations():
     binaryMenu = ["Bináris ÉS", "Bináris VAGY", "IP ellenőrzés"]
@@ -162,7 +168,7 @@ def main():
             width = os.get_terminal_size().columns
             middleText = "BinOp\n"
             os.system("setterm -foreground blue")
-            print("Python 3.6.9", end="")
+            print("Python 3.8.6", end="")
             print(middleText.center(width-len(middleText)))
             os.system("setterm -foreground white")
         elif(platform == "win32"):
@@ -173,7 +179,7 @@ def main():
         if(answer == -2 or answer == -3):
             input("  >> Nyomj entert a visszatéréshez! <<")
         elif(answer != -1):
-            print(" >>" + mainMenu[answer] + " <<\n")
+            print(" >> " + mainMenu[answer] + " <<\n")
             functionMenu[answer]()
             input(" >> Kész <<")
         else:
