@@ -218,13 +218,11 @@ def main():
             print("Python 3.8.6", end="")
             print(middleText.center(width-len(middleText)))
             os.system("setterm -foreground white")
-        elif(platform == "darwin"):
+        elif(platform == "darwin" or platform == "win32"):
             width = os.get_terminal_size().columns
             middleText = "BinOp\n"
             print("Python 3.8.6", end="")
             print(middleText.center(width-len(middleText)))
-        elif(platform == "win32"):
-            print("BinOp - Bináris Operációk\n")
 
 
         answer = md.draw(mainMenu)
