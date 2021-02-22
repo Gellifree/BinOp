@@ -157,6 +157,35 @@ def binaryOperations():
     answer = md.draw(binaryMenu)
     functionMenu[int(answer)]()
 
+def networkCheck():
+    print("  Add meg a hálózat Ip-jét: ")
+    network = input("  >> ")
+    if(err.isItValidIP(network) < 0):
+        print("  >>> A hálózati címben elírás történt! <<<")
+    else:
+        print("\n  Milyen címosztályban értelmezett? (A,B,C): ")
+        class_asnwer = input("  >> ")
+        if(err.isItValidClass(class_asnwer) == -1):
+            print("  >>> A megadott osztály nem helytálló ebben a kontextusban! <<<")
+        else:
+            networkMask = ""
+            if(class_asnwer == "A" or class_asnwer == "a"):
+                networkMask = "255.0.0.0"
+            elif(class_asnwer == "B" or class_asnwer == "b"):
+                networkMask = "255.255.0.0"
+            elif(class_asnwer == "C" or class_asnwer == "c"):
+                networkMask = "255.255.255.0"
+            else:
+                networkMask = "Error"
+
+            result = op.ipDatas(network)
+
+            print("\n  >> A megadott IP:\t", result["ip"])
+            print("\n  >> A Sub. Mask:\t", networkMask)
+            print("  >> A Gateway:   \t", result["gateway"]) #+1
+            print("  >> A Broadcast: \t", result["broadcast"]) #255
+            print("  >> Devices:     \t Not calculated yet\n", ) #2-től 254ig
+
 
 def huffman():
     print(" Huffman kódolási eljárás későbbi menüpontja")
@@ -175,8 +204,8 @@ def help():
     print(" Későbbi segítségeket, és információkat tartalmazó menüpont")
 
 def main():
-    mainMenu = ["Átváltás", "Feladatsorok", "Komplementerképzés", "Bináris műveletek","Huffman" ,"Beállítások", "Segítség", "Kilépés"]
-    functionMenu = [convertingNumbers, exercises, complementer, binaryOperations, huffman, settings, help]
+    mainMenu = ["Átváltás", "Feladatsorok", "Komplementerképzés", "Bináris műveletek", "Hálózat IP adatok" ,"Huffman" ,"Beállítások", "Segítség", "Kilépés"]
+    functionMenu = [convertingNumbers, exercises, complementer, binaryOperations, networkCheck, huffman, settings, help]
 
     answer = 0
     while(answer != -1):

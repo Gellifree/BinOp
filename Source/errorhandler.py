@@ -1,4 +1,9 @@
 class ErrorHandler():
+    def isItValidClass(self, className):
+        if(className != "A" and className != "a" and className != "B" and className != "b" and className != "C" and className != "c"):
+            return -1
+        return 0
+
     def isItBinary(self, number):
         for bit in number:
             if(bit != "0" and bit != "1"):
@@ -32,7 +37,8 @@ class ErrorHandler():
             for slice in ipSlices:
                 if(self.isItNumber(slice) == -1):
                     return -2 #Az ip megfelelő felosztású, de nem számokat tartalmaz
-
+                if(slice == ""):
+                    return -4 #Üres slice rész
             for slice in ipSlices:
                 if(int(slice) > 255):
                     return -3 #Az ip-ben nagyobb számok vannak, mint lehetne

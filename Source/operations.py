@@ -43,6 +43,27 @@ class Operator():
         result.append(slice)
         return result
 
+    def ipJoiner(self, ipList):
+        joinedIp = ""
+        for slice in ipList:
+            joinedIp += str(slice) + "."
+        joinedIp = joinedIp[:-1]
+        return joinedIp
+
+    def ipDatas(self, ip):
+        network = {}
+        ipSlices = self.__slicer(ip, ".")
+
+        network["ip"] = self.ipJoiner(ipSlices)
+
+        ipSlices[3] = str(int(ipSlices[3]) + 1)
+        network["gateway"] = self.ipJoiner(ipSlices)
+
+        ipSlices[3] = "255"
+        network["broadcast"] = self.ipJoiner(ipSlices)
+
+        return network
+
     def ipNetwork(self, mask, ip):
         network = []
         ipSlices = self.__slicer(ip, ".")
