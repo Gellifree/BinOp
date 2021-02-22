@@ -182,9 +182,9 @@ def networkCheck():
 
             print("\n  >> A megadott IP:\t", result["ip"])
             print("\n  >> A Sub. Mask:\t", networkMask)
-            print("  >> A Gateway:   \t", result["gateway"]) #+1
-            print("  >> A Broadcast: \t", result["broadcast"]) #255
-            print("  >> Devices:     \t Not calculated yet\n", ) #2-től 254ig
+            print("  >> A Gateway:   \t", result["gateway"])
+            print("  >> A Broadcast: \t", result["broadcast"])
+            print("  >> Devices:     \t", result["devices"], "\n")
 
 
 def huffman():

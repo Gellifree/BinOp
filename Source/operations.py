@@ -50,6 +50,7 @@ class Operator():
         joinedIp = joinedIp[:-1]
         return joinedIp
 
+
     def ipDatas(self, ip):
         network = {}
         ipSlices = self.__slicer(ip, ".")
@@ -61,7 +62,9 @@ class Operator():
 
         ipSlices[3] = "255"
         network["broadcast"] = self.ipJoiner(ipSlices)
-
+        ipSlices = self.__slicer(network["ip"], ".")
+        ipSlices[3] = str(int(ipSlices[3]) + 2)
+        network["devices"] = self.ipJoiner(ipSlices) + "-254"
         return network
 
     def ipNetwork(self, mask, ip):
