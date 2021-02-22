@@ -181,6 +181,7 @@ def networkCheck():
             result = op.ipDatas(network)
 
             print("\n  >> A megadott IP:\t", result["ip"])
+            print("  >> Binárisban: \t", op.ipInBinary(result["ip"]))
             print("\n  >> A Sub. Mask:\t", networkMask)
             print("  >> A Gateway:   \t", result["gateway"])
             print("  >> A Broadcast: \t", result["broadcast"])

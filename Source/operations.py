@@ -67,6 +67,14 @@ class Operator():
         network["devices"] = self.ipJoiner(ipSlices) + "-254"
         return network
 
+    def ipInBinary(self, ip):
+        ipSlices = self.__slicer(ip, ".")
+        binaryIp = []
+        for ip in ipSlices:
+            binaryIp.append(cnt.convertFromTen(int(ip), 2, 5, False))
+        # binaryIp = nm.listNormalizer(binaryIp) #Ha akarjuk normalizálni
+        return self.ipJoiner(binaryIp)
+
     def ipNetwork(self, mask, ip):
         network = []
         ipSlices = self.__slicer(ip, ".")
