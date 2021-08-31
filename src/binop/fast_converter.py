@@ -6,7 +6,7 @@ def convert(number, target):
     result = ""
     fractioned = False
 
-    if(cnt.checkIfFractionExist(number) == True):
+    if(cnt.fraction_exist(number) == True):
         fractioned = True
 
     size = 0
@@ -21,14 +21,14 @@ def convert(number, target):
         fraction = cnt.separate(number)[1]
 
         #Mivel a végére kell beszúrni a nullákat, fordítsuk meg
-        integer = cnt.readBackwards(integer)
+        integer = cnt.read_backwards(integer)
 
         #Amennyiben nem osztható hárommal-néggyel, pótolnunk kell:
         if(len(integer) % size != 0):
             numberOfZeroes = size - (len(integer) % size) #Ennyi nulla hiányzik hogy osztható legyen
             for zero in range(numberOfZeroes):
                 integer += "0"
-        integer = cnt.readBackwards(integer) #Fűzzük hozzá a nullákat, majd fordítsuk vissza
+        integer = cnt.read_backwards(integer) #Fűzzük hozzá a nullákat, majd fordítsuk vissza
 
 
         #Ugyan ez a tört részre, kivéve hogy itt, nem szabad megfordítani
@@ -43,43 +43,43 @@ def convert(number, target):
         result = ""
         for i in range(len(integer)):
             if(counter == size):
-                result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
-                #A safetyconvert segítségével, a 16-os átváltásnál biztosítjuk a hibamentes működést
+                result += cnt.safety_convert(cnt.convert_to_ten(part, 2, False))
+                #A safety_convert segítségével, a 16-os átváltásnál biztosítjuk a hibamentes működést
                 part = ""
                 counter = 0
             part += integer[i]
             counter += 1
-        result += cnt.safetyConvert(cnt.convertToTen(part, 2, False)) + "."
+        result += cnt.safety_convert(cnt.convert_to_ten(part, 2, False)) + "."
         part = ""
         counter = 0
 
         for i in range(len(fraction)):
             if(counter == size):
-                result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
+                result += cnt.safety_convert(cnt.convert_to_ten(part, 2, False))
                 part = ""
                 counter = 0
             part += fraction[i]
             counter += 1
-        result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
+        result += cnt.safety_convert(cnt.convert_to_ten(part, 2, False))
     else:
-        integer = cnt.readBackwards(number)
+        integer = cnt.read_backwards(number)
 
         if(len(integer) % size != 0):
             numberOfZeroes = size - (len(integer) % size)
             for zero in range(numberOfZeroes):
                 integer += "0"
-        integer = cnt.readBackwards(integer)
+        integer = cnt.read_backwards(integer)
         counter = 0
         part = ""
         result = ""
         for i in range(len(integer)):
             if(counter == size):
-                result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
+                result += cnt.safety_convert(cnt.convert_to_ten(part, 2, False))
                 part = ""
                 counter = 0
             part += integer[i]
             counter += 1
-        result += cnt.safetyConvert(cnt.convertToTen(part, 2, False))
+        result += cnt.safety_convert(cnt.convert_to_ten(part, 2, False))
     #print(result)
     return result
 

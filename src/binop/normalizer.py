@@ -4,7 +4,7 @@ from binop import converter
 cnt = converter.Converter()
 
 class Normalizer():
-    def singleNormalizer(self, string, size):
+    def single_normalizer(self, string, size):
         result = ""
         zeroes = ""
         for i in range(size - len(string)):
@@ -13,9 +13,9 @@ class Normalizer():
         return result
 
 
-    def listNormalizer(self, list):
+    def list_normalizer(self, list):
         result = []
         maxSize = len(max(list, key = len))
         for item in list:
-            result.append(self.singleNormalizer(item, maxSize))
+            result.append(self.single_normalizer(item, maxSize))
         return result

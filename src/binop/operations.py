@@ -5,9 +5,9 @@ nm = normalizer.Normalizer()
 cnt = converter.Converter()
 
 class Operator():
-    def binaryAnd(self, a, b):
+    def binary_and(self, a, b):
         result = ""
-        list = nm.listNormalizer([a,b])
+        list = nm.list_normalizer([a,b])
         for i in range(len(list[0])):
             if(list[0][i] + list[1][i] == "11"):
                 result += "1"
@@ -16,9 +16,9 @@ class Operator():
         return result
 
 
-    def binaryOr(self, a, b):
+    def binary_or(self, a, b):
         result = ""
-        list = nm.listNormalizer([a,b])
+        list = nm.list_normalizer([a,b])
         for i in range(len(list[0])):
             if(list[0][i] == "0" and list[1][i] == "0"):
                 result += "0"
@@ -26,10 +26,10 @@ class Operator():
                 result += "1"
         return result
 
-    def binaryAdd(self, a, b):
+    def binary_add(self, a, b):
         pass
 
-    def binarySub(self, a, b):
+    def binary_sub(self, a, b):
         pass
 
     def __slicer(self, string, mark):
@@ -44,7 +44,7 @@ class Operator():
         result.append(slice)
         return result
 
-    def ipJoiner(self, ipList):
+    def ip_joiner(self, ipList):
         joinedIp = ""
         for slice in ipList:
             joinedIp += str(slice) + "."
@@ -52,31 +52,31 @@ class Operator():
         return joinedIp
 
 
-    def ipDatas(self, ip):
+    def ip_datas(self, ip):
         network = {}
         ipSlices = self.__slicer(ip, ".")
 
-        network["ip"] = self.ipJoiner(ipSlices)
+        network["ip"] = self.ip_joiner(ipSlices)
 
         ipSlices[3] = str(int(ipSlices[3]) + 1)
-        network["gateway"] = self.ipJoiner(ipSlices)
+        network["gateway"] = self.ip_joiner(ipSlices)
 
         ipSlices[3] = "255"
-        network["broadcast"] = self.ipJoiner(ipSlices)
+        network["broadcast"] = self.ip_joiner(ipSlices)
         ipSlices = self.__slicer(network["ip"], ".")
         ipSlices[3] = str(int(ipSlices[3]) + 2)
-        network["devices"] = self.ipJoiner(ipSlices) + "-254"
+        network["devices"] = self.ip_joiner(ipSlices) + "-254"
         return network
 
-    def ipInBinary(self, ip):
+    def ip_in_binary(self, ip):
         ipSlices = self.__slicer(ip, ".")
         binaryIp = []
         for ip in ipSlices:
-            binaryIp.append(cnt.convertFromTen(int(ip), 2, 5, False))
-        # binaryIp = nm.listNormalizer(binaryIp) #Ha akarjuk normalizálni
-        return self.ipJoiner(binaryIp)
+            binaryIp.append(cnt.convert_from_ten(int(ip), 2, 5, False))
+        # binaryIp = nm.list_normalizer(binaryIp) #Ha akarjuk normalizálni
+        return self.ip_joiner(binaryIp)
 
-    def ipNetwork(self, mask, ip):
+    def ip_network(self, mask, ip):
         network = []
         ipSlices = self.__slicer(ip, ".")
         maskSlices = self.__slicer(mask, ".")
@@ -85,18 +85,18 @@ class Operator():
         binaryMask = []
 
         for ip in ipSlices:
-            binaryIp.append(cnt.convertFromTen(int(ip), 2, 5, False))
-        binaryIp = nm.listNormalizer(binaryIp)
+            binaryIp.append(cnt.convert_from_ten(int(ip), 2, 5, False))
+        binaryIp = nm.list_normalizer(binaryIp)
         for mask in maskSlices:
-            binaryMask.append(cnt.convertFromTen(int(mask), 2, 5, False))
-        binaryMask = nm.listNormalizer(binaryMask)
+            binaryMask.append(cnt.convert_from_ten(int(mask), 2, 5, False))
+        binaryMask = nm.list_normalizer(binaryMask)
 
         for i in range(len(binaryIp)):
-            network.append(self.binaryAnd(binaryIp[i], binaryMask[i]))
+            network.append(self.binary_and(binaryIp[i], binaryMask[i]))
 
         s_network = []
         for slice in network:
-            s_network.append(cnt.convertToTen(slice, 2, False))
+            s_network.append(cnt.convert_to_ten(slice, 2, False))
 
         network = ""
         for slice in s_network:

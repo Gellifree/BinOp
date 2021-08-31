@@ -23,7 +23,7 @@ exerciseBase = [2,2,8,8,16,16,2] # Azt állítja be amennyiben nem tízes az ala
 exerciseHelper = [2,8,16]
 
 
-def generateNumbers():
+def generate_numbers():
     numbers_ = []
     baseCounter = 0
     for i in questions:
@@ -31,15 +31,15 @@ def generateNumbers():
     for i in range(len(numbers_)):
         for j in range(exerciseCount[i]):
             if(isRegularNumber[i] == 1):
-                numbers_[i].append(randomValue(1)) #Átváltásnál a nehézséget 1-re állítjuk fixen, később esetleg módosítható
+                numbers_[i].append(random_value(1)) #Átváltásnál a nehézséget 1-re állítjuk fixen, később esetleg módosítható
             elif(isRegularNumber[i] == 0):
-                numbers_[i].append(generateValue(exerciseBase[baseCounter], 1))
+                numbers_[i].append(generate_value(exerciseBase[baseCounter], 1))
                 baseCounter += 1
     return numbers_
 
 
 
-def generateCheck():
+def generate_check():
     if(settings.GENERATE_MODE == "simple"):
         print("Generálás 'egyszerű' módra állítva.")
     elif(settings.GENERATE_MODE == "complicated"):
@@ -47,7 +47,7 @@ def generateCheck():
     else:
         print("A generálás beállítása helytelen adatot tartalmaz, kérem ellenőrizze!")
 
-def randomValue(hardness):
+def random_value(hardness):
     if(settings.GENERATE_MODE == "simple"):
         if(hardness == 0):
             return float(str(random.randint(0,20)) + "." + str(random.randint(0,100)))
@@ -59,10 +59,10 @@ def randomValue(hardness):
     elif(settings.GENERATE_MODE == "complicated"):
         return "Beállítás még nem definiált"
 
-def generateValue(target, hardness):
-    return cnt.convertFromTen(randomValue(hardness), target, 5, False)
+def generate_value(target, hardness):
+    return cnt.convert_from_ten(random_value(hardness), target, 5, False)
 
-def drawFromArray(array):
+def draw_from_array(array):
     for i in range(len(questions)):
         print(str(i+1) + ") ", end="")
         print(questions[i])
@@ -76,7 +76,7 @@ def drawFromArray(array):
         print()
 
 
-def drawFromFile(file):
+def draw_from_file(file):
     exercises = []
     helper = ""
     for i in range(len(file)):
@@ -99,10 +99,10 @@ def drawFromFile(file):
             else:
                 helper += exercise[i]
         index += 1
-    drawFromArray(fileNumbers)
+    draw_from_array(fileNumbers)
     return fileNumbers
 
-def testSave(array):
+def test_save(array):
     file = ""
     for exercise in array:
         for number in exercise:
@@ -119,10 +119,10 @@ def save(fileName):
 
 #testing
 def test():
-    numbers = generateNumbers()
-    file = testSave(numbers)
+    numbers = generate_numbers()
+    file = test_save(numbers)
     return file
-    #drawFromFile(file)
+    #draw_from_file(file)
 
 
 if(__name__ == "__main__"):

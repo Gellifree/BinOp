@@ -1,5 +1,5 @@
 class Converter():
-    def readBackwards(self, data):
+    def read_backwards(self, data):
         result = ""
         i = len(data)-1
         while(i >= 0):
@@ -34,14 +34,14 @@ class Converter():
             result.append(partTwo)
             return result
 
-    def checkIfFractionExist(self, number):
+    def fraction_exist(self, number):
         number = str(number)
         for i in range(len(number)):
             if(number[i] == "."):
                 return True
         return False
 
-    def safetyConvert(self, data):
+    def safety_convert(self, data):
         if(type(data) == str):
             result = {
                 "0" : 0,
@@ -90,30 +90,30 @@ class Converter():
             return result.get(data, "rorrE")
 
     #Calculations
-    def integerCalculation(self, number, target, drawed):
+    def integer_calculation(self, number, target, drawed):
         result = ""
         if(drawed == False):
             while(number >= 1):
-                result += self.safetyConvert(int(number % target))
+                result += self.safety_convert(int(number % target))
                 number /= target
-            return self.readBackwards(result)
+            return self.read_backwards(result)
         else:
             print("\n  Egészrész kiszámolása\n")
             print("  {} % {}".format(number, target))
             print("  =====")
             while(number >= 1):
-                result += self.safetyConvert(int(number % target))
+                result += self.safety_convert(int(number % target))
                 print("  {} | {}".format(int(number/target), int(number % target)))
                 number /= target
-            print("  Egészrész: ", self.readBackwards(result),"\n")
-            return self.readBackwards(result)
+            print("  Egészrész: ", self.read_backwards(result),"\n")
+            return self.read_backwards(result)
 
-    def fractionCalculation(self, number, target, precision, drawed):
+    def fraction_calculation(self, number, target, precision, drawed):
         result = ""
         if(drawed == False):
             i = 0
             while(i < precision):
-                result += self.safetyConvert(self.separate(number*target)[0])
+                result += self.safety_convert(self.separate(number*target)[0])
                 number = self.separate(number * target)[1]
                 i += 1
             return result
@@ -124,75 +124,75 @@ class Converter():
             print("  =======")
             while(i < precision):
                 print("  {} * {} =>".format(number * target, target))
-                result += self.safetyConvert(self.separate(number*target)[0])
+                result += self.safety_convert(self.separate(number*target)[0])
                 number = self.separate(number * target)[1]
                 i += 1
             print("  Törtrész: ", result,"\n")
             return result
 
-    def convertFromTen(self, number, target, precision, drawed):
-        if(self.checkIfFractionExist(number) == True):
+    def convert_from_ten(self, number, target, precision, drawed):
+        if(self.fraction_exist(number) == True):
             result = ""
-            result += self.integerCalculation(self.separate(number)[0], target, drawed)
+            result += self.integer_calculation(self.separate(number)[0], target, drawed)
             if(result == ""):
                 result = "0"
             result += "."
-            result += self.fractionCalculation(self.separate(number)[1], target, precision, drawed)
+            result += self.fraction_calculation(self.separate(number)[1], target, precision, drawed)
             return result
         else:
             result = ""
-            result += self.integerCalculation(number, target, drawed)
+            result += self.integer_calculation(number, target, drawed)
             if(result == ""):
                 result = "0"
             return result
 
-    def integerCalculation_N(self, number, base, drawed):
+    def integer_calculation_n(self, number, base, drawed):
         result = 0
         if(drawed == False):
-            numberBack = self.readBackwards(number)
+            numberBack = self.read_backwards(number)
             i = 0
             while(i < len(numberBack)):
-                result += (base**i) * self.safetyConvert(numberBack[i])
+                result += (base**i) * self.safety_convert(numberBack[i])
                 i += 1
             return result
         else:
-            numberBack = self.readBackwards(number)
+            numberBack = self.read_backwards(number)
             i = 0
             print("\n  Számítások elvégzése\n")
             while(i < len(numberBack)):
-                print("  ({0}^{1}) * {2} = {3}".format(base,i,self.safetyConvert(numberBack[i]), (base**i)*self.safetyConvert(numberBack[i])))
-                result += (base**i) * self.safetyConvert(numberBack[i])
+                print("  ({0}^{1}) * {2} = {3}".format(base,i,self.safety_convert(numberBack[i]), (base**i)*self.safety_convert(numberBack[i])))
+                result += (base**i) * self.safety_convert(numberBack[i])
                 i += 1
             print("  Az egészrész: ", result,"\n")
             return result
 
-    def fractionCalculation_N(self, number, base, drawed):
+    def fraction_calculation_n(self, number, base, drawed):
         result = 0
         if(drawed == False):
             i = 0
             while (i < len(number)):
-                result += (base**(-(i+1))) * self.safetyConvert(number[i])
+                result += (base**(-(i+1))) * self.safety_convert(number[i])
                 i += 1
             return result
         else:
             print("  Törtrész számítása\n")
             i = 0
             while (i < len(number)):
-                print("  ({0}^({1})) * {2} = {3}".format(base, -(i+1), self.safetyConvert(number[i]), (base**(-(i+1)))*self.safetyConvert(number[i])))
-                result += (base**(-(i+1)))*self.safetyConvert(number[i])
+                print("  ({0}^({1})) * {2} = {3}".format(base, -(i+1), self.safety_convert(number[i]), (base**(-(i+1)))*self.safety_convert(number[i])))
+                result += (base**(-(i+1)))*self.safety_convert(number[i])
                 i += 1
             print("  A törtrész: ", result,"\n")
             return result
 
-    def convertToTen(self, number, base, drawed):
+    def convert_to_ten(self, number, base, drawed):
         result = 0
-        if(self.checkIfFractionExist(number) == True):
+        if(self.fraction_exist(number) == True):
             partOne = self.separate(number)[0]
             partTwo = self.separate(number)[1]
 
-            result = self.integerCalculation_N(partOne, base, drawed)
-            result += self.fractionCalculation_N(partTwo, base, drawed)
+            result = self.integer_calculation_n(partOne, base, drawed)
+            result += self.fraction_calculation_n(partTwo, base, drawed)
             return result
         else:
-            result = self.integerCalculation_N(number, base, drawed)
+            result = self.integer_calculation_n(number, base, drawed)
             return result

@@ -25,21 +25,21 @@ err = error_handler.ErrorHandler()
 
 
 
-def convertingNumbers():
+def convertin_numbers():
     miniMenu = ["Átváltás tízes számrendszerből","Átváltás tízes számrendszerbe"]
-    miniexec = [fromTen, toTen]
+    miniexec = [from_ten, to_ten]
     answer = md.draw(miniMenu)
     print(" >>", miniMenu[int(answer)], "<< ")
     miniexec[answer]()
 
-def fromTen():
+def from_ten():
     print("  Add meg a számot, amit át szeretnél váltani!")
     number = input("  >> ")
     print("  Add meg a célszámrendszer alapját, amibe átszeretnéd váltani! [2-16]")
     #We could give the user a menu maybe
     target = int(input("  >> "))
     precision = 0
-    if(cnt.checkIfFractionExist(number) == True):
+    if(cnt.fraction_exist(number) == True):
         print("  Add meg a tizedes érték kiszámításának pontosságát!")
         precision = int(input("  >> "))
         number = float(number)
@@ -53,9 +53,9 @@ def fromTen():
         drawed = False
 
 
-    print("\n  Az átváltás eredménye: ", cnt.convertFromTen(number, target, precision, drawed))
+    print("\n  Az átváltás eredménye: ", cnt.convert_from_ten(number, target, precision, drawed))
 
-def toTen():
+def to_ten():
     print("  Add meg a számot, amit átszeretnél váltani tízes alapúvá!")
     number = input("  >> ")
     print("  Add meg hogy ez a szám milyen számrendszerben értelmezett! [2-16]")
@@ -67,22 +67,22 @@ def toTen():
         drawed = True
     else:
         drawed = False
-    print(" Az átváltás eredénye: ", cnt.convertToTen(number, target, drawed))
+    print(" Az átváltás eredénye: ", cnt.convert_to_ten(number, target, drawed))
 
 def exercises():
     miniMenu = ["Feladatsor generálása", "Feladatsorok megtekintése"]
-    miniexec = [genExcercise, lookExcercise]
+    miniexec = [gen_excercise, look_excercise]
 
     answer = md.draw(miniMenu)
     print(" >>",miniMenu[answer], "<<")
     miniexec[answer]()
 
-def genExcercise():
+def gen_excercise():
     fileName = input("   >> Milyen néven kívánja elmenteni a feladatsort?: ")
     generate.save(fileName)
     print("   >> Fájl elmentve! <<")
 
-def lookExcercise():
+def look_excercise():
     paths = []
     fileNames = []
 
@@ -103,80 +103,80 @@ def lookExcercise():
         data = f.read()
         f.close()
         print("   >> A kiválasztott feladatsor <<\n")
-        result = generate.drawFromFile(data)
+        result = generate.draw_from_file(data)
     print("  Látni akarod a feladatsor megoldását? [Y/n]")
     solution = input("  >> ")
     if(solution == "y" or solution == "" or solution == "Y"):
-        solver.solveExercises(result)
+        solver.solve_exercises(result)
 
 
 def complementer():
     print(" Komplementerképzésért felelős menüpont")
 
 
-def binaryAnd():
+def binary_and():
     print("  Bináris ÉS műveletért felelős menüpont")
 
     print("  Kérem adja meg az első számot: ")
     number1 = input("  >> ")
-    if(err.isItBinary(number1) == -1):
+    if(err.binary(number1) == -1):
         print("  >> A bináris És műveletnek, csak bináris értékre van értelme! <<")
         #Később ciklusba szervezni
         return
     print("  Kérem adja meg a második számot: ")
     number2 = input("  >> ")
-    if(err.isItBinary(number2) == -1):
+    if(err.binary(number2) == -1):
         print("  >> A bináris És műveletnek, csak bináris értékre van értelme! <<")
         return
-    result = op.binaryAnd(number1, number2)
+    result = op.binary_and(number1, number2)
     print("\n  >> A logikai És eredménye: ", result)
 
-def binaryOr():
+def binary_or():
     print("  Bináris VAGY műveletért felelős menüpont")
 
-def ipCheck():
+def ip_check():
     print("  Két IP cím ellenőrzése:")
     print("\n  >> Add meg az Alhálózati maszkot: ")
     mask = input("  >> ")
-    if(err.isItValidIP(mask) < 0):
+    if(err.valid_ip(mask) < 0):
         print("  >> A megadott alhálózati maszk helytelen! <<")
         return
     print("\n  >> Add meg az feladó IP címét: ")
     ip1 = input("  >> ")
-    if(err.isItValidIP(ip1) < 0):
+    if(err.valid_ip(ip1) < 0):
         print("  >> A megadott Ip helytelen! <<")
         return
     print("\n  >> Add meg a címzett IP címét: ")
     ip2 = input("  >> ")
-    if(err.isItValidIP(ip2) < 0):
+    if(err.valid_ip(ip2) < 0):
         print("  >> A megadott Ip helytelen! <<")
         return
 
     print("  A két IP cím hálózata: \n")
 
-    print("  >> Feladó:", op.ipNetwork(mask, ip1))
+    print("  >> Feladó:", op.ip_network(mask, ip1))
 
-    print("\n  >> Címzett:", op.ipNetwork(mask, ip2))
-    if(op.ipNetwork(mask, ip1) == op.ipNetwork(mask, ip2)):
+    print("\n  >> Címzett:", op.ip_network(mask, ip2))
+    if(op.ip_network(mask, ip1) == op.ip_network(mask, ip2)):
         print("  >>> A hálózat megeggyezik <<<")
 
 
-def binaryOperations():
+def binary_operations():
     binaryMenu = ["Bináris ÉS", "Bináris VAGY", "IP ellenőrzés"]
-    functionMenu = [binaryAnd, binaryOr, ipCheck]
+    functionMenu = [binary_and, binary_or, ip_check]
 
     answer = md.draw(binaryMenu)
     functionMenu[int(answer)]()
 
-def networkCheck():
+def network_check():
     print("  Add meg a hálózat Ip-jét: ")
     network = input("  >> ")
-    if(err.isItValidIP(network) < 0):
+    if(err.valid_ip(network) < 0):
         print("  >>> A hálózati címben elírás történt! <<<")
     else:
         print("\n  Milyen címosztályban értelmezett? (A,B,C): ")
         class_asnwer = input("  >> ")
-        if(err.isItValidClass(class_asnwer) == -1):
+        if(err.valid_class(class_asnwer) == -1):
             print("  >>> A megadott osztály nem helytálló ebben a kontextusban! <<<")
         else:
             networkMask = ""
@@ -192,7 +192,7 @@ def networkCheck():
             result = op.ipDatas(network)
 
             print("\n  >> A megadott IP:\t", result["ip"])
-            print("  >> Binárisban: \t", op.ipInBinary(result["ip"]))
+            print("  >> Binárisban: \t", op.ip_in_binary(result["ip"]))
             print("\n  >> A Sub. Mask:\t", networkMask)
             print("  >> A Gateway:   \t", result["gateway"])
             print("  >> A Broadcast: \t", result["broadcast"])
@@ -217,7 +217,7 @@ def help():
 
 def main():
     mainMenu = ["Átváltás", "Feladatsorok", "Komplementerképzés", "Bináris műveletek", "Hálózat IP adatok" ,"Huffman" ,"Beállítások", "Segítség", "Kilépés"]
-    functionMenu = [convertingNumbers, exercises, complementer, binaryOperations, networkCheck, huffman, settings, help]
+    functionMenu = [convertin_numbers, exercises, complementer, binary_operations, network_check, huffman, settings, help]
 
     answer = 0
     while(answer != -1):

@@ -1,24 +1,24 @@
 class ErrorHandler():
-    def isItValidClass(self, className):
+    def valid_class(self, className):
         if(className != "A" and className != "a" and className != "B" and className != "b" and className != "C" and className != "c"):
             return -1
         return 0
 
-    def isItBinary(self, number):
+    def binary(self, number):
         for bit in number:
             if(bit != "0" and bit != "1"):
                 return -1
         else:
             return 0
 
-    def isItNumber(self, number):
+    def is_number(self, number):
         for num in number:
             if(num != "0" and num != "1" and num != "2" and num != "3" and num != "4" and num != "5" and num != "6" and num != "7" and num != "8" and num != "9"):
                 return -1
             else:
                 return 0
 
-    def isItValidIP(self, number):
+    def valid_ip(self, number):
         dotSum = 0
         for bit in number:
             if(bit == "."):
@@ -35,7 +35,7 @@ class ErrorHandler():
             ipSlices.append(slice)
 
             for slice in ipSlices:
-                if(self.isItNumber(slice) == -1):
+                if(self.is_number(slice) == -1):
                     return -2 #Az ip megfelelő felosztású, de nem számokat tartalmaz
                 if(slice == ""):
                     return -4 #Üres slice rész
