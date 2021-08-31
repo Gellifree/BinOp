@@ -1,6 +1,6 @@
 import os
 
-from binop import fastConvert
+from binop import fast_converter
 from binop import converter
 
 cnt = converter.Converter()

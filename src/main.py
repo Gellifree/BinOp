@@ -1,4 +1,4 @@
-#!/usr/bin/python3.8
+#!/usr/bin/python3
 
 #importing needed resources
 #import os, generate, solver, menu, converter
@@ -13,7 +13,7 @@ from binop import menu
 from binop import converter
 from binop import normalizer
 from binop import operations
-from binop import errorhandler
+from binop import error_handler
 from binop import settings as st
 import os
 
@@ -21,7 +21,7 @@ md = menu.MenuDrawer()
 cnt = converter.Converter()
 nm = normalizer.Normalizer()
 op = operations.Operator()
-err = errorhandler.ErrorHandler()
+err = error_handler.ErrorHandler()
 
 
 
