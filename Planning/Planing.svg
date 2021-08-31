@@ -1,0 +1,2076 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3840.0px"
+   height="2160.0px"
+   viewBox="0 0 3840.0 2160.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="Planing.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="559.80513"
+     inkscape:cy="267.32768"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Réteg 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4778"
+       width="214.48537"
+       height="285.33417"
+       x="34.389973"
+       y="40.818844"
+       ry="33.067799" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4756-9"
+       width="360.59766"
+       height="572.45703"
+       x="718.00195"
+       y="19.410156"
+       ry="27.011976" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4756"
+       width="482.92578"
+       height="700.79688"
+       x="206.62109"
+       y="19.410156"
+       ry="33.067825" />
+    <g
+       id="g1067" />
+    <g
+       id="g4754"
+       transform="translate(0,4.0521161)">
+      <g
+         id="g943-5"
+         transform="translate(-305.63203,-116.96569)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           x="358.33133"
+           y="199.00993"
+           id="text850-7-5"><tspan
+             sodipodi:role="line"
+             x="358.33133"
+             y="199.00993"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan1406"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';fill:#333333"
+   id="tspan1454">N</tspan> = Összeadandó számok mennyisége</tspan><tspan
+             sodipodi:role="line"
+             x="358.33133"
+             y="207.66278"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan1410"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';fill:#333333"
+   id="tspan1456">max_len</tspan> = leghoszabb szám</tspan><tspan
+             sodipodi:role="line"
+             x="358.33133"
+             y="216.31563"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan1412"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';fill:#333333"
+   id="tspan1458">n</tspan> = hozzáadandó nullák száma a leghoszabbhoz</tspan><tspan
+             sodipodi:role="line"
+             x="358.33133"
+             y="224.96848"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan1664" /><tspan
+             sodipodi:role="line"
+             x="358.33133"
+             y="233.62132"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold'"
+             id="tspan1666">Legroszabb esetben:</tspan><tspan
+             sodipodi:role="line"
+             x="358.33133"
+             y="241.95467"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan878-5-7" /></text>
+      </g>
+      <g
+         id="g1697"
+         transform="translate(-183.06884,-113.8)">
+        <g
+           id="g943-9"
+           transform="translate(-188.50838,46.736651)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+             x="424.11652"
+             y="195.35683"
+             id="text850-7-3"><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="195.35683"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1446"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+                 id="tspan1452">N=1 esetén n=0, 1       = 1 (1),     len-1=0</tspan></tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="203.69017"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1638"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+   id="tspan1640">N=2</tspan> <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+   id="tspan1470">esetén</tspan> <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+   id="tspan1450">n=1, 1+1     = 2 (10),    len-1=1</tspan></tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="212.0235"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1472"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+                 id="tspan1474">N=3 esetén n=1, 1+1+1   = 3 (11),    len-1=1</tspan></tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="220.35684"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1476"><tspan
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+                 id="tspan1478">N=4 esetén n=2, 1+1+1+1 = 4 (100)    len-1=2</tspan></tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="228.69017"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1480">N=5 esetén n=2 ...      = 5 (101)    len-1=2</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="237.02351"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1482">N=6 esetén n=2 ...      = 6 (110)    len-1=2</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="245.35686"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1484">N=7 esetén n=2 ...      = 7 (111)    len-1=2</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="253.69019"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1486">N=8 esetén n=3 ...      = 8 (1000)   len-1=3</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="262.02353"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1573">N=9,  n=3</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="270.35687"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1575">N=10, n=3</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="278.69019"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1577">N=11, n=3</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="287.02353"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1579">N=12, n=3</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="295.35687"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1581">N=13, n=3</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="303.69022"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1583">N=14, n=3</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="312.02356"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1585">N=15, n=3</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="320.35687"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan1587">N=16, n=4</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="328.69022"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan3119">...</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="337.02356"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan3121">N=32, n=5</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="345.3569"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan3123">...</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="353.69025"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan3125">N=64, n=6</tspan><tspan
+               sodipodi:role="line"
+               x="424.11652"
+               y="362.02356"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#333333"
+               id="tspan878-5-4" /></text>
+        </g>
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 223.93654,265.3234 h 6.91396 v 1.61997 l 2.21296,-2.27856 -2.21296,-2.27859 v 1.64522 h -6.91396 z"
+           id="path1031-1-4"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 223.93654,298.71745 h 6.91396 v 1.61996 l 2.21296,-2.27855 -2.21296,-2.2786 v 1.64522 h -6.91396 z"
+           id="path1031-1-4-3"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 223.93654,365.4423 h 6.91396 v 1.61997 l 2.21296,-2.27856 -2.21296,-2.27859 v 1.64522 h -6.91396 z"
+           id="path1031-1-4-0"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 223.93654,249.00552 h 6.91396 v 1.61997 l 2.21296,-2.27856 -2.21296,-2.27859 v 1.64522 h -6.91396 z"
+           id="path1031-1-4-7"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 223.93214,382.28526 h 6.91396 v 1.61997 l 2.21296,-2.27856 -2.21296,-2.27859 v 1.64522 h -6.91396 z"
+           id="path1031-1-4-0-9"
+           sodipodi:nodetypes="cccccccc" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 223.79688,399.59678 h 6.91396 v 1.61997 l 2.21296,-2.27856 -2.21296,-2.27859 v 1.64522 h -6.91396 z"
+           id="path1031-1-4-0-90"
+           sodipodi:nodetypes="cccccccc" />
+      </g>
+    </g>
+    <g
+       id="g4705"
+       transform="translate(0,1.19775)">
+      <g
+         id="g1495"
+         transform="translate(-182.04454,-115.78983)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           x="443.14896"
+           y="161.21339"
+           id="text850"><tspan
+             sodipodi:role="line"
+             id="tspan848"
+             x="443.14896"
+             y="161.21339"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"> 1101</tspan><tspan
+             sodipodi:role="line"
+             x="443.14896"
+             y="169.86624"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan876">+ 100</tspan><tspan
+             sodipodi:role="line"
+             x="443.14896"
+             y="178.19958"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan878" /></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 442.57529,171.23628 h 16.93362"
+           id="path880" />
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 268.06555,97.404252 v 3.930428 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.930428 z"
+         id="path1031"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g1974"
+         transform="translate(-182.85162,-113.8)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900"
+           width="54.220036"
+           height="14.717104"
+           x="424.18155"
+           y="193.47365"
+           ry="2.8334465" />
+        <g
+           id="g943"
+           transform="translate(-11.216806,9.416507)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="439.17511"
+             y="193.19569"
+             id="text850-7"><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="193.19569"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan876-3">['1101','100']</tspan><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="201.52904"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan878-5" /></text>
+        </g>
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 434.41042,199.36842 V 191.0365"
+           id="path1069" />
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 447.62608,199.36841 v -8.29785"
+           id="path1069-6" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+           x="440.21899"
+           y="190.67712"
+           id="text1093"><tspan
+             sodipodi:role="line"
+             id="tspan1091"
+             x="440.21899"
+             y="190.67712"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.66667px;font-family:monospace;-inkscape-font-specification:monospace;fill:#666666">4</tspan></text>
+        <path
+           style="fill:#ffff00;stroke:#808080;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 434.71427,191.53479 h 12.62011"
+           id="path1095" />
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 457.37288,198.98708 v -8.33192"
+           id="path1069-1" />
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 468.23393,198.98707 v -8.29785"
+           id="path1069-6-8" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+           x="461.93005"
+           y="190.29579"
+           id="text1093-7"><tspan
+             sodipodi:role="line"
+             id="tspan1091-9"
+             x="461.93005"
+             y="190.29579"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.66667px;font-family:monospace;-inkscape-font-specification:monospace;fill:#666666">3</tspan></text>
+        <path
+           style="fill:#ffff00;stroke:#808080;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 457.67673,191.15345 h 10.08996"
+           id="path1095-2" />
+      </g>
+      <g
+         id="g1993"
+         transform="translate(-182.80224,-106.76022)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3"
+           width="63.469059"
+           height="14.717104"
+           x="419.50766"
+           y="217.41049"
+           ry="2.8334465" />
+        <g
+           id="g943-6"
+           transform="translate(-16.266166,33.35335)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="439.17511"
+             y="193.19569"
+             id="text850-7-0"><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="193.19569"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan876-3-6">['<tspan
+   style="fill:#d40000"
+   id="tspan1062">0</tspan>1101','<tspan
+   style="fill:#d40000"
+   id="tspan1058">00</tspan>100']</tspan><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="201.52904"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan878-5-2" /></text>
+        </g>
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 429.29744,223.0635 v -8.33192"
+           id="path1069-0" />
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 445.76293,223.0635 v -8.29786"
+           id="path1069-6-2" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+           x="436.64148"
+           y="214.37221"
+           id="text1093-3"><tspan
+             sodipodi:role="line"
+             id="tspan1091-7"
+             x="436.64148"
+             y="214.37221"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.66667px;font-family:monospace;-inkscape-font-specification:monospace;fill:#666666">5</tspan></text>
+        <path
+           style="fill:#ffff00;stroke:#808080;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 429.60128,215.22986 h 15.65854"
+           id="path1095-5" />
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 456.37273,222.75173 v -8.33192"
+           id="path1069-0-9" />
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 472.83822,222.75173 v -8.29786"
+           id="path1069-6-2-2" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+           x="463.71677"
+           y="214.06044"
+           id="text1093-3-2"><tspan
+             sodipodi:role="line"
+             id="tspan1091-7-8"
+             x="463.71677"
+             y="214.06044"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.66667px;font-family:monospace;-inkscape-font-specification:monospace;fill:#666666">5</tspan></text>
+        <path
+           style="fill:#ffff00;stroke:#808080;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 456.67657,214.91809 h 15.65854"
+           id="path1095-5-9" />
+      </g>
+      <g
+         id="g2009"
+         transform="translate(-198.39105,-108.48893)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7"
+           width="95.554024"
+           height="14.717104"
+           x="419.05399"
+           y="278.73233"
+           ry="2.8334465" />
+        <g
+           id="g943-6-3"
+           transform="translate(-15.149469,92.333879)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan876-3-6-1">['0110<tspan
+   style="fill:#00ff00"
+   id="tspan1274">1</tspan>','0010<tspan
+   style="fill:#00ff00"
+   id="tspan1276">0</tspan>', '0000<tspan
+   style="fill:#00ff00"
+   id="tspan2020">0</tspan>']</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="203.87035"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3" /></text>
+        </g>
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 486.28917,284.66089 v -8.33192"
+           id="path1069-0-9-2" />
+        <path
+           style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 504.04164,284.66089 v -8.29786"
+           id="path1069-6-2-2-4" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+           x="492.82693"
+           y="275.9696"
+           id="text1093-3-2-0"><tspan
+             sodipodi:role="line"
+             id="tspan1091-7-8-6"
+             x="492.82693"
+             y="275.9696"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.66667px;font-family:monospace;-inkscape-font-specification:monospace;fill:#666666">m[]</tspan></text>
+        <path
+           style="fill:#ffff00;stroke:#808080;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 486.59303,276.82726 h 16.8233"
+           id="path1095-5-9-2" />
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,128.38088 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g2000"
+         transform="translate(-182.29647,-107.87406)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-0"
+           width="63.469059"
+           height="22.445131"
+           x="419.00189"
+           y="244.45689"
+           ry="4.3213038" />
+        <g
+           id="g943-6-3-6"
+           transform="translate(-12.567439,57.596034)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-3"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-1">m = [0,0,0,0,0]</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan1344">e = []</tspan></text>
+        </g>
+      </g>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path1488"
+         cx="268.99756"
+         cy="48.450001"
+         r="14.62793" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,162.04146 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.200001, 0.1, 0.200001;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 275.56175,40.180112 h 11.99696"
+         id="path1069-1-2" />
+      <path
+         style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.4, 0.2, 0.1, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 275.56178,56.755532 h 12.4331"
+         id="path1069-6-8-5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+         x="287.87106"
+         y="49.374119"
+         id="text1093-7-4"
+         inkscape:transform-center-y="0.016845738"><tspan
+           sodipodi:role="line"
+           id="tspan1091-9-7"
+           x="287.87106"
+           y="49.374119"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.66667px;font-family:monospace;-inkscape-font-specification:monospace;fill:#666666">N = 2</tspan></text>
+      <path
+         style="fill:#ffff00;stroke:#808080;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 287.09948,40.621172 v 15.52672"
+         id="path1095-2-4" />
+      <g
+         id="g2018"
+         transform="translate(-183.06884,-112.86592)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.500001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-8"
+           width="63.469059"
+           height="29.981754"
+           x="419.77426"
+           y="309.04184"
+           ry="5.7723107" />
+        <g
+           id="g943-6-3-68"
+           transform="translate(-16.925968,121.40287)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
+             x="468.39142"
+             y="195.537"
+             id="text850-7-0-6-8"><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan876-3-6-1-4">1 + 0 + 0 = 1</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1763">==</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="212.8427"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1765">['', '1']</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="221.17604"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#1a1a1a"
+               id="tspan878-5-2-3-4" /></text>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,187.97399 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g943-5-2"
+         transform="translate(-16.724811,-127.68816)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           x="322.67493"
+           y="247.43294"
+           id="text850-7-5-0"><tspan
+             sodipodi:role="line"
+             x="322.67493"
+             y="247.43294"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan878-5-7-5">Kiegészítjük a megfelelő méretre, a többit hozzáigazítjuk</tspan></text>
+      </g>
+      <g
+         id="g943-5-2-0"
+         transform="translate(-16.724811,-98.344643)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           x="322.67493"
+           y="247.43294"
+           id="text850-7-5-0-4"><tspan
+             sodipodi:role="line"
+             x="322.67493"
+             y="247.43294"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan878-5-7-5-8">Létrehozzuk a két szükséges adatszerkezetet</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="323.02084"
+         y="178.64467"
+         id="text850-7-5-0-4-7"><tspan
+           sodipodi:role="line"
+           x="323.02084"
+           y="178.64467"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan878-5-7-5-8-1">Végig iterálunk jobbról ballra, az m tömb figyelembevételével</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="306.92313"
+         y="211.99599"
+         id="text850-7-5-0-4-7-7"><tspan
+           sodipodi:role="line"
+           x="306.92313"
+           y="211.99599"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan878-5-7-5-8-1-2">Visszaadjuk az értéket ['maradék', 'első bit jobbról'] formában</tspan></text>
+      <g
+         id="g2000-7"
+         transform="translate(-182.29647,-7.0837976)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-0-2"
+           width="63.469059"
+           height="22.445131"
+           x="419.00189"
+           y="244.45689"
+           ry="4.3213038" />
+        <g
+           id="g943-6-3-6-2"
+           transform="translate(-12.567439,57.596034)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-3-6"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-1-1">m = [0,0,0,<tspan
+   style="fill:#00ff00"
+   id="tspan2627">0</tspan>,0]</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan1344-0">e = [<tspan
+   style="fill:#00ff00"
+   id="tspan2062">1</tspan>]</tspan></text>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,229.17116 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g2009-1"
+         transform="translate(-198.39105,-7.6986776)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-5"
+           width="95.554024"
+           height="14.717104"
+           x="419.05399"
+           y="278.73233"
+           ry="2.8334465" />
+        <g
+           id="g943-6-3-9"
+           transform="translate(-15.149469,92.333879)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-4"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan876-3-6-1-9">['011<tspan
+   style="fill:#00ff00"
+   id="tspan2136">0</tspan><tspan
+   id="tspan2142"
+   style="fill:#ff0000">1</tspan>','001<tspan
+   style="fill:#00ff00"
+   id="tspan2144">0</tspan><tspan
+   id="tspan2150"
+   style="fill:#ff0000">0</tspan>', '000<tspan
+   style="fill:#00ff00"
+   id="tspan2152">0</tspan><tspan
+   id="tspan2158"
+   style="fill:#ff0000">0</tspan>']</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="203.87035"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-7" /></text>
+        </g>
+      </g>
+      <g
+         id="g2018-7"
+         transform="translate(-183.06884,-12.075658)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.500001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-8-1"
+           width="63.469059"
+           height="29.981754"
+           x="419.77426"
+           y="309.04184"
+           ry="5.7723107" />
+        <g
+           id="g943-6-3-68-1"
+           transform="translate(-16.925968,121.40287)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
+             x="468.39142"
+             y="195.537"
+             id="text850-7-0-6-8-5"><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan876-3-6-1-4-9">0 + 0 + 0 = 0</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1763-7">==</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="212.8427"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1765-7">['', '0']</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="221.17604"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#1a1a1a"
+               id="tspan878-5-2-3-4-6" /></text>
+        </g>
+      </g>
+      <g
+         id="g2000-7-7"
+         transform="translate(-182.29647,93.706452)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-0-2-3"
+           width="63.469059"
+           height="22.445131"
+           x="419.00189"
+           y="244.45689"
+           ry="4.3213038" />
+        <g
+           id="g943-6-3-6-2-6"
+           transform="translate(-12.567439,57.596034)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-3-6-5"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-1-1-6">m = [0,0,<tspan
+   style="fill:#00ff00"
+   id="tspan2629">0</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2633">0</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2332">0</tspan>]</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan1344-0-3">e = [1,<tspan
+   style="fill:#00ff00"
+   id="tspan2256">0</tspan>]</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g2009-1-4"
+         transform="translate(-199.57074,94.299092)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-5-8"
+           width="95.554024"
+           height="14.717104"
+           x="420.23367"
+           y="277.52481"
+           ry="2.8334465" />
+        <g
+           id="g943-6-3-9-1"
+           transform="translate(-13.969781,91.126359)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-4-2"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan876-3-6-1-9-9">['01<tspan
+   style="fill:#00ff00"
+   id="tspan2322">1</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan2136-3">01</tspan>','00<tspan
+   style="fill:#00ff00"
+   id="tspan2324">1</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan2144-0">00</tspan>', '00<tspan
+   style="fill:#00ff00"
+   id="tspan2326">0</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan2152-8">00</tspan>']</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="203.87035"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-7-0" /></text>
+        </g>
+      </g>
+      <g
+         id="g2018-7-9"
+         transform="translate(-183.06884,88.714592)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.500001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-8-1-6"
+           width="63.469059"
+           height="29.981754"
+           x="419.77426"
+           y="309.04184"
+           ry="5.7723107" />
+        <g
+           id="g943-6-3-68-1-3"
+           transform="translate(-16.925968,121.40287)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
+             x="468.39142"
+             y="195.537"
+             id="text850-7-0-6-8-5-8"><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan876-3-6-1-4-9-5">1 + 1 + 0 = 2</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1763-7-6">==</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="212.8427"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1765-7-1">['1', '0']</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="221.17604"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#1a1a1a"
+               id="tspan878-5-2-3-4-6-1" /></text>
+        </g>
+      </g>
+      <g
+         id="g2000-7-7-5"
+         transform="translate(-185.62981,194.49677)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-0-2-3-9"
+           width="68.485092"
+           height="22.445131"
+           x="419.82721"
+           y="244.45689"
+           ry="4.3213038" />
+        <g
+           id="g943-6-3-6-2-6-8"
+           transform="translate(-12.567439,57.596034)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-3-6-5-4"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-1-1-6-8">m = [0,<tspan
+   style="fill:#00ff00"
+   id="tspan2436">0+1</tspan><tspan
+   id="tspan2639"
+   style="fill:#ff0000"><tspan
+   style="fill:#000000"
+   id="tspan2641">,</tspan>0</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2334-1">0</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2332-0">0</tspan>]</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan1344-0-3-3">e = [1,<tspan
+   style="fill:#00ff00"
+   id="tspan2256-0"><tspan
+   style="fill:#000000"
+   id="tspan2440">0,</tspan>0</tspan>]</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g2009-1-4-4"
+         transform="translate(-199.57074,195.08943)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-5-8-4"
+           width="95.554024"
+           height="14.717104"
+           x="420.23367"
+           y="277.52481"
+           ry="2.8334465" />
+        <g
+           id="g943-6-3-9-1-4"
+           transform="translate(-13.969781,91.126359)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-4-2-4"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan876-3-6-1-9-9-7">['0<tspan
+   style="fill:#00ff00"
+   id="tspan2509">1</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan2322-6">101</tspan>','0<tspan
+   style="fill:#00ff00"
+   id="tspan2511">0</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan2324-1">100</tspan>', '0<tspan
+   style="fill:#00ff00"
+   id="tspan2643">1</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan2326-5">000</tspan>']</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="203.87035"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-7-0-6" /></text>
+        </g>
+      </g>
+      <g
+         id="g2018-7-9-2"
+         transform="translate(-183.06884,189.50496)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.500001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-8-1-6-1"
+           width="63.469059"
+           height="29.981754"
+           x="419.77426"
+           y="309.04184"
+           ry="5.7723107" />
+        <g
+           id="g943-6-3-68-1-3-7"
+           transform="translate(-16.925968,121.40287)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
+             x="468.39142"
+             y="195.537"
+             id="text850-7-0-6-8-5-8-8"><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan876-3-6-1-4-9-5-5">1 + 0 + 1 = 2</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1763-7-6-7">==</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="212.8427"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1765-7-1-4">['1', '0']</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="221.17604"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#1a1a1a"
+               id="tspan878-5-2-3-4-6-1-1" /></text>
+        </g>
+      </g>
+      <g
+         id="g2000-7-7-5-8"
+         transform="translate(-185.62981,295.28711)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-0-2-3-9-5"
+           width="68.485092"
+           height="22.445131"
+           x="419.82721"
+           y="244.45689"
+           ry="4.3213038" />
+        <g
+           id="g943-6-3-6-2-6-8-9"
+           transform="translate(-12.567439,57.596034)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-3-6-5-4-7"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-1-1-6-8-5">m = [<tspan
+   style="fill:#00ff00"
+   id="tspan2647">0+1</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2645">1,0</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2334-1-8">0</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2332-0-8">0</tspan>]</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan1344-0-3-3-3">e = [1,0,0,<tspan
+   style="fill:#00ff00"
+   id="tspan2653">0</tspan>]</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g2009-1-4-4-9"
+         transform="translate(-199.57074,295.87978)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-5-8-4-6"
+           width="95.554024"
+           height="14.717104"
+           x="420.23367"
+           y="277.52481"
+           ry="2.8334465" />
+        <g
+           id="g943-6-3-9-1-4-4"
+           transform="translate(-13.969781,91.126359)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-4-2-4-3"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan876-3-6-1-9-9-7-3">['<tspan
+   style="fill:#00ff00"
+   id="tspan2719">0</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan2509-3">1101</tspan>','<tspan
+   style="fill:#00ff00"
+   id="tspan2721">0</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan2511-6">0100</tspan>', '<tspan
+   style="fill:#00ff00"
+   id="tspan2723">1</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan2643-4">1000</tspan>']</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="203.87035"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-7-0-6-8" /></text>
+        </g>
+      </g>
+      <g
+         id="g2018-7-9-2-8"
+         transform="translate(-183.06884,290.29531)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.500001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-8-1-6-1-9"
+           width="63.469059"
+           height="29.981754"
+           x="419.77426"
+           y="309.04184"
+           ry="5.7723107" />
+        <g
+           id="g943-6-3-68-1-3-7-7"
+           transform="translate(-16.925968,121.40287)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
+             x="468.39142"
+             y="195.537"
+             id="text850-7-0-6-8-5-8-8-7"><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan876-3-6-1-4-9-5-5-6">0 + 0 + 1 = 1</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1763-7-6-7-4">==</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="212.8427"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1765-7-1-4-3">['0', '1']</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="221.17604"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#1a1a1a"
+               id="tspan878-5-2-3-4-6-1-1-0" /></text>
+        </g>
+      </g>
+      <g
+         id="g2000-7-7-5-8-3"
+         transform="translate(-182.29649,396.07746)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-0-2-3-9-5-0"
+           width="68.485092"
+           height="22.445131"
+           x="416.4939"
+           y="244.45689"
+           ry="4.3213038" />
+        <g
+           id="g943-6-3-6-2-6-8-9-9"
+           transform="translate(-12.567439,57.596034)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-3-6-5-4-7-2"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan878-5-2-3-1-1-6-8-5-5">m = [<tspan
+   style="fill:#ff0000"
+   id="tspan2647-4">1</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2645-0">1,0</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2334-1-8-5">0</tspan>,<tspan
+   style="fill:#ff0000"
+   id="tspan2332-0-8-9">0</tspan>]</tspan><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan1344-0-3-3-3-4">e = [1,0,0,0,<tspan
+   style="fill:#00ff00"
+   id="tspan2837">1</tspan>]</tspan></text>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="306.62775"
+         y="656.67249"
+         id="text850-7-5-0-4-7-7-9"><tspan
+           sodipodi:role="line"
+           x="306.62775"
+           y="656.67249"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan878-5-7-5-8-1-2-2">VISSZAFELÉ OLVASVA!</tspan></text>
+      <g
+         id="g2000-7-7-5-8-3-2"
+         transform="translate(-184.28981,434.50446)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-0-2-3-9-5-0-4"
+           width="68.485092"
+           height="22.445131"
+           x="418.48721"
+           y="239.69048"
+           ry="4.3213038" />
+        <g
+           id="g943-6-3-6-2-6-8-9-9-7"
+           transform="translate(-12.567439,57.596034)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-3-6-5-4-7-2-7"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan1344-0-3-3-3-4-8">e = '10001' = 17</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g943-5-2-3"
+         transform="translate(-196.75846,-200.4896)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none"
+           x="434.31848"
+           y="246.28352"
+           id="text850-7-5-0-6"><tspan
+             sodipodi:role="line"
+             x="434.31848"
+             y="246.28352"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#999999"
+             id="tspan878-5-7-5-80"> 13</tspan><tspan
+             sodipodi:role="line"
+             x="434.31848"
+             y="254.93637"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#999999"
+             id="tspan2953">+ 4</tspan></text>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,262.83171 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-2"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,288.76424 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-1"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,329.96141 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-0"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,363.62197 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-5"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,389.55449 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-11"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,430.7517 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-08"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,464.41228 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-50"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,490.34484 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-6"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,531.54204 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-4"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,565.20262 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-62"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,591.13518 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-58"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,632.33239 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-628"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 268.06555,665.99297 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 H 268.8 v -3.93043 z"
+         id="path1031-1-5-9-6-47"
+         sodipodi:nodetypes="cccccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         x="306.41025"
+         y="250.85005"
+         id="text850-7-5-0-4-7-7-8"><tspan
+           sodipodi:role="line"
+           x="306.41025"
+           y="250.85005"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+           id="tspan878-5-7-5-8-1-2-1">Az első bitet jobbról, hozzáfűzzük az eredményünkhöz, ha van maradék, megfelelő indexen hozzáadjuk az m[] hez</tspan></text>
+    </g>
+    <g
+       id="g4455"
+       transform="translate(-87.239299,-15.578446)">
+      <g
+         id="g1495-3"
+         transform="translate(449.90651,-80.353762)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           x="449.48196"
+           y="143.60109"
+           id="text850-1"><tspan
+             sodipodi:role="line"
+             id="tspan848-1"
+             x="449.48196"
+             y="143.60109"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'">  1</tspan><tspan
+             sodipodi:role="line"
+             x="449.48196"
+             y="152.25394"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan3468">  1</tspan><tspan
+             sodipodi:role="line"
+             x="449.48196"
+             y="160.90678"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan3470">  1</tspan><tspan
+             sodipodi:role="line"
+             x="449.48196"
+             y="169.55963"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan876-0">+ 1</tspan><tspan
+             sodipodi:role="line"
+             x="449.48196"
+             y="177.89297"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan878-3" /></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 442.57529,171.23628 h 16.93362"
+           id="path880-4" />
+      </g>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path1488-0"
+         cx="900.94861"
+         cy="75.126587"
+         r="24.52832" />
+      <path
+         style="fill:none;stroke:#666666;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.400001, 0.200001, 0.1, 0.200001;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 907.51277,57.042886 h 31.83709"
+         id="path1069-1-2-3" />
+      <path
+         style="fill:none;stroke:#666666;stroke-width:0.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.399999, 0.2, 0.0999999, 0.2;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 907.51285,92.191599 h 32.11539"
+         id="path1069-6-8-5-9" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none"
+         x="939.30896"
+         y="75.908852"
+         id="text1093-7-4-1"
+         inkscape:transform-center-y="0.016845738"><tspan
+           sodipodi:role="line"
+           id="tspan1091-9-7-9"
+           x="939.30896"
+           y="75.908852"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.66667px;font-family:monospace;-inkscape-font-specification:monospace;fill:#666666">N = 4</tspan></text>
+      <path
+         style="fill:#ffff00;stroke:#808080;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 938.42072,58.254581 V 91.583957"
+         id="path1095-2-4-6" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,134.58206 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-0"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g1974-5"
+         transform="translate(438.45797,-78.612714)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-6"
+           width="74.808998"
+           height="14.717104"
+           x="424.18155"
+           y="193.47365"
+           ry="2.8334465" />
+        <g
+           id="g943-64"
+           transform="translate(-11.216806,9.416507)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="439.17511"
+             y="193.19569"
+             id="text850-7-00"><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="193.19569"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan876-3-4">['1', '1', '1', '1']</tspan><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="201.52904"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan878-5-6" /></text>
+        </g>
+      </g>
+      <g
+         id="g1993-9"
+         transform="translate(429.93575,-72.635952)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-9"
+           width="101.20122"
+           height="14.717104"
+           x="419.50766"
+           y="217.41049"
+           ry="2.8334465" />
+        <g
+           id="g943-6-6"
+           transform="translate(-16.266166,33.35335)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="439.17511"
+             y="193.19569"
+             id="text850-7-0-0"><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="193.19569"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan876-3-6-2">['<tspan
+   style="fill:#d40000"
+   id="tspan1062-7">00</tspan>1', '<tspan
+   style="fill:#d40000"
+   id="tspan1058-6">00</tspan>1', '<tspan
+   style="fill:#ff0000"
+   id="tspan3472">00</tspan>1', '<tspan
+   style="fill:#ff0000"
+   id="tspan3474">00</tspan>1']</tspan><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="201.52904"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan878-5-2-1" /></text>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,164.49567 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g3482"
+         transform="translate(-39.0787,48.449077)">
+        <g
+           id="g2000-70"
+           transform="translate(488.3863,-118.21782)">
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect900-3-7-0-4"
+             width="63.469059"
+             height="22.445131"
+             x="419.00189"
+             y="244.45689"
+             ry="4.3213038" />
+          <g
+             id="g943-6-3-6-8"
+             transform="translate(-5.9008025,57.596034)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+               x="438.64728"
+               y="195.537"
+               id="text850-7-0-6-3-0"><tspan
+                 sodipodi:role="line"
+                 x="438.64728"
+                 y="195.537"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+                 id="tspan878-5-2-3-1-4">m = [0,0,0]</tspan><tspan
+                 sodipodi:role="line"
+                 x="438.64728"
+                 y="204.18985"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+                 id="tspan1344-2">e = []</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1993-9-2"
+         transform="translate(418.80192,-5.080709)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-9-0"
+           width="124.56958"
+           height="14.717104"
+           x="418.95731"
+           y="217.41049"
+           ry="2.8334465" />
+        <g
+           id="g943-6-6-5"
+           transform="translate(-16.266166,33.35335)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="439.17511"
+             y="193.19569"
+             id="text850-7-0-0-5"><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="193.19569"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan876-3-6-2-2">['00<tspan
+   style="fill:#00ff00"
+   id="tspan3560">1</tspan>', '00<tspan
+   style="fill:#00ff00"
+   id="tspan3562">1</tspan>', '00<tspan
+   style="fill:#00ff00"
+   id="tspan3564">1</tspan>', '00<tspan
+   style="fill:#00ff00"
+   id="tspan3566">1</tspan>', '00<tspan
+   style="fill:#00ff00"
+   id="tspan3708">0</tspan>']</tspan><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="201.52904"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan878-5-2-1-3" /></text>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,202.13731 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g2018-0"
+         transform="translate(447.00949,-66.751792)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.500001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-8-4"
+           width="77.986847"
+           height="32.040237"
+           x="414.04111"
+           y="308.99518"
+           ry="6.1686249" />
+        <g
+           id="g943-6-3-68-0"
+           transform="translate(-15.493565,122.38544)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
+             x="468.39142"
+             y="195.537"
+             id="text850-7-0-6-8-9"><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan876-3-6-1-4-1">1 + 1 + 1 + 1 + 0 = 4</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1763-9">==</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="212.8427"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1765-6">['<tspan
+   style="fill:#ff6600"
+   id="tspan3712">1</tspan><tspan
+   style="fill:#d4aa00"
+   id="tspan3720">0</tspan>', '0']</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="221.17604"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#1a1a1a"
+               id="tspan878-5-2-3-4-2" /></text>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,232.05092 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8-5"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g3482-4"
+         transform="translate(-45.745354,163.24106)">
+        <g
+           id="g2000-70-4"
+           transform="translate(488.3863,-118.21782)">
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect900-3-7-0-4-9"
+             width="74.437805"
+             height="22.445131"
+             x="420.18417"
+             y="244.45689"
+             ry="4.3213038" />
+          <g
+             id="g943-6-3-6-8-9"
+             transform="translate(-5.9008025,57.596034)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+               x="438.64728"
+               y="195.537"
+               id="text850-7-0-6-3-0-3"><tspan
+                 sodipodi:role="line"
+                 x="438.64728"
+                 y="195.537"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+                 id="tspan878-5-2-3-1-4-6">m = [<tspan
+   style="fill:#00ff00"
+   id="tspan3702">0+</tspan><tspan
+   id="tspan3718"
+   style="fill:#ff6600">1</tspan>,<tspan
+   style="fill:#00ff00"
+   id="tspan3704">0+</tspan><tspan
+   id="tspan3726"
+   style="fill:#d4aa00">0</tspan>,0]</tspan><tspan
+                 sodipodi:role="line"
+                 x="438.64728"
+                 y="204.18985"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+                 id="tspan1344-2-0">e = [<tspan
+   style="fill:#00ff00"
+   id="tspan3700">0</tspan>]</tspan></text>
+          </g>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,279.28766 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8-5-5"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g1993-9-2-0"
+         transform="translate(418.80192,109.71127)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-9-0-2"
+           width="124.56958"
+           height="14.717104"
+           x="418.95731"
+           y="217.41049"
+           ry="2.8334465" />
+        <g
+           id="g943-6-6-5-9"
+           transform="translate(-16.266166,33.35335)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="439.17511"
+             y="193.19569"
+             id="text850-7-0-0-5-4"><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="193.19569"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan876-3-6-2-2-3">['0<tspan
+   style="fill:#00ff00"
+   id="tspan3812">0</tspan>1', '0<tspan
+   style="fill:#00ff00"
+   id="tspan3814">0</tspan>1', '0<tspan
+   style="fill:#00ff00"
+   id="tspan3816">0</tspan>1', '0<tspan
+   style="fill:#00ff00"
+   id="tspan3818">0</tspan>1', '1<tspan
+   style="fill:#00ff00"
+   id="tspan3820">0</tspan>0']</tspan><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="201.52904"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan878-5-2-1-3-1" /></text>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,316.92929 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8-5-5-4"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g2018-0-6"
+         transform="translate(447.00949,48.040187)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.500001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-8-4-9"
+           width="77.986847"
+           height="32.040237"
+           x="414.04111"
+           y="308.99518"
+           ry="6.1686249" />
+        <g
+           id="g943-6-3-68-0-4"
+           transform="translate(-15.493565,122.38544)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
+             x="468.39142"
+             y="195.537"
+             id="text850-7-0-6-8-9-2"><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan876-3-6-1-4-1-2">0 + 0 + 0 + 0 + 0 = 0</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="204.18985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1763-9-6">==</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="212.8427"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1765-6-4">['', '0']</tspan><tspan
+               sodipodi:role="line"
+               x="468.39142"
+               y="221.17604"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#1a1a1a"
+               id="tspan878-5-2-3-4-2-8" /></text>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,346.84289 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8-5-5-4-8"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g3482-4-9"
+         transform="translate(-39.078698,278.03305)">
+        <g
+           id="g2000-70-4-2"
+           transform="translate(488.3863,-118.21782)">
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect900-3-7-0-4-9-8"
+             width="74.437805"
+             height="22.445131"
+             x="413.51752"
+             y="244.45689"
+             ry="4.3213038" />
+          <g
+             id="g943-6-3-6-8-9-8"
+             transform="translate(-5.9008025,57.596034)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+               x="438.64728"
+               y="195.537"
+               id="text850-7-0-6-3-0-3-8"><tspan
+                 sodipodi:role="line"
+                 x="438.64728"
+                 y="195.537"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+                 id="tspan878-5-2-3-1-4-6-6">m = [1,0,0]</tspan><tspan
+                 sodipodi:role="line"
+                 x="438.64728"
+                 y="204.18985"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+                 id="tspan1344-2-0-3">e = [<tspan
+   style="fill:#00ff00"
+   id="tspan3700-3"><tspan
+   style="fill:#000000"
+   id="tspan4199">0,</tspan>0</tspan>]</tspan></text>
+          </g>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,394.07965 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8-5-5-4-8-8"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g1993-9-2-0-0"
+         transform="translate(418.80192,224.50326)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-9-0-2-4"
+           width="124.56958"
+           height="14.717104"
+           x="418.95731"
+           y="217.41049"
+           ry="2.8334465" />
+        <g
+           id="g943-6-6-5-9-7"
+           transform="translate(-16.266166,33.35335)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="439.17511"
+             y="193.19569"
+             id="text850-7-0-0-5-4-6"><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="193.19569"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan876-3-6-2-2-3-8">['<tspan
+   style="fill:#00ff00"
+   id="tspan4042">0</tspan>01', '<tspan
+   style="fill:#00ff00"
+   id="tspan4044">0</tspan>01', '<tspan
+   style="fill:#00ff00"
+   id="tspan4046">0</tspan>01', '<tspan
+   style="fill:#00ff00"
+   id="tspan4048">0</tspan>01', '<tspan
+   style="fill:#00ff00"
+   id="tspan4050">1</tspan>00']</tspan><tspan
+               sodipodi:role="line"
+               x="439.17511"
+               y="201.52904"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+               id="tspan878-5-2-1-3-1-9" /></text>
+        </g>
+      </g>
+      <g
+         id="g2018-0-6-0"
+         transform="translate(447.00949,162.83218)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.500001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-8-4-9-3"
+           width="77.986847"
+           height="32.040237"
+           x="414.04111"
+           y="308.99518"
+           ry="6.1686249" />
+        <g
+           id="g943-6-3-68-0-4-3"
+           transform="translate(-15.493565,122.38544)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none"
+             x="468.64142"
+             y="195.787"
+             id="text850-7-0-6-8-9-2-3"><tspan
+               sodipodi:role="line"
+               x="468.64142"
+               y="195.787"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan876-3-6-1-4-1-2-7">0 + 0 + 0 + 0 + 1 = 1</tspan><tspan
+               sodipodi:role="line"
+               x="468.64142"
+               y="204.43985"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1763-9-6-3">==</tspan><tspan
+               sodipodi:role="line"
+               x="468.64142"
+               y="213.0927"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#1a1a1a"
+               id="tspan1765-6-4-2">['', '1']</tspan><tspan
+               sodipodi:role="line"
+               x="468.64142"
+               y="221.42604"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#1a1a1a"
+               id="tspan878-5-2-3-4-2-8-6" /></text>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,431.72128 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8-5-5-4-8-8-5"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,461.63488 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8-5-5-4-8-8-2"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g3482-4-9-6"
+         transform="translate(-39.078698,392.82504)">
+        <g
+           id="g2000-70-4-2-5"
+           transform="translate(488.3863,-118.21782)">
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect900-3-7-0-4-9-8-8"
+             width="74.437805"
+             height="22.445131"
+             x="413.51752"
+             y="244.45689"
+             ry="4.3213038" />
+          <g
+             id="g943-6-3-6-8-9-8-7"
+             transform="translate(-5.9008025,57.596034)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+               x="438.64728"
+               y="195.537"
+               id="text850-7-0-6-3-0-3-8-9"><tspan
+                 sodipodi:role="line"
+                 x="438.64728"
+                 y="195.537"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+                 id="tspan878-5-2-3-1-4-6-6-6">m = [1,0,0]</tspan><tspan
+                 sodipodi:role="line"
+                 x="438.64728"
+                 y="204.18985"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+                 id="tspan1344-2-0-3-0">e = [<tspan
+   style="fill:#00ff00"
+   id="tspan3700-3-4"><tspan
+   style="fill:#000000"
+   id="tspan4197">0,0,</tspan>1</tspan>]</tspan></text>
+          </g>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,508.87164 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8-5-5-4-8-8-2-1"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g2000-7-7-5-8-3-2-8"
+         transform="translate(452.27758,317.01527)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect900-3-7-0-2-3-9-5-0-4-7"
+           width="68.485092"
+           height="22.445131"
+           x="413.5239"
+           y="239.69048"
+           ry="4.3213038" />
+        <g
+           id="g943-6-3-6-2-6-8-9-9-7-0"
+           transform="translate(-12.567439,57.596034)">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+             x="438.64728"
+             y="195.537"
+             id="text850-7-0-6-3-6-5-4-7-2-7-8"><tspan
+               sodipodi:role="line"
+               x="438.64728"
+               y="195.537"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000"
+               id="tspan1344-0-3-3-3-4-8-6">e = '100' = 4</tspan></text>
+        </g>
+      </g>
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 899.66962,546.51327 v 3.93043 h -0.92092 l 1.29531,1.25802 1.29533,-1.25802 h -0.93527 v -3.93043 z"
+         id="path1031-1-58-8-5-5-4-8-8-2-1-2"
+         sodipodi:nodetypes="cccccccc" />
+      <g
+         id="g943-5-2-0-4"
+         transform="translate(622.40367,54.812586)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:6.66667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           x="321.43335"
+           y="246.73964"
+           id="text850-7-5-0-4-79"><tspan
+             sodipodi:role="line"
+             x="321.43335"
+             y="246.73964"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             id="tspan878-5-7-5-8-3">A megfelelő helyre adjuk hozzá a maradékot az m[] ben!</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
