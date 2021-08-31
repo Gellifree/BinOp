@@ -226,14 +226,14 @@ def main():
         if(platform == "linux" or platform == "linux2"):
             width = os.get_terminal_size().columns
             middleText = "BinOp\n"
-            os.system("setterm -foreground blue")
-            print("Python 3.8.6", end="")
+            os.system("setterm -foreground cyan")
+            print("Python 3.9.5", end="")
             print(middleText.center(width-len(middleText)))
             os.system("setterm -foreground white")
         elif(platform == "darwin" or platform == "win32"):
             width = os.get_terminal_size().columns
             middleText = "BinOp\n"
-            print("Python 3.8.6", end="")
+            print("Python 3.9.5", end="")
             print(middleText.center(width-len(middleText)))
 
 
